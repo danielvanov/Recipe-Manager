@@ -1,0 +1,37 @@
+#pragma once
+
+#include "BaseEntity.h"
+#include "Ingredient.h"
+#include <string>
+#include <vector>
+
+class Recipe : public BaseEntity {
+protected:
+    std::string title;
+    std::string description;
+    int cookingTime;
+    std::string difficulty;
+    std::string category;
+    double rating;
+    int ratingCount;
+    std::vector<Ingredient> ingredients;
+
+public:
+    Recipe();
+    Recipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, const std::string& category);
+    virtual ~Recipe();
+    std::string getTitle() const;
+    std::string getDescription() const;
+    int getCookingTime() const;
+    std::string getDifficulty() const;
+    std::string getCategory() const;
+    double getRating() const;
+    void setTitle(const std::string& title);
+    void setDescription(const std::string& description);
+    void setCookingTime(int cookingTime);
+    void setDifficulty(const std::string& difficulty);
+    void setCategory(const std::string& category);
+    void addIngredient(const Ingredient& ingredient);
+    void addRating(int value);
+    virtual void displayInfo() const;
+};
