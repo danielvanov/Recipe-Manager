@@ -1,3 +1,5 @@
+git commit hash(checkpoint 2):f002e86
+
 # Recipe Manager
 
 ## Описание
