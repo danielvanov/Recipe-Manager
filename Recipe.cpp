@@ -32,6 +32,14 @@ double Recipe::getRating() const {
     return rating;
 }
 
+int Recipe::getRatingCount() const {
+    return ratingCount;
+}
+
+const std::vector<Ingredient>& Recipe::getIngredients() const {
+    return ingredients;
+}
+
 void Recipe::setTitle(const std::string& title) {
     this->title = title;
 }
@@ -52,6 +60,13 @@ void Recipe::setDifficulty(const std::string& difficulty) {
 
 void Recipe::setCategory(const std::string& category) {
     this->category = category;
+}
+
+void Recipe::setRatingData(double rating, int count) {
+    if (count >= 0 && rating >= 0.0) {
+        this->rating = rating;
+        this->ratingCount = count;
+    }
 }
 
 void Recipe::addIngredient(const Ingredient& ingredient) {

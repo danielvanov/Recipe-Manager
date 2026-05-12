@@ -26,11 +26,14 @@ public:
     std::string getDifficulty() const;
     std::string getCategory() const;
     double getRating() const;
+    int getRatingCount() const;
+    const std::vector<Ingredient>& getIngredients() const;
     void setTitle(const std::string& title);
     void setDescription(const std::string& description);
     void setCookingTime(int cookingTime);
     void setDifficulty(const std::string& difficulty);
     void setCategory(const std::string& category);
+    void setRatingData(double rating, int count);
     void addIngredient(const Ingredient& ingredient);
     void addRating(int value);
     virtual void displayInfo() const;

@@ -2,20 +2,31 @@
 #include "Recipe.h"
 #include "DessertRecipe.h"
 #include "MainDishRecipe.h"
+#include "FileManager.h"
 #include <iostream>
 #include <limits>
 #include <string>
+#include <algorithm>
+#include <fstream>
+#include <cctype>
+
+static std::string toLower(const std::string& text) {
+    std::string result = text;
+    std::transform(result.begin(), result.end(), result.begin(), [](unsigned char c) {
+        return static_cast<char>(std::tolower(c));
+    });
+    return result;
+}
 
 Menu::Menu() {
-    manager.loadSampleRecipes();
+    initializeRecipes();
 }
 
 void Menu::start() {
     while (true) {
         showMainMenu();
-        int choice;
-        std::cin >> choice;
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        int choice = readInt("Enter your choice: ");
+
         switch (choice) {
             case 1:
                 handleAddRecipe();
@@ -35,10 +46,33 @@ void Menu::start() {
             case 6:
                 handleFilterByDifficulty();
                 break;
+            case 7:
+                handleFilterByCategory();
+                break;
+            case 8:
+                handleSortByCookingTime();
+                break;
+            case 9:
+                handleSortByRating();
+                break;
+            case 10:
+                handleShowDetailsById();
+                break;
+            case 11:
+                handleAddSampleRecipes();
+                break;
+            case 12:
+                handleSaveRecipes();
+                break;
+            case 13:
+                handleLoadRecipes();
+                break;
             case 0:
+                finalizeRecipes();
                 return;
             default:
                 std::cout << "Invalid choice. Please try again." << std::endl;
+                break;
         }
     }
 }
@@ -51,8 +85,103 @@ void Menu::showMainMenu() const {
     std::cout << "4. Delete recipe by id" << std::endl;
     std::cout << "5. Rate recipe" << std::endl;
     std::cout << "6. Filter recipes by difficulty" << std::endl;
+    std::cout << "7. Filter recipes by category" << std::endl;
+    std::cout << "8. Sort recipes by cooking time" << std::endl;
+    std::cout << "9. Sort recipes by rating" << std::endl;
+    std::cout << "10. Show recipe details by id" << std::endl;
+    std::cout << "11. Add sample recipes" << std::endl;
+    std::cout << "12. Save recipes to file" << std::endl;
+    std::cout << "13. Load recipes from file" << std::endl;
     std::cout << "0. Exit" << std::endl;
-    std::cout << "Enter your choice: ";
+}
+
+void Menu::initializeRecipes() {
+    std::ifstream file("recipes.txt");
+    if (file.good()) {
+        if (readYesNo("A recipes.txt file was found. Load recipes from file? (y/n): ")) {
+            FileManager::loadRecipesFromFile(manager, "recipes.txt");
+        }
+    } else {
+        if (readYesNo("Do you want to load recipes from recipes.txt? (y/n): ")) {
+            FileManager::loadRecipesFromFile(manager, "recipes.txt");
+        }
+    }
+}
+
+void Menu::finalizeRecipes() {
+    if (readYesNo("Do you want to save recipes before exiting? (y/n): ")) {
+        FileManager::saveRecipesToFile(manager.getRecipes(), "recipes.txt");
+    }
+}
+
+int Menu::readInt(const std::string& message) const {
+    while (true) {
+        std::cout << message;
+        std::string input;
+        std::getline(std::cin, input);
+        try {
+            size_t pos;
+            int value = std::stoi(input, &pos);
+            if (pos == input.size()) {
+                return value;
+            }
+        } catch (...) {
+        }
+        std::cout << "Invalid number. Please enter a valid integer." << std::endl;
+    }
+}
+
+int Menu::readIntInRange(const std::string& message, int min, int max) const {
+    while (true) {
+        int value = readInt(message);
+        if (value >= min && value <= max) {
+            return value;
+        }
+        std::cout << "Please enter a value between " << min << " and " << max << "." << std::endl;
+    }
+}
+
+std::string Menu::readNonEmptyString(const std::string& message) const {
+    while (true) {
+        std::cout << message;
+        std::string input;
+        std::getline(std::cin, input);
+        if (!input.empty()) {
+            return input;
+        }
+        std::cout << "This field cannot be empty. Please try again." << std::endl;
+    }
+}
+
+std::string Menu::readDifficulty() const {
+    while (true) {
+        std::string input = readNonEmptyString("Enter difficulty (Easy/Medium/Hard): ");
+        std::string value = toLower(input);
+        if (value == "easy") {
+            return "Easy";
+        } else if (value == "medium") {
+            return "Medium";
+        } else if (value == "hard") {
+            return "Hard";
+        }
+        std::cout << "Difficulty must be Easy, Medium, or Hard." << std::endl;
+    }
+}
+
+bool Menu::readYesNo(const std::string& message) const {
+    while (true) {
+        std::cout << message;
+        std::string input;
+        std::getline(std::cin, input);
+        std::string value = toLower(input);
+        if (value == "y" || value == "yes") {
+            return true;
+        }
+        if (value == "n" || value == "no") {
+            return false;
+        }
+        std::cout << "Please enter 'y' or 'n'." << std::endl;
+    }
 }
 
 void Menu::handleAddRecipe() {
@@ -60,98 +189,155 @@ void Menu::handleAddRecipe() {
     std::cout << "1. General recipe" << std::endl;
     std::cout << "2. Dessert recipe" << std::endl;
     std::cout << "3. Main dish recipe" << std::endl;
-    int type;
-    std::cin >> type;
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    int type = readIntInRange("Enter type (1-3): ", 1, 3);
 
-    std::string title, description, difficulty;
-    int cookingTime;
-
-    std::cout << "Enter title: ";
-    std::getline(std::cin, title);
-    std::cout << "Enter description: ";
-    std::getline(std::cin, description);
-    std::cout << "Enter cooking time (minutes): ";
-    std::cin >> cookingTime;
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    std::cout << "Enter difficulty: ";
-    std::getline(std::cin, difficulty);
+    std::string title = readNonEmptyString("Enter title: ");
+    std::string description = readNonEmptyString("Enter description: ");
+    int cookingTime = readIntInRange("Enter cooking time (minutes): ", 1, 10000);
+    std::string difficulty = readDifficulty();
 
     Recipe* recipe = nullptr;
+    try {
+        if (type == 1) {
+            recipe = new Recipe(manager.generateId(), title, description, cookingTime, difficulty, "General");
+        } else if (type == 2) {
+            int sweetnessLevel = readIntInRange("Enter sweetness level (1-10): ", 1, 10);
+            recipe = new DessertRecipe(manager.generateId(), title, description, cookingTime, difficulty, sweetnessLevel);
+        } else {
+            bool vegetarian = readYesNo("Is it vegetarian? (y/n): ");
+            recipe = new MainDishRecipe(manager.generateId(), title, description, cookingTime, difficulty, vegetarian);
+        }
 
-    if (type == 1) {
-        recipe = new Recipe(manager.generateId(), title, description, cookingTime, difficulty, "General");
-    } else if (type == 2) {
-        int sweetnessLevel;
-        std::cout << "Enter sweetness level (1-10): ";
-        std::cin >> sweetnessLevel;
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        recipe = new DessertRecipe(manager.generateId(), title, description, cookingTime, difficulty, sweetnessLevel);
-    } else if (type == 3) {
-        bool vegetarian;
-        std::cout << "Is it vegetarian? (1 for yes, 0 for no): ";
-        std::cin >> vegetarian;
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        recipe = new MainDishRecipe(manager.generateId(), title, description, cookingTime, difficulty, vegetarian);
-    } else {
-        std::cout << "Invalid type." << std::endl;
-        return;
+        if (!recipe) {
+            std::cerr << "ERROR: Memory allocation failed. Cannot create recipe." << std::endl;
+            return;
+        }
+
+        int ingredientCount = readIntInRange("Enter number of ingredients (1-50): ", 1, 50);
+        for (int i = 0; i < ingredientCount; ++i) {
+            std::string name = readNonEmptyString("Ingredient " + std::to_string(i + 1) + " name: ");
+            std::string quantity = readNonEmptyString("Ingredient " + std::to_string(i + 1) + " quantity: ");
+            recipe->addIngredient(Ingredient(name, quantity));
+        }
+
+        if (recipe->getIngredients().empty()) {
+            std::cerr << "ERROR: Recipe must have at least one ingredient. Recipe not added." << std::endl;
+            delete recipe;
+            return;
+        }
+
+        manager.addRecipe(recipe);
+    } catch (const std::exception& e) {
+        std::cerr << "ERROR: Failed to add recipe: " << e.what() << std::endl;
+        if (recipe) delete recipe;
+    } catch (...) {
+        std::cerr << "ERROR: Unexpected error while adding recipe." << std::endl;
+        if (recipe) delete recipe;
     }
-
-    int ingredientCount;
-    std::cout << "Enter number of ingredients: ";
-    std::cin >> ingredientCount;
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-    for (int i = 0; i < ingredientCount; ++i) {
-        std::string name, quantity;
-        std::cout << "Ingredient " << (i + 1) << " name: ";
-        std::getline(std::cin, name);
-        std::cout << "Ingredient " << (i + 1) << " quantity: ";
-        std::getline(std::cin, quantity);
-        recipe->addIngredient(Ingredient(name, quantity));
-    }
-
-    manager.addRecipe(recipe);
-    std::cout << "Recipe added successfully." << std::endl;
 }
 
 void Menu::handleListRecipes() const {
+    if (manager.getRecipes().empty()) {
+        std::cout << "INFO: No recipes in the database." << std::endl;
+        return;
+    }
     manager.listAllRecipes();
 }
 
 void Menu::handleSearchRecipe() const {
-    std::string keyword;
-    std::cout << "Enter title keyword: ";
-    std::getline(std::cin, keyword);
+    if (manager.getRecipes().empty()) {
+        std::cout << "INFO: No recipes in the database to search." << std::endl;
+        return;
+    }
+    std::string keyword = readNonEmptyString("Enter title keyword to search: ");
     manager.searchByTitle(keyword);
 }
 
 void Menu::handleDeleteRecipe() {
-    int id;
-    std::cout << "Enter recipe ID to delete: ";
-    std::cin >> id;
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    if (manager.deleteRecipeById(id)) {
-        std::cout << "Recipe deleted successfully." << std::endl;
-    } else {
-        std::cout << "Recipe not found." << std::endl;
+    if (manager.getRecipes().empty()) {
+        std::cout << "INFO: No recipes in the database to delete." << std::endl;
+        return;
     }
+    int id = readInt("Enter recipe ID to delete: ");
+    manager.deleteRecipeById(id);
 }
 
 void Menu::handleRateRecipe() {
-    int id, rating;
-    std::cout << "Enter recipe ID: ";
-    std::cin >> id;
-    std::cout << "Enter rating (1-5): ";
-    std::cin >> rating;
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    if (manager.getRecipes().empty()) {
+        std::cout << "INFO: No recipes in the database to rate." << std::endl;
+        return;
+    }
+    int id = readInt("Enter recipe ID to rate: ");
+    int rating = readIntInRange("Enter rating (1-5): ", 1, 5);
     manager.rateRecipe(id, rating);
 }
 
 void Menu::handleFilterByDifficulty() const {
-    std::string difficulty;
-    std::cout << "Enter difficulty: ";
-    std::getline(std::cin, difficulty);
+    if (manager.getRecipes().empty()) {
+        std::cout << "INFO: No recipes in the database to filter." << std::endl;
+        return;
+    }
+    std::string difficulty = readDifficulty();
     manager.filterByDifficulty(difficulty);
+}
+
+void Menu::handleFilterByCategory() const {
+    if (manager.getRecipes().empty()) {
+        std::cout << "INFO: No recipes in the database to filter." << std::endl;
+        return;
+    }
+    std::string category = readNonEmptyString("Enter category to filter by: ");
+    manager.filterByCategory(category);
+}
+
+void Menu::handleSortByCookingTime() {
+    if (manager.getRecipes().empty()) {
+        std::cout << "INFO: No recipes to sort." << std::endl;
+        return;
+    }
+    manager.sortByCookingTime();
+}
+
+void Menu::handleSortByRating() {
+    if (manager.getRecipes().empty()) {
+        std::cout << "INFO: No recipes to sort." << std::endl;
+        return;
+    }
+    manager.sortByRating();
+}
+
+void Menu::handleShowDetailsById() const {
+    if (manager.getRecipes().empty()) {
+        std::cout << "INFO: No recipes in the database." << std::endl;
+        return;
+    }
+    int id = readInt("Enter recipe ID to view details: ");
+    manager.showRecipeDetailsById(id);
+}
+
+void Menu::handleAddSampleRecipes() {
+    manager.addSampleRecipes();
+}
+
+void Menu::handleSaveRecipes() {
+    if (manager.getRecipes().empty()) {
+        std::cout << "WARNING: No recipes to save." << std::endl;
+        return;
+    }
+    FileManager::saveRecipesToFile(manager.getRecipes(), "recipes.txt");
+}
+
+void Menu::handleLoadRecipes() {
+    std::ifstream file("recipes.txt");
+    if (!file.good()) {
+        std::cout << "WARNING: File 'recipes.txt' does not exist. Cannot load recipes." << std::endl;
+        return;
+    }
+    file.close();
+
+    if (readYesNo("Loading from file will replace current recipes. Continue? (y/n): ")) {
+        FileManager::loadRecipesFromFile(manager, "recipes.txt");
+    } else {
+        std::cout << "INFO: Load operation cancelled." << std::endl;
+    }
 }

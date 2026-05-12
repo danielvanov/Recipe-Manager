@@ -1,0 +1,49 @@
+RECIPE
+TYPE=General
+ID=1
+TITLE=Omelette
+DESCRIPTION=Quick egg omelette with herbs
+TIME=10
+DIFFICULTY=Easy
+CATEGORY=Breakfast
+RATING=0
+RATING_COUNT=0
+INGREDIENTS=3
+Eggs|3
+Salt|1 pinch
+Butter|1 tbsp
+END
+RECIPE
+TYPE=Dessert
+ID=2
+TITLE=Chocolate Cake
+DESCRIPTION=Simple cake with chocolate glaze
+TIME=60
+DIFFICULTY=Medium
+CATEGORY=Dessert
+SWEETNESS=8
+RATING=0
+RATING_COUNT=0
+INGREDIENTS=4
+Flour|200g
+Cocoa Powder|50g
+Sugar|150g
+Eggs|3
+END
+RECIPE
+TYPE=MainDish
+ID=3
+TITLE=Vegetable Pasta
+DESCRIPTION=Pasta with fresh vegetables
+TIME=30
+DIFFICULTY=Easy
+CATEGORY=Main Dish
+VEGETARIAN=1
+RATING=0
+RATING_COUNT=0
+INGREDIENTS=4
+Pasta|300g
+Tomato Sauce|200ml
+Zucchini|1
+Olive Oil|2 tbsp
+END
