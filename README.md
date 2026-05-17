@@ -140,7 +140,13 @@ Recipe Manager е конзолно C++ приложение за управле�
 
 ## Компилация
 ```bash
-g++ main.cpp BaseEntity.cpp Ingredient.cpp Recipe.cpp DessertRecipe.cpp MainDishRecipe.cpp RecipeManager.cpp Menu.cpp FileManager.cpp -o recipe-manager
+make clean
+make
+```
+
+Ако не използвате Makefile, командата директно е:
+```bash
+g++ -std=c++17 -Wall -Wextra -pedantic main.cpp BaseEntity.cpp Ingredient.cpp Recipe.cpp DessertRecipe.cpp MainDishRecipe.cpp RecipeManager.cpp Menu.cpp FileManager.cpp -o recipe-manager
 ```
 
 ## Стартиране
@@ -154,7 +160,5 @@ Windows:
 recipe-manager.exe
 ```
 
-## Бележка за чекпойнт 2
-Проектът имплементира класовата йерархия от първоначалния план. Добавен е FileManager като подобрение, защото записването и зареждането от файл са отделна отговорност и правят проекта по-завършен.
-
-Git commit hash: 5e1f888
+## Бележка
+Ако няма `recipes.txt` файл, приложението ще започне с празна база данни и ще съобщи, че стартира празно.

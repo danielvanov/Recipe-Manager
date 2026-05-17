@@ -15,10 +15,11 @@ protected:
     double rating;
     int ratingCount;
     std::vector<Ingredient> ingredients;
+    double calories;
 
 public:
     Recipe();
-    Recipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, const std::string& category);
+    Recipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, const std::string& category, double calories = 0.0);
     virtual ~Recipe();
     std::string getTitle() const;
     std::string getDescription() const;
@@ -28,6 +29,7 @@ public:
     double getRating() const;
     int getRatingCount() const;
     const std::vector<Ingredient>& getIngredients() const;
+    double getCalories() const;
     void setTitle(const std::string& title);
     void setDescription(const std::string& description);
     void setCookingTime(int cookingTime);
@@ -36,5 +38,6 @@ public:
     void setRatingData(double rating, int count);
     void addIngredient(const Ingredient& ingredient);
     void addRating(int value);
+    void setCalories(double calories);
     virtual void displayInfo() const;
 };

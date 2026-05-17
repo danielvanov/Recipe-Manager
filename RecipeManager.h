@@ -1,19 +1,21 @@
 #pragma once
 
 #include "Recipe.h"
+#include <memory>
 #include <vector>
 
 class RecipeManager {
 private:
-    std::vector<Recipe*> recipes;
+    std::vector<std::unique_ptr<Recipe>> recipes;
     int nextId;
 
 public:
     RecipeManager();
     ~RecipeManager();
     void addRecipe(Recipe* recipe);
+    void replaceRecipes(std::vector<std::unique_ptr<Recipe>>&& newRecipes);
     void listAllRecipes() const;
-    const std::vector<Recipe*>& getRecipes() const;
+    const std::vector<std::unique_ptr<Recipe>>& getRecipes() const;
     Recipe* findRecipeById(int id) const;
     void searchByTitle(const std::string& keyword) const;
     bool deleteRecipeById(int id);

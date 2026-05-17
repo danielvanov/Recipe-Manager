@@ -6,8 +6,9 @@ DESCRIPTION=Quick egg omelette with herbs
 TIME=10
 DIFFICULTY=Easy
 CATEGORY=Breakfast
-RATING=0
-RATING_COUNT=0
+CALORIES=250
+RATING=5
+RATING_COUNT=1
 INGREDIENTS=3
 Eggs|3
 Salt|1 pinch
@@ -21,6 +22,7 @@ DESCRIPTION=Simple cake with chocolate glaze
 TIME=60
 DIFFICULTY=Medium
 CATEGORY=Dessert
+CALORIES=450
 SWEETNESS=8
 RATING=0
 RATING_COUNT=0
@@ -38,6 +40,7 @@ DESCRIPTION=Pasta with fresh vegetables
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Main Dish
+CALORIES=350
 VEGETARIAN=1
 RATING=0
 RATING_COUNT=0
@@ -46,4 +49,21 @@ Pasta|300g
 Tomato Sauce|200ml
 Zucchini|1
 Olive Oil|2 tbsp
+END
+RECIPE
+TYPE=MainDish
+ID=4
+TITLE=Steak
+DESCRIPTION=Grilled steak with garlic butter
+TIME=25
+DIFFICULTY=Medium
+CATEGORY=Main Dish
+CALORIES=650
+VEGETARIAN=0
+RATING=0
+RATING_COUNT=0
+INGREDIENTS=3
+Beef Steak|250g
+Garlic|2 cloves
+Butter|1 tbsp
 END

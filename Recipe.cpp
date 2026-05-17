@@ -1,10 +1,10 @@
 #include "Recipe.h"
 #include <iostream>
 
-Recipe::Recipe() : BaseEntity(0), title(""), description(""), cookingTime(0), difficulty(""), category(""), rating(0.0), ratingCount(0) {}
+Recipe::Recipe() : BaseEntity(0), title(""), description(""), cookingTime(0), difficulty(""), category(""), rating(0.0), ratingCount(0), calories(0.0) {}
 
-Recipe::Recipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, const std::string& category)
-    : BaseEntity(id), title(title), description(description), cookingTime(cookingTime), difficulty(difficulty), category(category), rating(0.0), ratingCount(0) {}
+Recipe::Recipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, const std::string& category, double calories)
+    : BaseEntity(id), title(title), description(description), cookingTime(cookingTime), difficulty(difficulty), category(category), rating(0.0), ratingCount(0), calories(calories >= 0.0 ? calories : 0.0) {}
 
 Recipe::~Recipe() {}
 
@@ -38,6 +38,10 @@ int Recipe::getRatingCount() const {
 
 const std::vector<Ingredient>& Recipe::getIngredients() const {
     return ingredients;
+}
+
+double Recipe::getCalories() const {
+    return calories;
 }
 
 void Recipe::setTitle(const std::string& title) {
@@ -81,7 +85,9 @@ void Recipe::addRating(int value) {
         std::cout << "Invalid rating. Please enter a value between 1 and 5." << std::endl;
     }
 }
-
+void Recipe::setCalories(double calories) {
+    this->calories = (calories >= 0.0) ? calories : 0.0;
+}
 void Recipe::displayInfo() const {
     std::cout << "ID: " << id << std::endl;
     std::cout << "Title: " << title << std::endl;
@@ -89,6 +95,7 @@ void Recipe::displayInfo() const {
     std::cout << "Cooking Time: " << cookingTime << " minutes" << std::endl;
     std::cout << "Difficulty: " << difficulty << std::endl;
     std::cout << "Category: " << category << std::endl;
+    std::cout << "Calories: " << calories << std::endl;
     std::cout << "Rating: " << rating << " (" << ratingCount << " ratings)" << std::endl;
     std::cout << "Ingredients:" << std::endl;
     for (const auto& ing : ingredients) {

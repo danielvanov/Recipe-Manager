@@ -3,8 +3,8 @@
 
 DessertRecipe::DessertRecipe() : Recipe(), sweetnessLevel(1) {}
 
-DessertRecipe::DessertRecipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, int sweetnessLevel)
-    : Recipe(id, title, description, cookingTime, difficulty, "Dessert"), sweetnessLevel(sweetnessLevel) {}
+DessertRecipe::DessertRecipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, int sweetnessLevel, double calories)
+    : Recipe(id, title, description, cookingTime, difficulty, "Dessert", calories), sweetnessLevel(sweetnessLevel) {}
 
 int DessertRecipe::getSweetnessLevel() const {
     return sweetnessLevel;

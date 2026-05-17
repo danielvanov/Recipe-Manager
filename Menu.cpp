@@ -9,6 +9,25 @@
 #include <algorithm>
 #include <fstream>
 #include <cctype>
+#include <cstdlib>
+
+static std::string trim(const std::string& text) {
+    size_t start = text.find_first_not_of(" \t\r\n");
+    size_t end = text.find_last_not_of(" \t\r\n");
+    return (start == std::string::npos) ? "" : text.substr(start, end - start + 1);
+}
+
+static bool getInputLine(std::string& input) {
+    if (!std::getline(std::cin, input)) {
+        if (std::cin.eof()) {
+            std::cout << std::endl << "INFO: End of input reached. Exiting." << std::endl;
+            std::exit(0);
+        }
+        std::cin.clear();
+        return false;
+    }
+    return true;
+}
 
 static std::string toLower(const std::string& text) {
     std::string result = text;
@@ -67,6 +86,12 @@ void Menu::start() {
             case 13:
                 handleLoadRecipes();
                 break;
+            case 14:
+                handleShowHealthyRecipes();
+                break;
+            case 15:
+                handleShowUnhealthyRecipes();
+                break;
             case 0:
                 finalizeRecipes();
                 return;
@@ -92,6 +117,8 @@ void Menu::showMainMenu() const {
     std::cout << "11. Add sample recipes" << std::endl;
     std::cout << "12. Save recipes to file" << std::endl;
     std::cout << "13. Load recipes from file" << std::endl;
+    std::cout << "14. Show healthy recipes" << std::endl;
+    std::cout << "15. Show unhealthy recipes" << std::endl;
     std::cout << "0. Exit" << std::endl;
 }
 
@@ -102,9 +129,7 @@ void Menu::initializeRecipes() {
             FileManager::loadRecipesFromFile(manager, "recipes.txt");
         }
     } else {
-        if (readYesNo("Do you want to load recipes from recipes.txt? (y/n): ")) {
-            FileManager::loadRecipesFromFile(manager, "recipes.txt");
-        }
+        std::cout << "INFO: No recipes.txt found. Starting with an empty database." << std::endl;
     }
 }
 
@@ -118,7 +143,11 @@ int Menu::readInt(const std::string& message) const {
     while (true) {
         std::cout << message;
         std::string input;
-        std::getline(std::cin, input);
+        if (!getInputLine(input)) {
+            std::cout << "Invalid number. Please enter a valid integer." << std::endl;
+            continue;
+        }
+        input = trim(input);
         try {
             size_t pos;
             int value = std::stoi(input, &pos);
@@ -141,11 +170,46 @@ int Menu::readIntInRange(const std::string& message, int min, int max) const {
     }
 }
 
+double Menu::readDouble(const std::string& message) const {
+    while (true) {
+        std::cout << message;
+        std::string input;
+        if (!getInputLine(input)) {
+            std::cout << "Invalid number. Please enter a valid number." << std::endl;
+            continue;
+        }
+        input = trim(input);
+        try {
+            size_t pos;
+            double value = std::stod(input, &pos);
+            if (pos == input.size()) {
+                return value;
+            }
+        } catch (...) {
+        }
+        std::cout << "Invalid number. Please enter a valid number." << std::endl;
+    }
+}
+
+double Menu::readNonNegativeDouble(const std::string& message) const {
+    while (true) {
+        double value = readDouble(message);
+        if (value >= 0.0) {
+            return value;
+        }
+        std::cout << "Invalid input. Please enter a non-negative number." << std::endl;
+    }
+}
+
 std::string Menu::readNonEmptyString(const std::string& message) const {
     while (true) {
         std::cout << message;
         std::string input;
-        std::getline(std::cin, input);
+        if (!getInputLine(input)) {
+            std::cout << "This field cannot be empty. Please try again." << std::endl;
+            continue;
+        }
+        input = trim(input);
         if (!input.empty()) {
             return input;
         }
@@ -172,8 +236,11 @@ bool Menu::readYesNo(const std::string& message) const {
     while (true) {
         std::cout << message;
         std::string input;
-        std::getline(std::cin, input);
-        std::string value = toLower(input);
+        if (!getInputLine(input)) {
+            std::cout << "Please enter 'y' or 'n'." << std::endl;
+            continue;
+        }
+        std::string value = toLower(trim(input));
         if (value == "y" || value == "yes") {
             return true;
         }
@@ -195,17 +262,19 @@ void Menu::handleAddRecipe() {
     std::string description = readNonEmptyString("Enter description: ");
     int cookingTime = readIntInRange("Enter cooking time (minutes): ", 1, 10000);
     std::string difficulty = readDifficulty();
+    double calories = readNonNegativeDouble("Enter calories: ");
 
     Recipe* recipe = nullptr;
     try {
         if (type == 1) {
-            recipe = new Recipe(manager.generateId(), title, description, cookingTime, difficulty, "General");
+            std::string category = readNonEmptyString("Enter category: ");
+            recipe = new Recipe(manager.generateId(), title, description, cookingTime, difficulty, category, calories);
         } else if (type == 2) {
             int sweetnessLevel = readIntInRange("Enter sweetness level (1-10): ", 1, 10);
-            recipe = new DessertRecipe(manager.generateId(), title, description, cookingTime, difficulty, sweetnessLevel);
+            recipe = new DessertRecipe(manager.generateId(), title, description, cookingTime, difficulty, sweetnessLevel, calories);
         } else {
             bool vegetarian = readYesNo("Is it vegetarian? (y/n): ");
-            recipe = new MainDishRecipe(manager.generateId(), title, description, cookingTime, difficulty, vegetarian);
+            recipe = new MainDishRecipe(manager.generateId(), title, description, cookingTime, difficulty, vegetarian, calories);
         }
 
         if (!recipe) {
@@ -286,7 +355,7 @@ void Menu::handleFilterByCategory() const {
         std::cout << "INFO: No recipes in the database to filter." << std::endl;
         return;
     }
-    std::string category = readNonEmptyString("Enter category to filter by: ");
+    std::string category = readNonEmptyString("Enter category to filter by (Main Dish, Dessert, Breakfast, Lunch, Dinner, vegetarian): ");
     manager.filterByCategory(category);
 }
 
@@ -339,5 +408,41 @@ void Menu::handleLoadRecipes() {
         FileManager::loadRecipesFromFile(manager, "recipes.txt");
     } else {
         std::cout << "INFO: Load operation cancelled." << std::endl;
+    }
+}
+
+void Menu::handleShowHealthyRecipes() const {
+    if (manager.getRecipes().empty()) {
+        std::cout << "INFO: No recipes in the database." << std::endl;
+        return;
+    }
+    std::cout << "Healthy Recipes (Calories < 500):" << std::endl;
+    bool found = false;
+    for (const auto& recipe : manager.getRecipes()) {
+        if (recipe->getCalories() < 500) {
+            recipe->displayInfo();
+            found = true;
+        }
+    }
+    if (!found) {
+        std::cout << "No healthy recipes found." << std::endl;
+    }
+}
+
+void Menu::handleShowUnhealthyRecipes() const {
+    if (manager.getRecipes().empty()) {
+        std::cout << "INFO: No recipes in the database." << std::endl;
+        return;
+    }
+    std::cout << "Unhealthy Recipes (Calories >= 500):" << std::endl;
+    bool found = false;
+    for (const auto& recipe : manager.getRecipes()) {
+        if (recipe->getCalories() >= 500) {
+            recipe->displayInfo();
+            found = true;
+        }
+    }
+    if (!found) {
+        std::cout << "No unhealthy recipes found." << std::endl;
     }
 }

@@ -8,7 +8,7 @@ private:
 
 public:
     MainDishRecipe();
-    MainDishRecipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, bool vegetarian);
+    MainDishRecipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, bool vegetarian, double calories = 0.0);
     bool isVegetarian() const;
     void setVegetarian(bool vegetarian);
     void displayInfo() const override;

@@ -1,0 +1,15 @@
+# Build artifacts
+recipe-manager
+recipe-manager-test
+*.o
+*.obj
+*.exe
+*.out
+generator
+/tools/generator
+
+# Editor files
+.vscode/*.code-workspace
+
+# Misc
+*.log

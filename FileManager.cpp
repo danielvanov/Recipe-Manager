@@ -6,7 +6,9 @@
 #include "Ingredient.h"
 #include <fstream>
 #include <iostream>
+#include <memory>
 #include <sstream>
+#include <unordered_set>
 
 static std::string trim(const std::string& text) {
     size_t start = text.find_first_not_of(" \t\r\n");
@@ -22,7 +24,7 @@ static std::string getValue(const std::string& line) {
     return trim(line.substr(pos + 1));
 }
 
-void FileManager::saveRecipesToFile(const std::vector<Recipe*>& recipes, const std::string& filename) {
+void FileManager::saveRecipesToFile(const std::vector<std::unique_ptr<Recipe>>& recipes, const std::string& filename) {
     std::ofstream file(filename);
     if (!file.is_open()) {
         std::cerr << "ERROR: Unable to open file '" << filename << "' for writing. Check file permissions." << std::endl;
@@ -42,8 +44,8 @@ void FileManager::saveRecipesToFile(const std::vector<Recipe*>& recipes, const s
 
         file << "RECIPE\n";
 
-        const DessertRecipe* dessert = dynamic_cast<const DessertRecipe*>(recipe);
-        const MainDishRecipe* mainDish = dynamic_cast<const MainDishRecipe*>(recipe);
+        const DessertRecipe* dessert = dynamic_cast<const DessertRecipe*>(recipe.get());
+        const MainDishRecipe* mainDish = dynamic_cast<const MainDishRecipe*>(recipe.get());
         if (dessert) {
             file << "TYPE=Dessert\n";
         } else if (mainDish) {
@@ -58,6 +60,7 @@ void FileManager::saveRecipesToFile(const std::vector<Recipe*>& recipes, const s
         file << "TIME=" << recipe->getCookingTime() << "\n";
         file << "DIFFICULTY=" << recipe->getDifficulty() << "\n";
         file << "CATEGORY=" << recipe->getCategory() << "\n";
+        file << "CALORIES=" << recipe->getCalories() << "\n";
 
         if (dessert) {
             file << "SWEETNESS=" << dessert->getSweetnessLevel() << "\n";
@@ -91,7 +94,8 @@ void FileManager::loadRecipesFromFile(RecipeManager& manager, const std::string&
         return;
     }
 
-    manager.clearRecipes();
+    std::vector<std::unique_ptr<Recipe>> loadedRecipes;
+    std::unordered_set<int> loadedIds;
     std::string line;
     int loadedCount = 0;
     int skippedCount = 0;
@@ -111,6 +115,7 @@ void FileManager::loadRecipesFromFile(RecipeManager& manager, const std::string&
         int cookingTime = 0;
         std::string difficulty;
         std::string category;
+        double calories = 0.0;
         int sweetnessLevel = 0;
         bool vegetarian = false;
         double rating = 0.0;
@@ -155,6 +160,12 @@ void FileManager::loadRecipesFromFile(RecipeManager& manager, const std::string&
                     difficulty = getValue(line);
                 } else if (line.rfind("CATEGORY=", 0) == 0) {
                     category = getValue(line);
+                } else if (line.rfind("CALORIES=", 0) == 0) {
+                    calories = std::stod(getValue(line));
+                    if (calories < 0.0) {
+                        std::cerr << "WARNING: Negative calories at line " << lineNum << ": " << calories << ". Setting to 0." << std::endl;
+                        calories = 0.0;
+                    }
                 } else if (line.rfind("SWEETNESS=", 0) == 0) {
                     sweetnessLevel = std::stoi(getValue(line));
                     if (sweetnessLevel < 1 || sweetnessLevel > 10) {
@@ -226,14 +237,26 @@ void FileManager::loadRecipesFromFile(RecipeManager& manager, const std::string&
             continue;
         }
 
-        Recipe* recipe = nullptr;
+        if (type != "Dessert" && type != "MainDish" && category.empty()) {
+            std::cerr << "WARNING: General recipe '" << title << "' (ID " << id << ") requires a category. Skipping." << std::endl;
+            skippedCount++;
+            continue;
+        }
+
+        if (!loadedIds.insert(id).second) {
+            std::cerr << "WARNING: Duplicate recipe ID " << id << " found in file. Skipping." << std::endl;
+            skippedCount++;
+            continue;
+        }
+
+        std::unique_ptr<Recipe> recipe;
         try {
             if (type == "Dessert") {
-                recipe = new DessertRecipe(id, title, description, cookingTime, difficulty, sweetnessLevel);
+                recipe = std::make_unique<DessertRecipe>(id, title, description, cookingTime, difficulty, sweetnessLevel);
             } else if (type == "MainDish") {
-                recipe = new MainDishRecipe(id, title, description, cookingTime, difficulty, vegetarian);
+                recipe = std::make_unique<MainDishRecipe>(id, title, description, cookingTime, difficulty, vegetarian);
             } else {
-                recipe = new Recipe(id, title, description, cookingTime, difficulty, category);
+                recipe = std::make_unique<Recipe>(id, title, description, cookingTime, difficulty, category);
             }
 
             if (!recipe) {
@@ -246,19 +269,24 @@ void FileManager::loadRecipesFromFile(RecipeManager& manager, const std::string&
                 recipe->addIngredient(ingredient);
             }
             recipe->setRatingData(rating, ratingCount);
-            manager.addRecipe(recipe);
+            recipe->setCalories(calories);
+            loadedRecipes.push_back(std::move(recipe));
             loadedCount++;
         } catch (...) {
             std::cerr << "ERROR: Failed to create recipe '" << title << "'. Skipping." << std::endl;
-            if (recipe) delete recipe;
             skippedCount++;
         }
     }
 
     file.close();
-    std::cout << "SUCCESS: Loaded " << loadedCount << " recipe(s) from '" << filename << "'";
-    if (skippedCount > 0) {
-        std::cout << " (" << skippedCount << " recipe(s) skipped due to errors)";
+    if (loadedCount > 0) {
+        manager.replaceRecipes(std::move(loadedRecipes));
+        std::cout << "SUCCESS: Loaded " << loadedCount << " recipe(s) from '" << filename << "'";
+        if (skippedCount > 0) {
+            std::cout << " (" << skippedCount << " recipe(s) skipped due to errors)";
+        }
+        std::cout << "." << std::endl;
+    } else {
+        std::cout << "WARNING: No valid recipes loaded from '" << filename << "'. Existing data preserved." << std::endl;
     }
-    std::cout << "." << std::endl;
 }
