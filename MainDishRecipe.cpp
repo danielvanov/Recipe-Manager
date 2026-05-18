@@ -3,8 +3,8 @@
 
 MainDishRecipe::MainDishRecipe() : Recipe(), vegetarian(false) {}
 
-MainDishRecipe::MainDishRecipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, bool vegetarian, double calories)
-    : Recipe(id, title, description, cookingTime, difficulty, "Main Dish", calories), vegetarian(vegetarian) {}
+MainDishRecipe::MainDishRecipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, bool vegetarian, double calories, bool vegan)
+    : Recipe(id, title, description, cookingTime, difficulty, "Main Dish", calories, vegan), vegetarian(vegetarian) {}
 
 bool MainDishRecipe::isVegetarian() const {
     return vegetarian;

@@ -20,13 +20,12 @@ RecipeManager::~RecipeManager() {
     clearRecipes();
 }
 
-void RecipeManager::addRecipe(Recipe* recipe) {
+void RecipeManager::addRecipe(std::unique_ptr<Recipe> recipe) {
     if (!recipe) {
         std::cerr << "ERROR: Attempted to add null recipe pointer." << std::endl;
         return;
     }
 
-    std::unique_ptr<Recipe> owned(recipe);
     if (recipe->getId() <= 0) {
         std::cerr << "ERROR: Recipe ID must be a positive integer. Recipe not added." << std::endl;
         return;
@@ -40,8 +39,8 @@ void RecipeManager::addRecipe(Recipe* recipe) {
     }
 
     updateNextId(recipe->getId());
-    recipes.push_back(std::move(owned));
     std::cout << "Recipe '" << recipe->getTitle() << "' added successfully with ID: " << recipe->getId() << "." << std::endl;
+    recipes.push_back(std::move(recipe));
 }
 
 void RecipeManager::replaceRecipes(std::vector<std::unique_ptr<Recipe>>&& newRecipes) {
@@ -307,16 +306,16 @@ void RecipeManager::filterByMenuType(const std::string& menuType) const {
             return recipe->getCalories() >= 500.0;
         }
         if (vegan) {
+            if (recipe->isVegan()) {
+                return true;
+            }
             std::string title = recipe->getTitle();
             std::string description = recipe->getDescription();
             std::string category = recipe->getCategory();
-            if (containsLower(title, "vegan") || containsLower(description, "vegan") || containsLower(category, "vegan") ||
-                containsLower(title, "plant") || containsLower(description, "plant") || containsLower(category, "plant") ||
-                containsLower(title, "vegetable") || containsLower(description, "vegetable") || containsLower(category, "vegetable")) {
+            if (containsLower(title, "vegan") || containsLower(description, "vegan") || containsLower(category, "vegan")) {
                 return true;
             }
-            const MainDishRecipe* mainDish = dynamic_cast<const MainDishRecipe*>(recipe);
-            return mainDish && mainDish->isVegetarian();
+            return false;
         }
         return true;
     };
@@ -391,52 +390,61 @@ int RecipeManager::generateId() {
 }
 
 void RecipeManager::addSampleRecipes() {
-    // Sample general recipe
-    // Approximate USDA-style values for sample recipe calories
-    Recipe* omelette = new Recipe(generateId(), "Omelette", "Quick egg omelette with herbs", 10, "Easy", "Breakfast", 250.0);
-    if (!omelette) {
-        std::cerr << "ERROR: Memory allocation failed for sample recipe." << std::endl;
-        return;
-    }
-    omelette->addIngredient(Ingredient("Eggs", "3"));
-    omelette->addIngredient(Ingredient("Salt", "1 pinch"));
-    omelette->addIngredient(Ingredient("Butter", "1 tbsp"));
-    addRecipe(omelette);
+    auto alreadyExists = [&](const std::string& title) {
+        std::string lowerTitle = toLower(title);
+        return std::any_of(recipes.begin(), recipes.end(), [&](const std::unique_ptr<Recipe>& r) {
+            return r && toLower(r->getTitle()) == lowerTitle;
+        });
+    };
 
-    // Sample dessert recipe
-    DessertRecipe* cake = new DessertRecipe(generateId(), "Chocolate Cake", "Simple cake with chocolate glaze", 60, "Medium", 8, 450.0);
-    if (!cake) {
-        std::cerr << "ERROR: Memory allocation failed for sample recipe." << std::endl;
-        return;
-    }
-    cake->addIngredient(Ingredient("Flour", "200g"));
-    cake->addIngredient(Ingredient("Cocoa Powder", "50g"));
-    cake->addIngredient(Ingredient("Sugar", "150g"));
-    cake->addIngredient(Ingredient("Eggs", "3"));
-    addRecipe(cake);
+    struct SampleRecipe {
+        std::unique_ptr<Recipe> recipe;
+        std::vector<Ingredient> ingredients;
+        bool vegan = false;
+    };
 
-    // Sample main dish recipe
-    MainDishRecipe* pasta = new MainDishRecipe(generateId(), "Vegetable Pasta", "Pasta with fresh vegetables", 30, "Easy", true, 350.0);
-    if (!pasta) {
-        std::cerr << "ERROR: Memory allocation failed for sample recipe." << std::endl;
-        return;
-    }
-    pasta->addIngredient(Ingredient("Pasta", "300g"));
-    pasta->addIngredient(Ingredient("Tomato Sauce", "200ml"));
-    pasta->addIngredient(Ingredient("Zucchini", "1"));
-    pasta->addIngredient(Ingredient("Olive Oil", "2 tbsp"));
-    addRecipe(pasta);
+    std::vector<SampleRecipe> samples;
+    samples.push_back({
+        std::make_unique<Recipe>(generateId(), "Vegan Garden Salad", "Fresh vegan salad with leafy greens and herbs", 10, "Easy", "Starter", 180.0),
+        {Ingredient("Lettuce", "100g"), Ingredient("Cucumber", "100g"), Ingredient("Tomatoes", "100g"), Ingredient("Olive Oil", "1 tbsp")},
+        true
+    });
+    samples.push_back({
+        std::make_unique<DessertRecipe>(generateId(), "Chocolate Cake", "Simple cake with chocolate glaze", 60, "Medium", 8, 450.0),
+        {Ingredient("Flour", "200g"), Ingredient("Cocoa Powder", "50g"), Ingredient("Sugar", "150g"), Ingredient("Eggs", "3")},
+        false
+    });
+    samples.push_back({
+        std::make_unique<MainDishRecipe>(generateId(), "Vegetable Pasta", "Pasta with fresh vegetables", 30, "Easy", true, 350.0),
+        {Ingredient("Pasta", "300g"), Ingredient("Tomato Sauce", "200ml"), Ingredient("Zucchini", "1"), Ingredient("Olive Oil", "2 tbsp")},
+        false
+    });
+    samples.push_back({
+        std::make_unique<MainDishRecipe>(generateId(), "Steak", "Grilled steak with garlic butter", 25, "Medium", false, 650.0),
+        {Ingredient("Beef Steak", "250g"), Ingredient("Garlic", "2 cloves"), Ingredient("Butter", "1 tbsp")},
+        false
+    });
+    samples.push_back({
+        std::make_unique<DessertRecipe>(generateId(), "Vegan Berry Tart", "A vegan berry tart with fruit filling", 20, "Easy", 6, 220.0),
+        {Ingredient("Flour", "100g"), Ingredient("Berries", "120g"), Ingredient("Sugar", "50g"), Ingredient("Coconut Milk", "100ml")},
+        true
+    });
 
-    // Sample unhealthy main dish recipe
-    MainDishRecipe* steak = new MainDishRecipe(generateId(), "Steak", "Grilled steak with garlic butter", 25, "Medium", false, 650.0);
-    if (!steak) {
-        std::cerr << "ERROR: Memory allocation failed for sample recipe." << std::endl;
-        return;
+    int added = 0;
+    for (auto& sample : samples) {
+        if (!sample.recipe) {
+            continue;
+        }
+        if (alreadyExists(sample.recipe->getTitle())) {
+            continue;
+        }
+        sample.recipe->setVegan(sample.vegan);
+        for (auto& ingredient : sample.ingredients) {
+            sample.recipe->addIngredient(ingredient);
+        }
+        addRecipe(std::move(sample.recipe));
+        added++;
     }
-    steak->addIngredient(Ingredient("Beef Steak", "250g"));
-    steak->addIngredient(Ingredient("Garlic", "2 cloves"));
-    steak->addIngredient(Ingredient("Butter", "1 tbsp"));
-    addRecipe(steak);
 
-    std::cout << "SUCCESS: Added 4 sample recipes." << std::endl;
+    std::cout << "SUCCESS: Added " << added << " sample recipe(s)." << std::endl;
 }

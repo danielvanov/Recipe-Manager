@@ -12,7 +12,7 @@ private:
 public:
     RecipeManager();
     ~RecipeManager();
-    void addRecipe(Recipe* recipe);
+    void addRecipe(std::unique_ptr<Recipe> recipe);
     void replaceRecipes(std::vector<std::unique_ptr<Recipe>>&& newRecipes);
     void listAllRecipes() const;
     const std::vector<std::unique_ptr<Recipe>>& getRecipes() const;

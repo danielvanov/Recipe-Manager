@@ -8,7 +8,7 @@ private:
 
 public:
     DessertRecipe();
-    DessertRecipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, int sweetnessLevel, double calories = 0.0);
+    DessertRecipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, int sweetnessLevel, double calories = 0.0, bool vegan = false);
     int getSweetnessLevel() const;
     void setSweetnessLevel(int sweetnessLevel);
     void displayInfo() const override;

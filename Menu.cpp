@@ -268,17 +268,17 @@ void Menu::handleAddRecipe() {
     std::string difficulty = readDifficulty();
     double calories = readNonNegativeDouble("Enter calories: ");
 
-    Recipe* recipe = nullptr;
+    std::unique_ptr<Recipe> recipe;
     try {
         if (type == 1) {
             std::string category = readNonEmptyString("Enter category: ");
-            recipe = new Recipe(manager.generateId(), title, description, cookingTime, difficulty, category, calories);
+            recipe = std::make_unique<Recipe>(manager.generateId(), title, description, cookingTime, difficulty, category, calories);
         } else if (type == 2) {
             int sweetnessLevel = readIntInRange("Enter sweetness level (1-10): ", 1, 10);
-            recipe = new DessertRecipe(manager.generateId(), title, description, cookingTime, difficulty, sweetnessLevel, calories);
+            recipe = std::make_unique<DessertRecipe>(manager.generateId(), title, description, cookingTime, difficulty, sweetnessLevel, calories);
         } else {
             bool vegetarian = readYesNo("Is it vegetarian? (y/n): ");
-            recipe = new MainDishRecipe(manager.generateId(), title, description, cookingTime, difficulty, vegetarian, calories);
+            recipe = std::make_unique<MainDishRecipe>(manager.generateId(), title, description, cookingTime, difficulty, vegetarian, calories);
         }
 
         if (!recipe) {
@@ -295,17 +295,14 @@ void Menu::handleAddRecipe() {
 
         if (recipe->getIngredients().empty()) {
             std::cerr << "ERROR: Recipe must have at least one ingredient. Recipe not added." << std::endl;
-            delete recipe;
             return;
         }
 
-        manager.addRecipe(recipe);
+        manager.addRecipe(std::move(recipe));
     } catch (const std::exception& e) {
         std::cerr << "ERROR: Failed to add recipe: " << e.what() << std::endl;
-        if (recipe) delete recipe;
     } catch (...) {
         std::cerr << "ERROR: Unexpected error while adding recipe." << std::endl;
-        if (recipe) delete recipe;
     }
 }
 

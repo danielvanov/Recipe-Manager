@@ -16,10 +16,12 @@ protected:
     int ratingCount;
     std::vector<Ingredient> ingredients;
     double calories;
+    bool vegan;
 
 public:
     Recipe();
     Recipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, const std::string& category, double calories = 0.0);
+    Recipe(int id, const std::string& title, const std::string& description, int cookingTime, const std::string& difficulty, const std::string& category, double calories, bool vegan);
     virtual ~Recipe();
     std::string getTitle() const;
     std::string getDescription() const;
@@ -39,5 +41,7 @@ public:
     void addIngredient(const Ingredient& ingredient);
     void addRating(int value);
     void setCalories(double calories);
+    bool isVegan() const;
+    void setVegan(bool vegan);
     virtual void displayInfo() const;
 };
