@@ -256,7 +256,8 @@ int RecipeManager::generateId() {
 
 void RecipeManager::addSampleRecipes() {
     // Sample general recipe
-    Recipe* omelette = new Recipe(generateId(), "Omelette", "Quick egg omelette with herbs", 10, "Easy", "Breakfast", 250);
+    // Approximate USDA-style values for sample recipe calories
+    Recipe* omelette = new Recipe(generateId(), "Omelette", "Quick egg omelette with herbs", 10, "Easy", "Breakfast", 250.0);
     if (!omelette) {
         std::cerr << "ERROR: Memory allocation failed for sample recipe." << std::endl;
         return;
@@ -267,7 +268,7 @@ void RecipeManager::addSampleRecipes() {
     addRecipe(omelette);
 
     // Sample dessert recipe
-    DessertRecipe* cake = new DessertRecipe(generateId(), "Chocolate Cake", "Simple cake with chocolate glaze", 60, "Medium", 8, 450);
+    DessertRecipe* cake = new DessertRecipe(generateId(), "Chocolate Cake", "Simple cake with chocolate glaze", 60, "Medium", 8, 450.0);
     if (!cake) {
         std::cerr << "ERROR: Memory allocation failed for sample recipe." << std::endl;
         return;
@@ -279,7 +280,7 @@ void RecipeManager::addSampleRecipes() {
     addRecipe(cake);
 
     // Sample main dish recipe
-    MainDishRecipe* pasta = new MainDishRecipe(generateId(), "Vegetable Pasta", "Pasta with fresh vegetables", 30, "Easy", true, 350);
+    MainDishRecipe* pasta = new MainDishRecipe(generateId(), "Vegetable Pasta", "Pasta with fresh vegetables", 30, "Easy", true, 350.0);
     if (!pasta) {
         std::cerr << "ERROR: Memory allocation failed for sample recipe." << std::endl;
         return;
@@ -291,7 +292,7 @@ void RecipeManager::addSampleRecipes() {
     addRecipe(pasta);
 
     // Sample unhealthy main dish recipe
-    MainDishRecipe* steak = new MainDishRecipe(generateId(), "Steak", "Grilled steak with garlic butter", 25, "Medium", false, 650);
+    MainDishRecipe* steak = new MainDishRecipe(generateId(), "Steak", "Grilled steak with garlic butter", 25, "Medium", false, 650.0);
     if (!steak) {
         std::cerr << "ERROR: Memory allocation failed for sample recipe." << std::endl;
         return;

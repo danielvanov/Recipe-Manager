@@ -95,7 +95,7 @@ void Recipe::displayInfo() const {
     std::cout << "Cooking Time: " << cookingTime << " minutes" << std::endl;
     std::cout << "Difficulty: " << difficulty << std::endl;
     std::cout << "Category: " << category << std::endl;
-    std::cout << "Calories: " << calories << std::endl;
+    std::cout << "Calories: " << calories << " kcal" << std::endl;
     std::cout << "Rating: " << rating << " (" << ratingCount << " ratings)" << std::endl;
     std::cout << "Ingredients:" << std::endl;
     for (const auto& ing : ingredients) {
