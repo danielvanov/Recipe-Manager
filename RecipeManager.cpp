@@ -245,15 +245,61 @@ void RecipeManager::filterByMenuType(const std::string& menuType) const {
     const Recipe* entree = nullptr;
     const Recipe* dessert = nullptr;
 
-    auto containsKeyword = [&](const std::string& text, const std::string& keyword) {
+    auto containsLower = [&](const std::string& text, const std::string& keyword) {
         return toLower(text).find(keyword) != std::string::npos;
     };
 
-    auto matchesMenuType = [&](const Recipe* recipe) {
+    auto isStarterRecipe = [&](const Recipe* recipe) {
         if (!recipe) {
             return false;
         }
+        if (dynamic_cast<const DessertRecipe*>(recipe) || dynamic_cast<const MainDishRecipe*>(recipe)) {
+            return false;
+        }
+        std::string category = recipe->getCategory();
+        std::string title = recipe->getTitle();
+        std::string description = recipe->getDescription();
 
+        return containsLower(category, "starter") || containsLower(category, "appetizer") || containsLower(category, "salad") || containsLower(category, "soup") || containsLower(category, "snack") ||
+               containsLower(title, "starter") || containsLower(title, "appetizer") || containsLower(title, "salad") || containsLower(title, "soup") ||
+               containsLower(description, "starter");
+    };
+
+    auto isDessertRecipe = [&](const Recipe* recipe) {
+        if (!recipe) {
+            return false;
+        }
+        if (dynamic_cast<const DessertRecipe*>(recipe)) {
+            return true;
+        }
+        std::string category = recipe->getCategory();
+        std::string title = recipe->getTitle();
+        std::string description = recipe->getDescription();
+
+        return containsLower(category, "dessert") || containsLower(category, "sweet") || containsLower(category, "treat") ||
+               containsLower(title, "dessert") || containsLower(title, "sweet") || containsLower(title, "treat") ||
+               containsLower(description, "dessert");
+    };
+
+    auto isMainRecipe = [&](const Recipe* recipe) {
+        if (!recipe) {
+            return false;
+        }
+        if (dynamic_cast<const MainDishRecipe*>(recipe)) {
+            return true;
+        }
+        std::string category = recipe->getCategory();
+        std::string title = recipe->getTitle();
+        std::string description = recipe->getDescription();
+
+        return containsLower(category, "main") || containsLower(category, "entree") || containsLower(title, "main") ||
+               containsLower(title, "entree") || containsLower(description, "main") || containsLower(description, "entree");
+    };
+
+    auto matchesDiet = [&](const Recipe* recipe) {
+        if (!recipe) {
+            return false;
+        }
         if (healthy) {
             return recipe->getCalories() < 500.0;
         }
@@ -264,17 +310,11 @@ void RecipeManager::filterByMenuType(const std::string& menuType) const {
             std::string title = recipe->getTitle();
             std::string description = recipe->getDescription();
             std::string category = recipe->getCategory();
-
-            if (containsKeyword(title, "vegan") || containsKeyword(description, "vegan") || containsKeyword(category, "vegan")) {
+            if (containsLower(title, "vegan") || containsLower(description, "vegan") || containsLower(category, "vegan") ||
+                containsLower(title, "plant") || containsLower(description, "plant") || containsLower(category, "plant") ||
+                containsLower(title, "vegetable") || containsLower(description, "vegetable") || containsLower(category, "vegetable")) {
                 return true;
             }
-            if (containsKeyword(title, "vegetable") || containsKeyword(description, "vegetable") || containsKeyword(category, "vegetable")) {
-                return true;
-            }
-            if (containsKeyword(title, "plant") || containsKeyword(description, "plant") || containsKeyword(category, "plant")) {
-                return true;
-            }
-
             const MainDishRecipe* mainDish = dynamic_cast<const MainDishRecipe*>(recipe);
             return mainDish && mainDish->isVegetarian();
         }
@@ -286,24 +326,19 @@ void RecipeManager::filterByMenuType(const std::string& menuType) const {
             continue;
         }
 
-        if (!dessert && dynamic_cast<const DessertRecipe*>(recipe.get())) {
-            if (matchesMenuType(recipe.get())) {
-                dessert = recipe.get();
-            }
+        if (!dessert && isDessertRecipe(recipe.get()) && matchesDiet(recipe.get())) {
+            dessert = recipe.get();
             continue;
         }
 
-        if (!entree && dynamic_cast<const MainDishRecipe*>(recipe.get())) {
-            if (matchesMenuType(recipe.get())) {
-                entree = recipe.get();
-            }
+        if (!entree && isMainRecipe(recipe.get()) && matchesDiet(recipe.get())) {
+            entree = recipe.get();
             continue;
         }
 
-        if (!starter && !dynamic_cast<const DessertRecipe*>(recipe.get()) && !dynamic_cast<const MainDishRecipe*>(recipe.get())) {
-            if (matchesMenuType(recipe.get())) {
-                starter = recipe.get();
-            }
+        if (!starter && isStarterRecipe(recipe.get()) && matchesDiet(recipe.get())) {
+            starter = recipe.get();
+            continue;
         }
     }
 
