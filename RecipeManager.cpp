@@ -230,6 +230,107 @@ void RecipeManager::sortByRating() {
     std::cout << "SUCCESS: Sorted " << recipes.size() << " recipe(s) by rating." << std::endl;
 }
 
+void RecipeManager::filterByMenuType(const std::string& menuType) const {
+    if (recipes.empty()) {
+        std::cout << "INFO: No recipes in database. Cannot filter." << std::endl;
+        return;
+    }
+
+    std::string filter = toLower(menuType);
+    bool healthy = filter == "healthy";
+    bool unhealthy = filter == "unhealthy";
+    bool vegan = filter == "vegan";
+
+    const Recipe* starter = nullptr;
+    const Recipe* entree = nullptr;
+    const Recipe* dessert = nullptr;
+
+    auto containsKeyword = [&](const std::string& text, const std::string& keyword) {
+        return toLower(text).find(keyword) != std::string::npos;
+    };
+
+    auto matchesMenuType = [&](const Recipe* recipe) {
+        if (!recipe) {
+            return false;
+        }
+
+        if (healthy) {
+            return recipe->getCalories() < 500.0;
+        }
+        if (unhealthy) {
+            return recipe->getCalories() >= 500.0;
+        }
+        if (vegan) {
+            std::string title = recipe->getTitle();
+            std::string description = recipe->getDescription();
+            std::string category = recipe->getCategory();
+
+            if (containsKeyword(title, "vegan") || containsKeyword(description, "vegan") || containsKeyword(category, "vegan")) {
+                return true;
+            }
+            if (containsKeyword(title, "vegetable") || containsKeyword(description, "vegetable") || containsKeyword(category, "vegetable")) {
+                return true;
+            }
+            if (containsKeyword(title, "plant") || containsKeyword(description, "plant") || containsKeyword(category, "plant")) {
+                return true;
+            }
+
+            const MainDishRecipe* mainDish = dynamic_cast<const MainDishRecipe*>(recipe);
+            return mainDish && mainDish->isVegetarian();
+        }
+        return true;
+    };
+
+    for (const auto& recipe : recipes) {
+        if (!recipe) {
+            continue;
+        }
+
+        if (!dessert && dynamic_cast<const DessertRecipe*>(recipe.get())) {
+            if (matchesMenuType(recipe.get())) {
+                dessert = recipe.get();
+            }
+            continue;
+        }
+
+        if (!entree && dynamic_cast<const MainDishRecipe*>(recipe.get())) {
+            if (matchesMenuType(recipe.get())) {
+                entree = recipe.get();
+            }
+            continue;
+        }
+
+        if (!starter && !dynamic_cast<const DessertRecipe*>(recipe.get()) && !dynamic_cast<const MainDishRecipe*>(recipe.get())) {
+            if (matchesMenuType(recipe.get())) {
+                starter = recipe.get();
+            }
+        }
+    }
+
+    std::cout << "Dietary Menu: " << (healthy ? "Healthy" : unhealthy ? "Unhealthy" : vegan ? "Vegan" : menuType) << std::endl;
+
+    if (starter) {
+        std::cout << "\nStarter:" << std::endl;
+        starter->displayInfo();
+    } else {
+        std::cout << "\nStarter: No suitable starter recipe found." << std::endl;
+    }
+
+    if (entree) {
+        std::cout << "\nMain Dish:" << std::endl;
+        entree->displayInfo();
+    } else {
+        std::cout << "\nMain Dish: No suitable main dish recipe found." << std::endl;
+    }
+
+    if (dessert) {
+        std::cout << "\nDessert:" << std::endl;
+        dessert->displayInfo();
+    } else {
+        std::cout << "\nDessert: No suitable dessert recipe found." << std::endl;
+    }
+}
+
 void RecipeManager::showRecipeDetailsById(int id) const {
     if (id <= 0) {
         std::cerr << "ERROR: Invalid recipe ID: " << id << ". ID must be positive." << std::endl;

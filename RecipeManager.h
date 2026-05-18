@@ -23,6 +23,7 @@ public:
     void rateRecipe(int id, int rating);
     void filterByDifficulty(const std::string& difficulty) const;
     void filterByCategory(const std::string& category) const;
+    void filterByMenuType(const std::string& menuType) const;
     void sortByCookingTime();
     void sortByRating();
     void showRecipeDetailsById(int id) const;

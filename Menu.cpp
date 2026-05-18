@@ -92,6 +92,9 @@ void Menu::start() {
             case 15:
                 handleShowUnhealthyRecipes();
                 break;
+            case 16:
+                handleFilterByMenuType();
+                break;
             case 0:
                 finalizeRecipes();
                 return;
@@ -119,6 +122,7 @@ void Menu::showMainMenu() const {
     std::cout << "13. Load recipes from file" << std::endl;
     std::cout << "14. Show healthy recipes" << std::endl;
     std::cout << "15. Show unhealthy recipes" << std::endl;
+    std::cout << "16. Show dietary menu (healthy/unhealthy/vegan) - starter, main dish, dessert" << std::endl;
     std::cout << "0. Exit" << std::endl;
 }
 
@@ -394,6 +398,27 @@ void Menu::handleSaveRecipes() {
         return;
     }
     FileManager::saveRecipesToFile(manager.getRecipes(), "recipes.txt");
+}
+
+void Menu::handleFilterByMenuType() const {
+    if (manager.getRecipes().empty()) {
+        std::cout << "INFO: No recipes in the database." << std::endl;
+        return;
+    }
+
+    std::cout << "Select menu type:" << std::endl;
+    std::cout << "1. Healthy" << std::endl;
+    std::cout << "2. Unhealthy" << std::endl;
+    std::cout << "3. Vegan" << std::endl;
+    int type = readIntInRange("Enter choice (1-3): ", 1, 3);
+
+    if (type == 1) {
+        manager.filterByMenuType("healthy");
+    } else if (type == 2) {
+        manager.filterByMenuType("unhealthy");
+    } else {
+        manager.filterByMenuType("vegan");
+    }
 }
 
 void Menu::handleLoadRecipes() {

@@ -26,6 +26,7 @@ public:
     void handleRateRecipe();
     void handleFilterByDifficulty() const;
     void handleFilterByCategory() const;
+    void handleFilterByMenuType() const;
     void handleSortByCookingTime();
     void handleSortByRating();
     void handleShowDetailsById() const;
