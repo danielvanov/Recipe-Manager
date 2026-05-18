@@ -70,8 +70,8 @@ END
 RECIPE
 TYPE=General
 ID=5
-TITLE=Vegan Starter 5
-DESCRIPTION=Tasty starter recipe number 5.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=10
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -87,8 +87,8 @@ END
 RECIPE
 TYPE=General
 ID=6
-TITLE=Appetizer 6
-DESCRIPTION=Tasty starter recipe number 6.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=11
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -104,8 +104,8 @@ END
 RECIPE
 TYPE=General
 ID=7
-TITLE=Salad 7
-DESCRIPTION=Tasty starter recipe number 7.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=12
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -121,8 +121,8 @@ END
 RECIPE
 TYPE=General
 ID=8
-TITLE=Healthy Soup 8
-DESCRIPTION=Tasty starter recipe number 8.
+TITLE=Healthy Stuffed Mushrooms
+DESCRIPTION=A healthy stuffed mushrooms with bright vegetables and light seasoning.
 TIME=13
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -138,8 +138,8 @@ END
 RECIPE
 TYPE=General
 ID=9
-TITLE=Snack 9
-DESCRIPTION=Tasty starter recipe number 9.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=14
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -155,8 +155,8 @@ END
 RECIPE
 TYPE=General
 ID=10
-TITLE=Vegan Finger Food 10
-DESCRIPTION=Tasty starter recipe number 10.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=15
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -172,8 +172,8 @@ END
 RECIPE
 TYPE=General
 ID=11
-TITLE=Healthy Starter 11
-DESCRIPTION=Tasty starter recipe number 11.
+TITLE=Healthy Spring Rolls
+DESCRIPTION=A healthy spring rolls with bright vegetables and light seasoning.
 TIME=16
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -189,8 +189,8 @@ END
 RECIPE
 TYPE=General
 ID=12
-TITLE=Unhealthy Appetizer 12
-DESCRIPTION=Tasty starter recipe number 12.
+TITLE=Unhealthy Fruit Platter
+DESCRIPTION=An indulgent fruit platter packed with rich flavors and hearty ingredients.
 TIME=17
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Appetizer
@@ -206,8 +206,8 @@ END
 RECIPE
 TYPE=General
 ID=13
-TITLE=Salad 13
-DESCRIPTION=Tasty starter recipe number 13.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=18
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -223,8 +223,8 @@ END
 RECIPE
 TYPE=General
 ID=14
-TITLE=Healthy Soup 14
-DESCRIPTION=Tasty starter recipe number 14.
+TITLE=Healthy Caprese Skewers
+DESCRIPTION=A healthy caprese skewers with bright vegetables and light seasoning.
 TIME=19
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -240,8 +240,8 @@ END
 RECIPE
 TYPE=General
 ID=15
-TITLE=Vegan Snack 15
-DESCRIPTION=Tasty starter recipe number 15.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=20
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -257,8 +257,8 @@ END
 RECIPE
 TYPE=General
 ID=16
-TITLE=Finger Food 16
-DESCRIPTION=Tasty starter recipe number 16.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=21
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -274,8 +274,8 @@ END
 RECIPE
 TYPE=General
 ID=17
-TITLE=Healthy Starter 17
-DESCRIPTION=Tasty starter recipe number 17.
+TITLE=Healthy Bruschetta
+DESCRIPTION=A healthy bruschetta with bright vegetables and light seasoning.
 TIME=22
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -291,8 +291,8 @@ END
 RECIPE
 TYPE=General
 ID=18
-TITLE=Appetizer 18
-DESCRIPTION=Tasty starter recipe number 18.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=23
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -308,8 +308,8 @@ END
 RECIPE
 TYPE=General
 ID=19
-TITLE=Unhealthy Salad 19
-DESCRIPTION=Tasty starter recipe number 19.
+TITLE=Unhealthy Avocado Toast
+DESCRIPTION=An indulgent avocado toast packed with rich flavors and hearty ingredients.
 TIME=24
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Salad
@@ -325,8 +325,8 @@ END
 RECIPE
 TYPE=General
 ID=20
-TITLE=Vegan Soup 20
-DESCRIPTION=Tasty starter recipe number 20.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=25
 DIFFICULTY=Easy
 CATEGORY=Vegan Soup
@@ -342,8 +342,8 @@ END
 RECIPE
 TYPE=General
 ID=21
-TITLE=Snack 21
-DESCRIPTION=Tasty starter recipe number 21.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=26
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -359,8 +359,8 @@ END
 RECIPE
 TYPE=General
 ID=22
-TITLE=Finger Food 22
-DESCRIPTION=Tasty starter recipe number 22.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=27
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -376,8 +376,8 @@ END
 RECIPE
 TYPE=General
 ID=23
-TITLE=Healthy Starter 23
-DESCRIPTION=Tasty starter recipe number 23.
+TITLE=Healthy Garlic Bread
+DESCRIPTION=A healthy garlic bread with bright vegetables and light seasoning.
 TIME=28
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -393,8 +393,8 @@ END
 RECIPE
 TYPE=General
 ID=24
-TITLE=Appetizer 24
-DESCRIPTION=Tasty starter recipe number 24.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=29
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -410,8 +410,8 @@ END
 RECIPE
 TYPE=General
 ID=25
-TITLE=Vegan Salad 25
-DESCRIPTION=Tasty starter recipe number 25.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=30
 DIFFICULTY=Hard
 CATEGORY=Vegan Salad
@@ -427,8 +427,8 @@ END
 RECIPE
 TYPE=General
 ID=26
-TITLE=Unhealthy Soup 26
-DESCRIPTION=Tasty starter recipe number 26.
+TITLE=Unhealthy Tomato Soup
+DESCRIPTION=An indulgent tomato soup packed with rich flavors and hearty ingredients.
 TIME=31
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Soup
@@ -444,8 +444,8 @@ END
 RECIPE
 TYPE=General
 ID=27
-TITLE=Snack 27
-DESCRIPTION=Tasty starter recipe number 27.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=32
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -461,8 +461,8 @@ END
 RECIPE
 TYPE=General
 ID=28
-TITLE=Finger Food 28
-DESCRIPTION=Tasty starter recipe number 28.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=33
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -478,8 +478,8 @@ END
 RECIPE
 TYPE=General
 ID=29
-TITLE=Healthy Starter 29
-DESCRIPTION=Tasty starter recipe number 29.
+TITLE=Healthy Avocado Toast
+DESCRIPTION=A healthy avocado toast with bright vegetables and light seasoning.
 TIME=34
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -495,8 +495,8 @@ END
 RECIPE
 TYPE=General
 ID=30
-TITLE=Vegan Appetizer 30
-DESCRIPTION=Tasty starter recipe number 30.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=35
 DIFFICULTY=Medium
 CATEGORY=Vegan Appetizer
@@ -512,8 +512,8 @@ END
 RECIPE
 TYPE=General
 ID=31
-TITLE=Salad 31
-DESCRIPTION=Tasty starter recipe number 31.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=36
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -529,8 +529,8 @@ END
 RECIPE
 TYPE=General
 ID=32
-TITLE=Healthy Soup 32
-DESCRIPTION=Tasty starter recipe number 32.
+TITLE=Healthy Fruit Platter
+DESCRIPTION=A healthy fruit platter with bright vegetables and light seasoning.
 TIME=37
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -546,8 +546,8 @@ END
 RECIPE
 TYPE=General
 ID=33
-TITLE=Unhealthy Snack 33
-DESCRIPTION=Tasty starter recipe number 33.
+TITLE=Unhealthy Garlic Bread
+DESCRIPTION=An indulgent garlic bread packed with rich flavors and hearty ingredients.
 TIME=38
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Snack
@@ -563,8 +563,8 @@ END
 RECIPE
 TYPE=General
 ID=34
-TITLE=Finger Food 34
-DESCRIPTION=Tasty starter recipe number 34.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=39
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -580,8 +580,8 @@ END
 RECIPE
 TYPE=General
 ID=35
-TITLE=Vegan Starter 35
-DESCRIPTION=Tasty starter recipe number 35.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=40
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -597,8 +597,8 @@ END
 RECIPE
 TYPE=General
 ID=36
-TITLE=Appetizer 36
-DESCRIPTION=Tasty starter recipe number 36.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=41
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -614,8 +614,8 @@ END
 RECIPE
 TYPE=General
 ID=37
-TITLE=Salad 37
-DESCRIPTION=Tasty starter recipe number 37.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=42
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -631,8 +631,8 @@ END
 RECIPE
 TYPE=General
 ID=38
-TITLE=Healthy Soup 38
-DESCRIPTION=Tasty starter recipe number 38.
+TITLE=Healthy Stuffed Mushrooms
+DESCRIPTION=A healthy stuffed mushrooms with bright vegetables and light seasoning.
 TIME=43
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -648,8 +648,8 @@ END
 RECIPE
 TYPE=General
 ID=39
-TITLE=Snack 39
-DESCRIPTION=Tasty starter recipe number 39.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=44
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -665,8 +665,8 @@ END
 RECIPE
 TYPE=General
 ID=40
-TITLE=Vegan Finger Food 40
-DESCRIPTION=Tasty starter recipe number 40.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=10
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -682,8 +682,8 @@ END
 RECIPE
 TYPE=General
 ID=41
-TITLE=Healthy Starter 41
-DESCRIPTION=Tasty starter recipe number 41.
+TITLE=Healthy Spring Rolls
+DESCRIPTION=A healthy spring rolls with bright vegetables and light seasoning.
 TIME=11
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -699,8 +699,8 @@ END
 RECIPE
 TYPE=General
 ID=42
-TITLE=Appetizer 42
-DESCRIPTION=Tasty starter recipe number 42.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=12
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -716,8 +716,8 @@ END
 RECIPE
 TYPE=General
 ID=43
-TITLE=Salad 43
-DESCRIPTION=Tasty starter recipe number 43.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=13
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -733,8 +733,8 @@ END
 RECIPE
 TYPE=General
 ID=44
-TITLE=Healthy Soup 44
-DESCRIPTION=Tasty starter recipe number 44.
+TITLE=Healthy Caprese Skewers
+DESCRIPTION=A healthy caprese skewers with bright vegetables and light seasoning.
 TIME=14
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -750,8 +750,8 @@ END
 RECIPE
 TYPE=General
 ID=45
-TITLE=Vegan Snack 45
-DESCRIPTION=Tasty starter recipe number 45.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=15
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -767,8 +767,8 @@ END
 RECIPE
 TYPE=General
 ID=46
-TITLE=Finger Food 46
-DESCRIPTION=Tasty starter recipe number 46.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=16
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -784,8 +784,8 @@ END
 RECIPE
 TYPE=General
 ID=47
-TITLE=Unhealthy Starter 47
-DESCRIPTION=Tasty starter recipe number 47.
+TITLE=Unhealthy Bruschetta
+DESCRIPTION=An indulgent bruschetta packed with rich flavors and hearty ingredients.
 TIME=17
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Starter
@@ -801,8 +801,8 @@ END
 RECIPE
 TYPE=General
 ID=48
-TITLE=Appetizer 48
-DESCRIPTION=Tasty starter recipe number 48.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=18
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -818,8 +818,8 @@ END
 RECIPE
 TYPE=General
 ID=49
-TITLE=Salad 49
-DESCRIPTION=Tasty starter recipe number 49.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=19
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -835,8 +835,8 @@ END
 RECIPE
 TYPE=General
 ID=50
-TITLE=Vegan Soup 50
-DESCRIPTION=Tasty starter recipe number 50.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=20
 DIFFICULTY=Easy
 CATEGORY=Vegan Soup
@@ -852,8 +852,8 @@ END
 RECIPE
 TYPE=General
 ID=51
-TITLE=Snack 51
-DESCRIPTION=Tasty starter recipe number 51.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=21
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -869,8 +869,8 @@ END
 RECIPE
 TYPE=General
 ID=52
-TITLE=Finger Food 52
-DESCRIPTION=Tasty starter recipe number 52.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=22
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -886,8 +886,8 @@ END
 RECIPE
 TYPE=General
 ID=53
-TITLE=Healthy Starter 53
-DESCRIPTION=Tasty starter recipe number 53.
+TITLE=Healthy Garlic Bread
+DESCRIPTION=A healthy garlic bread with bright vegetables and light seasoning.
 TIME=23
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -903,8 +903,8 @@ END
 RECIPE
 TYPE=General
 ID=54
-TITLE=Unhealthy Appetizer 54
-DESCRIPTION=Tasty starter recipe number 54.
+TITLE=Unhealthy Caprese Skewers
+DESCRIPTION=An indulgent caprese skewers packed with rich flavors and hearty ingredients.
 TIME=24
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Appetizer
@@ -920,8 +920,8 @@ END
 RECIPE
 TYPE=General
 ID=55
-TITLE=Vegan Salad 55
-DESCRIPTION=Tasty starter recipe number 55.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=25
 DIFFICULTY=Hard
 CATEGORY=Vegan Salad
@@ -937,8 +937,8 @@ END
 RECIPE
 TYPE=General
 ID=56
-TITLE=Healthy Soup 56
-DESCRIPTION=Tasty starter recipe number 56.
+TITLE=Healthy Tomato Soup
+DESCRIPTION=A healthy tomato soup with bright vegetables and light seasoning.
 TIME=26
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -954,8 +954,8 @@ END
 RECIPE
 TYPE=General
 ID=57
-TITLE=Snack 57
-DESCRIPTION=Tasty starter recipe number 57.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=27
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -971,8 +971,8 @@ END
 RECIPE
 TYPE=General
 ID=58
-TITLE=Finger Food 58
-DESCRIPTION=Tasty starter recipe number 58.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=28
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -988,8 +988,8 @@ END
 RECIPE
 TYPE=General
 ID=59
-TITLE=Healthy Starter 59
-DESCRIPTION=Tasty starter recipe number 59.
+TITLE=Healthy Avocado Toast
+DESCRIPTION=A healthy avocado toast with bright vegetables and light seasoning.
 TIME=29
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -1005,8 +1005,8 @@ END
 RECIPE
 TYPE=General
 ID=60
-TITLE=Vegan Appetizer 60
-DESCRIPTION=Tasty starter recipe number 60.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=30
 DIFFICULTY=Medium
 CATEGORY=Vegan Appetizer
@@ -1022,8 +1022,8 @@ END
 RECIPE
 TYPE=General
 ID=61
-TITLE=Unhealthy Salad 61
-DESCRIPTION=Tasty starter recipe number 61.
+TITLE=Unhealthy Spring Rolls
+DESCRIPTION=An indulgent spring rolls packed with rich flavors and hearty ingredients.
 TIME=31
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Salad
@@ -1039,8 +1039,8 @@ END
 RECIPE
 TYPE=General
 ID=62
-TITLE=Healthy Soup 62
-DESCRIPTION=Tasty starter recipe number 62.
+TITLE=Healthy Fruit Platter
+DESCRIPTION=A healthy fruit platter with bright vegetables and light seasoning.
 TIME=32
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -1056,8 +1056,8 @@ END
 RECIPE
 TYPE=General
 ID=63
-TITLE=Snack 63
-DESCRIPTION=Tasty starter recipe number 63.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=33
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -1073,8 +1073,8 @@ END
 RECIPE
 TYPE=General
 ID=64
-TITLE=Finger Food 64
-DESCRIPTION=Tasty starter recipe number 64.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=34
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -1090,8 +1090,8 @@ END
 RECIPE
 TYPE=General
 ID=65
-TITLE=Vegan Starter 65
-DESCRIPTION=Tasty starter recipe number 65.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=35
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -1107,8 +1107,8 @@ END
 RECIPE
 TYPE=General
 ID=66
-TITLE=Appetizer 66
-DESCRIPTION=Tasty starter recipe number 66.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=36
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -1124,8 +1124,8 @@ END
 RECIPE
 TYPE=General
 ID=67
-TITLE=Salad 67
-DESCRIPTION=Tasty starter recipe number 67.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=37
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -1141,8 +1141,8 @@ END
 RECIPE
 TYPE=General
 ID=68
-TITLE=Unhealthy Soup 68
-DESCRIPTION=Tasty starter recipe number 68.
+TITLE=Unhealthy Stuffed Mushrooms
+DESCRIPTION=An indulgent stuffed mushrooms packed with rich flavors and hearty ingredients.
 TIME=38
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Soup
@@ -1158,8 +1158,8 @@ END
 RECIPE
 TYPE=General
 ID=69
-TITLE=Snack 69
-DESCRIPTION=Tasty starter recipe number 69.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=39
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -1175,8 +1175,8 @@ END
 RECIPE
 TYPE=General
 ID=70
-TITLE=Vegan Finger Food 70
-DESCRIPTION=Tasty starter recipe number 70.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=40
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -1192,8 +1192,8 @@ END
 RECIPE
 TYPE=General
 ID=71
-TITLE=Healthy Starter 71
-DESCRIPTION=Tasty starter recipe number 71.
+TITLE=Healthy Spring Rolls
+DESCRIPTION=A healthy spring rolls with bright vegetables and light seasoning.
 TIME=41
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -1209,8 +1209,8 @@ END
 RECIPE
 TYPE=General
 ID=72
-TITLE=Appetizer 72
-DESCRIPTION=Tasty starter recipe number 72.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=42
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -1226,8 +1226,8 @@ END
 RECIPE
 TYPE=General
 ID=73
-TITLE=Salad 73
-DESCRIPTION=Tasty starter recipe number 73.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=43
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -1243,8 +1243,8 @@ END
 RECIPE
 TYPE=General
 ID=74
-TITLE=Healthy Soup 74
-DESCRIPTION=Tasty starter recipe number 74.
+TITLE=Healthy Caprese Skewers
+DESCRIPTION=A healthy caprese skewers with bright vegetables and light seasoning.
 TIME=44
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -1260,8 +1260,8 @@ END
 RECIPE
 TYPE=General
 ID=75
-TITLE=Vegan Snack 75
-DESCRIPTION=Tasty starter recipe number 75.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=10
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -1277,8 +1277,8 @@ END
 RECIPE
 TYPE=General
 ID=76
-TITLE=Finger Food 76
-DESCRIPTION=Tasty starter recipe number 76.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=11
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -1294,8 +1294,8 @@ END
 RECIPE
 TYPE=General
 ID=77
-TITLE=Healthy Starter 77
-DESCRIPTION=Tasty starter recipe number 77.
+TITLE=Healthy Bruschetta
+DESCRIPTION=A healthy bruschetta with bright vegetables and light seasoning.
 TIME=12
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -1311,8 +1311,8 @@ END
 RECIPE
 TYPE=General
 ID=78
-TITLE=Appetizer 78
-DESCRIPTION=Tasty starter recipe number 78.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=13
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -1328,8 +1328,8 @@ END
 RECIPE
 TYPE=General
 ID=79
-TITLE=Salad 79
-DESCRIPTION=Tasty starter recipe number 79.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=14
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -1345,8 +1345,8 @@ END
 RECIPE
 TYPE=General
 ID=80
-TITLE=Vegan Soup 80
-DESCRIPTION=Tasty starter recipe number 80.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=15
 DIFFICULTY=Easy
 CATEGORY=Vegan Soup
@@ -1362,8 +1362,8 @@ END
 RECIPE
 TYPE=General
 ID=81
-TITLE=Snack 81
-DESCRIPTION=Tasty starter recipe number 81.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=16
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -1379,8 +1379,8 @@ END
 RECIPE
 TYPE=General
 ID=82
-TITLE=Unhealthy Finger Food 82
-DESCRIPTION=Tasty starter recipe number 82.
+TITLE=Unhealthy Fruit Platter
+DESCRIPTION=An indulgent fruit platter packed with rich flavors and hearty ingredients.
 TIME=17
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Finger Food
@@ -1396,8 +1396,8 @@ END
 RECIPE
 TYPE=General
 ID=83
-TITLE=Healthy Starter 83
-DESCRIPTION=Tasty starter recipe number 83.
+TITLE=Healthy Garlic Bread
+DESCRIPTION=A healthy garlic bread with bright vegetables and light seasoning.
 TIME=18
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -1413,8 +1413,8 @@ END
 RECIPE
 TYPE=General
 ID=84
-TITLE=Appetizer 84
-DESCRIPTION=Tasty starter recipe number 84.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=19
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -1430,8 +1430,8 @@ END
 RECIPE
 TYPE=General
 ID=85
-TITLE=Vegan Salad 85
-DESCRIPTION=Tasty starter recipe number 85.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Vegan Salad
@@ -1447,8 +1447,8 @@ END
 RECIPE
 TYPE=General
 ID=86
-TITLE=Healthy Soup 86
-DESCRIPTION=Tasty starter recipe number 86.
+TITLE=Healthy Tomato Soup
+DESCRIPTION=A healthy tomato soup with bright vegetables and light seasoning.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -1464,8 +1464,8 @@ END
 RECIPE
 TYPE=General
 ID=87
-TITLE=Snack 87
-DESCRIPTION=Tasty starter recipe number 87.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -1481,8 +1481,8 @@ END
 RECIPE
 TYPE=General
 ID=88
-TITLE=Finger Food 88
-DESCRIPTION=Tasty starter recipe number 88.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -1498,8 +1498,8 @@ END
 RECIPE
 TYPE=General
 ID=89
-TITLE=Unhealthy Starter 89
-DESCRIPTION=Tasty starter recipe number 89.
+TITLE=Unhealthy Avocado Toast
+DESCRIPTION=An indulgent avocado toast packed with rich flavors and hearty ingredients.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Starter
@@ -1515,8 +1515,8 @@ END
 RECIPE
 TYPE=General
 ID=90
-TITLE=Vegan Appetizer 90
-DESCRIPTION=Tasty starter recipe number 90.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Vegan Appetizer
@@ -1532,8 +1532,8 @@ END
 RECIPE
 TYPE=General
 ID=91
-TITLE=Salad 91
-DESCRIPTION=Tasty starter recipe number 91.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -1549,8 +1549,8 @@ END
 RECIPE
 TYPE=General
 ID=92
-TITLE=Healthy Soup 92
-DESCRIPTION=Tasty starter recipe number 92.
+TITLE=Healthy Fruit Platter
+DESCRIPTION=A healthy fruit platter with bright vegetables and light seasoning.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -1566,8 +1566,8 @@ END
 RECIPE
 TYPE=General
 ID=93
-TITLE=Snack 93
-DESCRIPTION=Tasty starter recipe number 93.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -1583,8 +1583,8 @@ END
 RECIPE
 TYPE=General
 ID=94
-TITLE=Finger Food 94
-DESCRIPTION=Tasty starter recipe number 94.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -1600,8 +1600,8 @@ END
 RECIPE
 TYPE=General
 ID=95
-TITLE=Vegan Starter 95
-DESCRIPTION=Tasty starter recipe number 95.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -1617,8 +1617,8 @@ END
 RECIPE
 TYPE=General
 ID=96
-TITLE=Unhealthy Appetizer 96
-DESCRIPTION=Tasty starter recipe number 96.
+TITLE=Unhealthy Tomato Soup
+DESCRIPTION=An indulgent tomato soup packed with rich flavors and hearty ingredients.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Appetizer
@@ -1634,8 +1634,8 @@ END
 RECIPE
 TYPE=General
 ID=97
-TITLE=Salad 97
-DESCRIPTION=Tasty starter recipe number 97.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -1651,8 +1651,8 @@ END
 RECIPE
 TYPE=General
 ID=98
-TITLE=Healthy Soup 98
-DESCRIPTION=Tasty starter recipe number 98.
+TITLE=Healthy Stuffed Mushrooms
+DESCRIPTION=A healthy stuffed mushrooms with bright vegetables and light seasoning.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -1668,8 +1668,8 @@ END
 RECIPE
 TYPE=General
 ID=99
-TITLE=Snack 99
-DESCRIPTION=Tasty starter recipe number 99.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -1685,8 +1685,8 @@ END
 RECIPE
 TYPE=General
 ID=100
-TITLE=Vegan Finger Food 100
-DESCRIPTION=Tasty starter recipe number 100.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -1702,8 +1702,8 @@ END
 RECIPE
 TYPE=General
 ID=101
-TITLE=Healthy Starter 101
-DESCRIPTION=Tasty starter recipe number 101.
+TITLE=Healthy Spring Rolls
+DESCRIPTION=A healthy spring rolls with bright vegetables and light seasoning.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -1719,8 +1719,8 @@ END
 RECIPE
 TYPE=General
 ID=102
-TITLE=Appetizer 102
-DESCRIPTION=Tasty starter recipe number 102.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -1736,8 +1736,8 @@ END
 RECIPE
 TYPE=General
 ID=103
-TITLE=Unhealthy Salad 103
-DESCRIPTION=Tasty starter recipe number 103.
+TITLE=Unhealthy Garlic Bread
+DESCRIPTION=An indulgent garlic bread packed with rich flavors and hearty ingredients.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Salad
@@ -1753,8 +1753,8 @@ END
 RECIPE
 TYPE=General
 ID=104
-TITLE=Healthy Soup 104
-DESCRIPTION=Tasty starter recipe number 104.
+TITLE=Healthy Caprese Skewers
+DESCRIPTION=A healthy caprese skewers with bright vegetables and light seasoning.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -1770,8 +1770,8 @@ END
 RECIPE
 TYPE=General
 ID=105
-TITLE=Vegan Snack 105
-DESCRIPTION=Tasty starter recipe number 105.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -1787,8 +1787,8 @@ END
 RECIPE
 TYPE=General
 ID=106
-TITLE=Finger Food 106
-DESCRIPTION=Tasty starter recipe number 106.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -1804,8 +1804,8 @@ END
 RECIPE
 TYPE=General
 ID=107
-TITLE=Healthy Starter 107
-DESCRIPTION=Tasty starter recipe number 107.
+TITLE=Healthy Bruschetta
+DESCRIPTION=A healthy bruschetta with bright vegetables and light seasoning.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -1821,8 +1821,8 @@ END
 RECIPE
 TYPE=General
 ID=108
-TITLE=Appetizer 108
-DESCRIPTION=Tasty starter recipe number 108.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -1838,8 +1838,8 @@ END
 RECIPE
 TYPE=General
 ID=109
-TITLE=Salad 109
-DESCRIPTION=Tasty starter recipe number 109.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -1855,8 +1855,8 @@ END
 RECIPE
 TYPE=General
 ID=110
-TITLE=Vegan Soup 110
-DESCRIPTION=Tasty starter recipe number 110.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=10
 DIFFICULTY=Easy
 CATEGORY=Vegan Soup
@@ -1872,8 +1872,8 @@ END
 RECIPE
 TYPE=General
 ID=111
-TITLE=Snack 111
-DESCRIPTION=Tasty starter recipe number 111.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=11
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -1889,8 +1889,8 @@ END
 RECIPE
 TYPE=General
 ID=112
-TITLE=Finger Food 112
-DESCRIPTION=Tasty starter recipe number 112.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=12
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -1906,8 +1906,8 @@ END
 RECIPE
 TYPE=General
 ID=113
-TITLE=Healthy Starter 113
-DESCRIPTION=Tasty starter recipe number 113.
+TITLE=Healthy Garlic Bread
+DESCRIPTION=A healthy garlic bread with bright vegetables and light seasoning.
 TIME=13
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -1923,8 +1923,8 @@ END
 RECIPE
 TYPE=General
 ID=114
-TITLE=Appetizer 114
-DESCRIPTION=Tasty starter recipe number 114.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=14
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -1940,8 +1940,8 @@ END
 RECIPE
 TYPE=General
 ID=115
-TITLE=Vegan Salad 115
-DESCRIPTION=Tasty starter recipe number 115.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=15
 DIFFICULTY=Hard
 CATEGORY=Vegan Salad
@@ -1957,8 +1957,8 @@ END
 RECIPE
 TYPE=General
 ID=116
-TITLE=Healthy Soup 116
-DESCRIPTION=Tasty starter recipe number 116.
+TITLE=Healthy Tomato Soup
+DESCRIPTION=A healthy tomato soup with bright vegetables and light seasoning.
 TIME=16
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -1974,8 +1974,8 @@ END
 RECIPE
 TYPE=General
 ID=117
-TITLE=Unhealthy Snack 117
-DESCRIPTION=Tasty starter recipe number 117.
+TITLE=Unhealthy Bruschetta
+DESCRIPTION=An indulgent bruschetta packed with rich flavors and hearty ingredients.
 TIME=17
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Snack
@@ -1991,8 +1991,8 @@ END
 RECIPE
 TYPE=General
 ID=118
-TITLE=Finger Food 118
-DESCRIPTION=Tasty starter recipe number 118.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=18
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -2008,8 +2008,8 @@ END
 RECIPE
 TYPE=General
 ID=119
-TITLE=Healthy Starter 119
-DESCRIPTION=Tasty starter recipe number 119.
+TITLE=Healthy Avocado Toast
+DESCRIPTION=A healthy avocado toast with bright vegetables and light seasoning.
 TIME=19
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -2025,8 +2025,8 @@ END
 RECIPE
 TYPE=General
 ID=120
-TITLE=Vegan Appetizer 120
-DESCRIPTION=Tasty starter recipe number 120.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=20
 DIFFICULTY=Medium
 CATEGORY=Vegan Appetizer
@@ -2042,8 +2042,8 @@ END
 RECIPE
 TYPE=General
 ID=121
-TITLE=Salad 121
-DESCRIPTION=Tasty starter recipe number 121.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=21
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -2059,8 +2059,8 @@ END
 RECIPE
 TYPE=General
 ID=122
-TITLE=Healthy Soup 122
-DESCRIPTION=Tasty starter recipe number 122.
+TITLE=Healthy Fruit Platter
+DESCRIPTION=A healthy fruit platter with bright vegetables and light seasoning.
 TIME=22
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -2076,8 +2076,8 @@ END
 RECIPE
 TYPE=General
 ID=123
-TITLE=Snack 123
-DESCRIPTION=Tasty starter recipe number 123.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=23
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -2093,8 +2093,8 @@ END
 RECIPE
 TYPE=General
 ID=124
-TITLE=Unhealthy Finger Food 124
-DESCRIPTION=Tasty starter recipe number 124.
+TITLE=Unhealthy Caprese Skewers
+DESCRIPTION=An indulgent caprese skewers packed with rich flavors and hearty ingredients.
 TIME=24
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Finger Food
@@ -2110,8 +2110,8 @@ END
 RECIPE
 TYPE=General
 ID=125
-TITLE=Vegan Starter 125
-DESCRIPTION=Tasty starter recipe number 125.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=25
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -2127,8 +2127,8 @@ END
 RECIPE
 TYPE=General
 ID=126
-TITLE=Appetizer 126
-DESCRIPTION=Tasty starter recipe number 126.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=26
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -2144,8 +2144,8 @@ END
 RECIPE
 TYPE=General
 ID=127
-TITLE=Salad 127
-DESCRIPTION=Tasty starter recipe number 127.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=27
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -2161,8 +2161,8 @@ END
 RECIPE
 TYPE=General
 ID=128
-TITLE=Healthy Soup 128
-DESCRIPTION=Tasty starter recipe number 128.
+TITLE=Healthy Stuffed Mushrooms
+DESCRIPTION=A healthy stuffed mushrooms with bright vegetables and light seasoning.
 TIME=28
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -2178,8 +2178,8 @@ END
 RECIPE
 TYPE=General
 ID=129
-TITLE=Snack 129
-DESCRIPTION=Tasty starter recipe number 129.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=29
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -2195,8 +2195,8 @@ END
 RECIPE
 TYPE=General
 ID=130
-TITLE=Vegan Finger Food 130
-DESCRIPTION=Tasty starter recipe number 130.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=30
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -2212,8 +2212,8 @@ END
 RECIPE
 TYPE=General
 ID=131
-TITLE=Unhealthy Starter 131
-DESCRIPTION=Tasty starter recipe number 131.
+TITLE=Unhealthy Spring Rolls
+DESCRIPTION=An indulgent spring rolls packed with rich flavors and hearty ingredients.
 TIME=31
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Starter
@@ -2229,8 +2229,8 @@ END
 RECIPE
 TYPE=General
 ID=132
-TITLE=Appetizer 132
-DESCRIPTION=Tasty starter recipe number 132.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=32
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -2246,8 +2246,8 @@ END
 RECIPE
 TYPE=General
 ID=133
-TITLE=Salad 133
-DESCRIPTION=Tasty starter recipe number 133.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=33
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -2263,8 +2263,8 @@ END
 RECIPE
 TYPE=General
 ID=134
-TITLE=Healthy Soup 134
-DESCRIPTION=Tasty starter recipe number 134.
+TITLE=Healthy Caprese Skewers
+DESCRIPTION=A healthy caprese skewers with bright vegetables and light seasoning.
 TIME=34
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -2280,8 +2280,8 @@ END
 RECIPE
 TYPE=General
 ID=135
-TITLE=Vegan Snack 135
-DESCRIPTION=Tasty starter recipe number 135.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=35
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -2297,8 +2297,8 @@ END
 RECIPE
 TYPE=General
 ID=136
-TITLE=Finger Food 136
-DESCRIPTION=Tasty starter recipe number 136.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=36
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -2314,8 +2314,8 @@ END
 RECIPE
 TYPE=General
 ID=137
-TITLE=Healthy Starter 137
-DESCRIPTION=Tasty starter recipe number 137.
+TITLE=Healthy Bruschetta
+DESCRIPTION=A healthy bruschetta with bright vegetables and light seasoning.
 TIME=37
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -2331,8 +2331,8 @@ END
 RECIPE
 TYPE=General
 ID=138
-TITLE=Unhealthy Appetizer 138
-DESCRIPTION=Tasty starter recipe number 138.
+TITLE=Unhealthy Stuffed Mushrooms
+DESCRIPTION=An indulgent stuffed mushrooms packed with rich flavors and hearty ingredients.
 TIME=38
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Appetizer
@@ -2348,8 +2348,8 @@ END
 RECIPE
 TYPE=General
 ID=139
-TITLE=Salad 139
-DESCRIPTION=Tasty starter recipe number 139.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=39
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -2365,8 +2365,8 @@ END
 RECIPE
 TYPE=General
 ID=140
-TITLE=Vegan Soup 140
-DESCRIPTION=Tasty starter recipe number 140.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=40
 DIFFICULTY=Easy
 CATEGORY=Vegan Soup
@@ -2382,8 +2382,8 @@ END
 RECIPE
 TYPE=General
 ID=141
-TITLE=Snack 141
-DESCRIPTION=Tasty starter recipe number 141.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=41
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -2399,8 +2399,8 @@ END
 RECIPE
 TYPE=General
 ID=142
-TITLE=Finger Food 142
-DESCRIPTION=Tasty starter recipe number 142.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=42
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -2416,8 +2416,8 @@ END
 RECIPE
 TYPE=General
 ID=143
-TITLE=Healthy Starter 143
-DESCRIPTION=Tasty starter recipe number 143.
+TITLE=Healthy Garlic Bread
+DESCRIPTION=A healthy garlic bread with bright vegetables and light seasoning.
 TIME=43
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -2433,8 +2433,8 @@ END
 RECIPE
 TYPE=General
 ID=144
-TITLE=Appetizer 144
-DESCRIPTION=Tasty starter recipe number 144.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=44
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -2450,8 +2450,8 @@ END
 RECIPE
 TYPE=General
 ID=145
-TITLE=Vegan Salad 145
-DESCRIPTION=Tasty starter recipe number 145.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=10
 DIFFICULTY=Hard
 CATEGORY=Vegan Salad
@@ -2467,8 +2467,8 @@ END
 RECIPE
 TYPE=General
 ID=146
-TITLE=Healthy Soup 146
-DESCRIPTION=Tasty starter recipe number 146.
+TITLE=Healthy Tomato Soup
+DESCRIPTION=A healthy tomato soup with bright vegetables and light seasoning.
 TIME=11
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -2484,8 +2484,8 @@ END
 RECIPE
 TYPE=General
 ID=147
-TITLE=Snack 147
-DESCRIPTION=Tasty starter recipe number 147.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=12
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -2501,8 +2501,8 @@ END
 RECIPE
 TYPE=General
 ID=148
-TITLE=Finger Food 148
-DESCRIPTION=Tasty starter recipe number 148.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=13
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -2518,8 +2518,8 @@ END
 RECIPE
 TYPE=General
 ID=149
-TITLE=Healthy Starter 149
-DESCRIPTION=Tasty starter recipe number 149.
+TITLE=Healthy Avocado Toast
+DESCRIPTION=A healthy avocado toast with bright vegetables and light seasoning.
 TIME=14
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -2535,8 +2535,8 @@ END
 RECIPE
 TYPE=General
 ID=150
-TITLE=Vegan Appetizer 150
-DESCRIPTION=Tasty starter recipe number 150.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=15
 DIFFICULTY=Medium
 CATEGORY=Vegan Appetizer
@@ -2552,8 +2552,8 @@ END
 RECIPE
 TYPE=General
 ID=151
-TITLE=Salad 151
-DESCRIPTION=Tasty starter recipe number 151.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=16
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -2569,8 +2569,8 @@ END
 RECIPE
 TYPE=General
 ID=152
-TITLE=Unhealthy Soup 152
-DESCRIPTION=Tasty starter recipe number 152.
+TITLE=Unhealthy Fruit Platter
+DESCRIPTION=An indulgent fruit platter packed with rich flavors and hearty ingredients.
 TIME=17
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Soup
@@ -2586,8 +2586,8 @@ END
 RECIPE
 TYPE=General
 ID=153
-TITLE=Snack 153
-DESCRIPTION=Tasty starter recipe number 153.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=18
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -2603,8 +2603,8 @@ END
 RECIPE
 TYPE=General
 ID=154
-TITLE=Finger Food 154
-DESCRIPTION=Tasty starter recipe number 154.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=19
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -2620,8 +2620,8 @@ END
 RECIPE
 TYPE=General
 ID=155
-TITLE=Vegan Starter 155
-DESCRIPTION=Tasty starter recipe number 155.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=20
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -2637,8 +2637,8 @@ END
 RECIPE
 TYPE=General
 ID=156
-TITLE=Appetizer 156
-DESCRIPTION=Tasty starter recipe number 156.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=21
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -2654,8 +2654,8 @@ END
 RECIPE
 TYPE=General
 ID=157
-TITLE=Salad 157
-DESCRIPTION=Tasty starter recipe number 157.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=22
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -2671,8 +2671,8 @@ END
 RECIPE
 TYPE=General
 ID=158
-TITLE=Healthy Soup 158
-DESCRIPTION=Tasty starter recipe number 158.
+TITLE=Healthy Stuffed Mushrooms
+DESCRIPTION=A healthy stuffed mushrooms with bright vegetables and light seasoning.
 TIME=23
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -2688,8 +2688,8 @@ END
 RECIPE
 TYPE=General
 ID=159
-TITLE=Unhealthy Snack 159
-DESCRIPTION=Tasty starter recipe number 159.
+TITLE=Unhealthy Avocado Toast
+DESCRIPTION=An indulgent avocado toast packed with rich flavors and hearty ingredients.
 TIME=24
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Snack
@@ -2705,8 +2705,8 @@ END
 RECIPE
 TYPE=General
 ID=160
-TITLE=Vegan Finger Food 160
-DESCRIPTION=Tasty starter recipe number 160.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=25
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -2722,8 +2722,8 @@ END
 RECIPE
 TYPE=General
 ID=161
-TITLE=Healthy Starter 161
-DESCRIPTION=Tasty starter recipe number 161.
+TITLE=Healthy Spring Rolls
+DESCRIPTION=A healthy spring rolls with bright vegetables and light seasoning.
 TIME=26
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -2739,8 +2739,8 @@ END
 RECIPE
 TYPE=General
 ID=162
-TITLE=Appetizer 162
-DESCRIPTION=Tasty starter recipe number 162.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=27
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -2756,8 +2756,8 @@ END
 RECIPE
 TYPE=General
 ID=163
-TITLE=Salad 163
-DESCRIPTION=Tasty starter recipe number 163.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=28
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -2773,8 +2773,8 @@ END
 RECIPE
 TYPE=General
 ID=164
-TITLE=Healthy Soup 164
-DESCRIPTION=Tasty starter recipe number 164.
+TITLE=Healthy Caprese Skewers
+DESCRIPTION=A healthy caprese skewers with bright vegetables and light seasoning.
 TIME=29
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -2790,8 +2790,8 @@ END
 RECIPE
 TYPE=General
 ID=165
-TITLE=Vegan Snack 165
-DESCRIPTION=Tasty starter recipe number 165.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=30
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -2807,8 +2807,8 @@ END
 RECIPE
 TYPE=General
 ID=166
-TITLE=Unhealthy Finger Food 166
-DESCRIPTION=Tasty starter recipe number 166.
+TITLE=Unhealthy Tomato Soup
+DESCRIPTION=An indulgent tomato soup packed with rich flavors and hearty ingredients.
 TIME=31
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Finger Food
@@ -2824,8 +2824,8 @@ END
 RECIPE
 TYPE=General
 ID=167
-TITLE=Healthy Starter 167
-DESCRIPTION=Tasty starter recipe number 167.
+TITLE=Healthy Bruschetta
+DESCRIPTION=A healthy bruschetta with bright vegetables and light seasoning.
 TIME=32
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -2841,8 +2841,8 @@ END
 RECIPE
 TYPE=General
 ID=168
-TITLE=Appetizer 168
-DESCRIPTION=Tasty starter recipe number 168.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=33
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -2858,8 +2858,8 @@ END
 RECIPE
 TYPE=General
 ID=169
-TITLE=Salad 169
-DESCRIPTION=Tasty starter recipe number 169.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=34
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -2875,8 +2875,8 @@ END
 RECIPE
 TYPE=General
 ID=170
-TITLE=Vegan Soup 170
-DESCRIPTION=Tasty starter recipe number 170.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=35
 DIFFICULTY=Easy
 CATEGORY=Vegan Soup
@@ -2892,8 +2892,8 @@ END
 RECIPE
 TYPE=General
 ID=171
-TITLE=Snack 171
-DESCRIPTION=Tasty starter recipe number 171.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=36
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -2909,8 +2909,8 @@ END
 RECIPE
 TYPE=General
 ID=172
-TITLE=Finger Food 172
-DESCRIPTION=Tasty starter recipe number 172.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=37
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -2926,8 +2926,8 @@ END
 RECIPE
 TYPE=General
 ID=173
-TITLE=Unhealthy Starter 173
-DESCRIPTION=Tasty starter recipe number 173.
+TITLE=Unhealthy Garlic Bread
+DESCRIPTION=An indulgent garlic bread packed with rich flavors and hearty ingredients.
 TIME=38
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Starter
@@ -2943,8 +2943,8 @@ END
 RECIPE
 TYPE=General
 ID=174
-TITLE=Appetizer 174
-DESCRIPTION=Tasty starter recipe number 174.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=39
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -2960,8 +2960,8 @@ END
 RECIPE
 TYPE=General
 ID=175
-TITLE=Vegan Salad 175
-DESCRIPTION=Tasty starter recipe number 175.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=40
 DIFFICULTY=Hard
 CATEGORY=Vegan Salad
@@ -2977,8 +2977,8 @@ END
 RECIPE
 TYPE=General
 ID=176
-TITLE=Healthy Soup 176
-DESCRIPTION=Tasty starter recipe number 176.
+TITLE=Healthy Tomato Soup
+DESCRIPTION=A healthy tomato soup with bright vegetables and light seasoning.
 TIME=41
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -2994,8 +2994,8 @@ END
 RECIPE
 TYPE=General
 ID=177
-TITLE=Snack 177
-DESCRIPTION=Tasty starter recipe number 177.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=42
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -3011,8 +3011,8 @@ END
 RECIPE
 TYPE=General
 ID=178
-TITLE=Finger Food 178
-DESCRIPTION=Tasty starter recipe number 178.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=43
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -3028,8 +3028,8 @@ END
 RECIPE
 TYPE=General
 ID=179
-TITLE=Healthy Starter 179
-DESCRIPTION=Tasty starter recipe number 179.
+TITLE=Healthy Avocado Toast
+DESCRIPTION=A healthy avocado toast with bright vegetables and light seasoning.
 TIME=44
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -3045,8 +3045,8 @@ END
 RECIPE
 TYPE=General
 ID=180
-TITLE=Vegan Appetizer 180
-DESCRIPTION=Tasty starter recipe number 180.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=10
 DIFFICULTY=Medium
 CATEGORY=Vegan Appetizer
@@ -3062,8 +3062,8 @@ END
 RECIPE
 TYPE=General
 ID=181
-TITLE=Salad 181
-DESCRIPTION=Tasty starter recipe number 181.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=11
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -3079,8 +3079,8 @@ END
 RECIPE
 TYPE=General
 ID=182
-TITLE=Healthy Soup 182
-DESCRIPTION=Tasty starter recipe number 182.
+TITLE=Healthy Fruit Platter
+DESCRIPTION=A healthy fruit platter with bright vegetables and light seasoning.
 TIME=12
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -3096,8 +3096,8 @@ END
 RECIPE
 TYPE=General
 ID=183
-TITLE=Snack 183
-DESCRIPTION=Tasty starter recipe number 183.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=13
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -3113,8 +3113,8 @@ END
 RECIPE
 TYPE=General
 ID=184
-TITLE=Finger Food 184
-DESCRIPTION=Tasty starter recipe number 184.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=14
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -3130,8 +3130,8 @@ END
 RECIPE
 TYPE=General
 ID=185
-TITLE=Vegan Starter 185
-DESCRIPTION=Tasty starter recipe number 185.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=15
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -3147,8 +3147,8 @@ END
 RECIPE
 TYPE=General
 ID=186
-TITLE=Appetizer 186
-DESCRIPTION=Tasty starter recipe number 186.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=16
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -3164,8 +3164,8 @@ END
 RECIPE
 TYPE=General
 ID=187
-TITLE=Unhealthy Salad 187
-DESCRIPTION=Tasty starter recipe number 187.
+TITLE=Unhealthy Bruschetta
+DESCRIPTION=An indulgent bruschetta packed with rich flavors and hearty ingredients.
 TIME=17
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Salad
@@ -3181,8 +3181,8 @@ END
 RECIPE
 TYPE=General
 ID=188
-TITLE=Healthy Soup 188
-DESCRIPTION=Tasty starter recipe number 188.
+TITLE=Healthy Stuffed Mushrooms
+DESCRIPTION=A healthy stuffed mushrooms with bright vegetables and light seasoning.
 TIME=18
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -3198,8 +3198,8 @@ END
 RECIPE
 TYPE=General
 ID=189
-TITLE=Snack 189
-DESCRIPTION=Tasty starter recipe number 189.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=19
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -3215,8 +3215,8 @@ END
 RECIPE
 TYPE=General
 ID=190
-TITLE=Vegan Finger Food 190
-DESCRIPTION=Tasty starter recipe number 190.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -3232,8 +3232,8 @@ END
 RECIPE
 TYPE=General
 ID=191
-TITLE=Healthy Starter 191
-DESCRIPTION=Tasty starter recipe number 191.
+TITLE=Healthy Spring Rolls
+DESCRIPTION=A healthy spring rolls with bright vegetables and light seasoning.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -3249,8 +3249,8 @@ END
 RECIPE
 TYPE=General
 ID=192
-TITLE=Appetizer 192
-DESCRIPTION=Tasty starter recipe number 192.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -3266,8 +3266,8 @@ END
 RECIPE
 TYPE=General
 ID=193
-TITLE=Salad 193
-DESCRIPTION=Tasty starter recipe number 193.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -3283,8 +3283,8 @@ END
 RECIPE
 TYPE=General
 ID=194
-TITLE=Unhealthy Soup 194
-DESCRIPTION=Tasty starter recipe number 194.
+TITLE=Unhealthy Caprese Skewers
+DESCRIPTION=An indulgent caprese skewers packed with rich flavors and hearty ingredients.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Soup
@@ -3300,8 +3300,8 @@ END
 RECIPE
 TYPE=General
 ID=195
-TITLE=Vegan Snack 195
-DESCRIPTION=Tasty starter recipe number 195.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -3317,8 +3317,8 @@ END
 RECIPE
 TYPE=General
 ID=196
-TITLE=Finger Food 196
-DESCRIPTION=Tasty starter recipe number 196.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -3334,8 +3334,8 @@ END
 RECIPE
 TYPE=General
 ID=197
-TITLE=Healthy Starter 197
-DESCRIPTION=Tasty starter recipe number 197.
+TITLE=Healthy Bruschetta
+DESCRIPTION=A healthy bruschetta with bright vegetables and light seasoning.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -3351,8 +3351,8 @@ END
 RECIPE
 TYPE=General
 ID=198
-TITLE=Appetizer 198
-DESCRIPTION=Tasty starter recipe number 198.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -3368,8 +3368,8 @@ END
 RECIPE
 TYPE=General
 ID=199
-TITLE=Salad 199
-DESCRIPTION=Tasty starter recipe number 199.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -3385,8 +3385,8 @@ END
 RECIPE
 TYPE=General
 ID=200
-TITLE=Vegan Soup 200
-DESCRIPTION=Tasty starter recipe number 200.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Vegan Soup
@@ -3402,8 +3402,8 @@ END
 RECIPE
 TYPE=General
 ID=201
-TITLE=Unhealthy Snack 201
-DESCRIPTION=Tasty starter recipe number 201.
+TITLE=Unhealthy Spring Rolls
+DESCRIPTION=An indulgent spring rolls packed with rich flavors and hearty ingredients.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Snack
@@ -3419,8 +3419,8 @@ END
 RECIPE
 TYPE=General
 ID=202
-TITLE=Finger Food 202
-DESCRIPTION=Tasty starter recipe number 202.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -3436,8 +3436,8 @@ END
 RECIPE
 TYPE=General
 ID=203
-TITLE=Healthy Starter 203
-DESCRIPTION=Tasty starter recipe number 203.
+TITLE=Healthy Garlic Bread
+DESCRIPTION=A healthy garlic bread with bright vegetables and light seasoning.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -3453,8 +3453,8 @@ END
 RECIPE
 TYPE=General
 ID=204
-TITLE=Appetizer 204
-DESCRIPTION=Tasty starter recipe number 204.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -3470,8 +3470,8 @@ END
 RECIPE
 TYPE=General
 ID=205
-TITLE=Vegan Salad 205
-DESCRIPTION=Tasty starter recipe number 205.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Vegan Salad
@@ -3487,8 +3487,8 @@ END
 RECIPE
 TYPE=General
 ID=206
-TITLE=Healthy Soup 206
-DESCRIPTION=Tasty starter recipe number 206.
+TITLE=Healthy Tomato Soup
+DESCRIPTION=A healthy tomato soup with bright vegetables and light seasoning.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -3504,8 +3504,8 @@ END
 RECIPE
 TYPE=General
 ID=207
-TITLE=Snack 207
-DESCRIPTION=Tasty starter recipe number 207.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -3521,8 +3521,8 @@ END
 RECIPE
 TYPE=General
 ID=208
-TITLE=Unhealthy Finger Food 208
-DESCRIPTION=Tasty starter recipe number 208.
+TITLE=Unhealthy Stuffed Mushrooms
+DESCRIPTION=An indulgent stuffed mushrooms packed with rich flavors and hearty ingredients.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Finger Food
@@ -3538,8 +3538,8 @@ END
 RECIPE
 TYPE=General
 ID=209
-TITLE=Healthy Starter 209
-DESCRIPTION=Tasty starter recipe number 209.
+TITLE=Healthy Avocado Toast
+DESCRIPTION=A healthy avocado toast with bright vegetables and light seasoning.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -3555,8 +3555,8 @@ END
 RECIPE
 TYPE=General
 ID=210
-TITLE=Vegan Appetizer 210
-DESCRIPTION=Tasty starter recipe number 210.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Vegan Appetizer
@@ -3572,8 +3572,8 @@ END
 RECIPE
 TYPE=General
 ID=211
-TITLE=Salad 211
-DESCRIPTION=Tasty starter recipe number 211.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -3589,8 +3589,8 @@ END
 RECIPE
 TYPE=General
 ID=212
-TITLE=Healthy Soup 212
-DESCRIPTION=Tasty starter recipe number 212.
+TITLE=Healthy Fruit Platter
+DESCRIPTION=A healthy fruit platter with bright vegetables and light seasoning.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -3606,8 +3606,8 @@ END
 RECIPE
 TYPE=General
 ID=213
-TITLE=Snack 213
-DESCRIPTION=Tasty starter recipe number 213.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -3623,8 +3623,8 @@ END
 RECIPE
 TYPE=General
 ID=214
-TITLE=Finger Food 214
-DESCRIPTION=Tasty starter recipe number 214.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -3640,8 +3640,8 @@ END
 RECIPE
 TYPE=General
 ID=215
-TITLE=Vegan Starter 215
-DESCRIPTION=Tasty starter recipe number 215.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=10
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -3657,8 +3657,8 @@ END
 RECIPE
 TYPE=General
 ID=216
-TITLE=Appetizer 216
-DESCRIPTION=Tasty starter recipe number 216.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=11
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -3674,8 +3674,8 @@ END
 RECIPE
 TYPE=General
 ID=217
-TITLE=Salad 217
-DESCRIPTION=Tasty starter recipe number 217.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=12
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -3691,8 +3691,8 @@ END
 RECIPE
 TYPE=General
 ID=218
-TITLE=Healthy Soup 218
-DESCRIPTION=Tasty starter recipe number 218.
+TITLE=Healthy Stuffed Mushrooms
+DESCRIPTION=A healthy stuffed mushrooms with bright vegetables and light seasoning.
 TIME=13
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -3708,8 +3708,8 @@ END
 RECIPE
 TYPE=General
 ID=219
-TITLE=Snack 219
-DESCRIPTION=Tasty starter recipe number 219.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=14
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -3725,8 +3725,8 @@ END
 RECIPE
 TYPE=General
 ID=220
-TITLE=Vegan Finger Food 220
-DESCRIPTION=Tasty starter recipe number 220.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=15
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -3742,8 +3742,8 @@ END
 RECIPE
 TYPE=General
 ID=221
-TITLE=Healthy Starter 221
-DESCRIPTION=Tasty starter recipe number 221.
+TITLE=Healthy Spring Rolls
+DESCRIPTION=A healthy spring rolls with bright vegetables and light seasoning.
 TIME=16
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -3759,8 +3759,8 @@ END
 RECIPE
 TYPE=General
 ID=222
-TITLE=Unhealthy Appetizer 222
-DESCRIPTION=Tasty starter recipe number 222.
+TITLE=Unhealthy Fruit Platter
+DESCRIPTION=An indulgent fruit platter packed with rich flavors and hearty ingredients.
 TIME=17
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Appetizer
@@ -3776,8 +3776,8 @@ END
 RECIPE
 TYPE=General
 ID=223
-TITLE=Salad 223
-DESCRIPTION=Tasty starter recipe number 223.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=18
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -3793,8 +3793,8 @@ END
 RECIPE
 TYPE=General
 ID=224
-TITLE=Healthy Soup 224
-DESCRIPTION=Tasty starter recipe number 224.
+TITLE=Healthy Caprese Skewers
+DESCRIPTION=A healthy caprese skewers with bright vegetables and light seasoning.
 TIME=19
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -3810,8 +3810,8 @@ END
 RECIPE
 TYPE=General
 ID=225
-TITLE=Vegan Snack 225
-DESCRIPTION=Tasty starter recipe number 225.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=20
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -3827,8 +3827,8 @@ END
 RECIPE
 TYPE=General
 ID=226
-TITLE=Finger Food 226
-DESCRIPTION=Tasty starter recipe number 226.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=21
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -3844,8 +3844,8 @@ END
 RECIPE
 TYPE=General
 ID=227
-TITLE=Healthy Starter 227
-DESCRIPTION=Tasty starter recipe number 227.
+TITLE=Healthy Bruschetta
+DESCRIPTION=A healthy bruschetta with bright vegetables and light seasoning.
 TIME=22
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -3861,8 +3861,8 @@ END
 RECIPE
 TYPE=General
 ID=228
-TITLE=Appetizer 228
-DESCRIPTION=Tasty starter recipe number 228.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=23
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -3878,8 +3878,8 @@ END
 RECIPE
 TYPE=General
 ID=229
-TITLE=Unhealthy Salad 229
-DESCRIPTION=Tasty starter recipe number 229.
+TITLE=Unhealthy Avocado Toast
+DESCRIPTION=An indulgent avocado toast packed with rich flavors and hearty ingredients.
 TIME=24
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Salad
@@ -3895,8 +3895,8 @@ END
 RECIPE
 TYPE=General
 ID=230
-TITLE=Vegan Soup 230
-DESCRIPTION=Tasty starter recipe number 230.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=25
 DIFFICULTY=Easy
 CATEGORY=Vegan Soup
@@ -3912,8 +3912,8 @@ END
 RECIPE
 TYPE=General
 ID=231
-TITLE=Snack 231
-DESCRIPTION=Tasty starter recipe number 231.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=26
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -3929,8 +3929,8 @@ END
 RECIPE
 TYPE=General
 ID=232
-TITLE=Finger Food 232
-DESCRIPTION=Tasty starter recipe number 232.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=27
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -3946,8 +3946,8 @@ END
 RECIPE
 TYPE=General
 ID=233
-TITLE=Healthy Starter 233
-DESCRIPTION=Tasty starter recipe number 233.
+TITLE=Healthy Garlic Bread
+DESCRIPTION=A healthy garlic bread with bright vegetables and light seasoning.
 TIME=28
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -3963,8 +3963,8 @@ END
 RECIPE
 TYPE=General
 ID=234
-TITLE=Appetizer 234
-DESCRIPTION=Tasty starter recipe number 234.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=29
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -3980,8 +3980,8 @@ END
 RECIPE
 TYPE=General
 ID=235
-TITLE=Vegan Salad 235
-DESCRIPTION=Tasty starter recipe number 235.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=30
 DIFFICULTY=Hard
 CATEGORY=Vegan Salad
@@ -3997,8 +3997,8 @@ END
 RECIPE
 TYPE=General
 ID=236
-TITLE=Unhealthy Soup 236
-DESCRIPTION=Tasty starter recipe number 236.
+TITLE=Unhealthy Tomato Soup
+DESCRIPTION=An indulgent tomato soup packed with rich flavors and hearty ingredients.
 TIME=31
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Soup
@@ -4014,8 +4014,8 @@ END
 RECIPE
 TYPE=General
 ID=237
-TITLE=Snack 237
-DESCRIPTION=Tasty starter recipe number 237.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=32
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -4031,8 +4031,8 @@ END
 RECIPE
 TYPE=General
 ID=238
-TITLE=Finger Food 238
-DESCRIPTION=Tasty starter recipe number 238.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=33
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -4048,8 +4048,8 @@ END
 RECIPE
 TYPE=General
 ID=239
-TITLE=Healthy Starter 239
-DESCRIPTION=Tasty starter recipe number 239.
+TITLE=Healthy Avocado Toast
+DESCRIPTION=A healthy avocado toast with bright vegetables and light seasoning.
 TIME=34
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -4065,8 +4065,8 @@ END
 RECIPE
 TYPE=General
 ID=240
-TITLE=Vegan Appetizer 240
-DESCRIPTION=Tasty starter recipe number 240.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=35
 DIFFICULTY=Medium
 CATEGORY=Vegan Appetizer
@@ -4082,8 +4082,8 @@ END
 RECIPE
 TYPE=General
 ID=241
-TITLE=Salad 241
-DESCRIPTION=Tasty starter recipe number 241.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=36
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -4099,8 +4099,8 @@ END
 RECIPE
 TYPE=General
 ID=242
-TITLE=Healthy Soup 242
-DESCRIPTION=Tasty starter recipe number 242.
+TITLE=Healthy Fruit Platter
+DESCRIPTION=A healthy fruit platter with bright vegetables and light seasoning.
 TIME=37
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -4116,8 +4116,8 @@ END
 RECIPE
 TYPE=General
 ID=243
-TITLE=Unhealthy Snack 243
-DESCRIPTION=Tasty starter recipe number 243.
+TITLE=Unhealthy Garlic Bread
+DESCRIPTION=An indulgent garlic bread packed with rich flavors and hearty ingredients.
 TIME=38
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Snack
@@ -4133,8 +4133,8 @@ END
 RECIPE
 TYPE=General
 ID=244
-TITLE=Finger Food 244
-DESCRIPTION=Tasty starter recipe number 244.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=39
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -4150,8 +4150,8 @@ END
 RECIPE
 TYPE=General
 ID=245
-TITLE=Vegan Starter 245
-DESCRIPTION=Tasty starter recipe number 245.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=40
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -4167,8 +4167,8 @@ END
 RECIPE
 TYPE=General
 ID=246
-TITLE=Appetizer 246
-DESCRIPTION=Tasty starter recipe number 246.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=41
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -4184,8 +4184,8 @@ END
 RECIPE
 TYPE=General
 ID=247
-TITLE=Salad 247
-DESCRIPTION=Tasty starter recipe number 247.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=42
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -4201,8 +4201,8 @@ END
 RECIPE
 TYPE=General
 ID=248
-TITLE=Healthy Soup 248
-DESCRIPTION=Tasty starter recipe number 248.
+TITLE=Healthy Stuffed Mushrooms
+DESCRIPTION=A healthy stuffed mushrooms with bright vegetables and light seasoning.
 TIME=43
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -4218,8 +4218,8 @@ END
 RECIPE
 TYPE=General
 ID=249
-TITLE=Snack 249
-DESCRIPTION=Tasty starter recipe number 249.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=44
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -4235,8 +4235,8 @@ END
 RECIPE
 TYPE=General
 ID=250
-TITLE=Vegan Finger Food 250
-DESCRIPTION=Tasty starter recipe number 250.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=10
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -4252,8 +4252,8 @@ END
 RECIPE
 TYPE=General
 ID=251
-TITLE=Healthy Starter 251
-DESCRIPTION=Tasty starter recipe number 251.
+TITLE=Healthy Spring Rolls
+DESCRIPTION=A healthy spring rolls with bright vegetables and light seasoning.
 TIME=11
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -4269,8 +4269,8 @@ END
 RECIPE
 TYPE=General
 ID=252
-TITLE=Appetizer 252
-DESCRIPTION=Tasty starter recipe number 252.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=12
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -4286,8 +4286,8 @@ END
 RECIPE
 TYPE=General
 ID=253
-TITLE=Salad 253
-DESCRIPTION=Tasty starter recipe number 253.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=13
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -4303,8 +4303,8 @@ END
 RECIPE
 TYPE=General
 ID=254
-TITLE=Healthy Soup 254
-DESCRIPTION=Tasty starter recipe number 254.
+TITLE=Healthy Caprese Skewers
+DESCRIPTION=A healthy caprese skewers with bright vegetables and light seasoning.
 TIME=14
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -4320,8 +4320,8 @@ END
 RECIPE
 TYPE=General
 ID=255
-TITLE=Vegan Snack 255
-DESCRIPTION=Tasty starter recipe number 255.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=15
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -4337,8 +4337,8 @@ END
 RECIPE
 TYPE=General
 ID=256
-TITLE=Finger Food 256
-DESCRIPTION=Tasty starter recipe number 256.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=16
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -4354,8 +4354,8 @@ END
 RECIPE
 TYPE=General
 ID=257
-TITLE=Unhealthy Starter 257
-DESCRIPTION=Tasty starter recipe number 257.
+TITLE=Unhealthy Bruschetta
+DESCRIPTION=An indulgent bruschetta packed with rich flavors and hearty ingredients.
 TIME=17
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Starter
@@ -4371,8 +4371,8 @@ END
 RECIPE
 TYPE=General
 ID=258
-TITLE=Appetizer 258
-DESCRIPTION=Tasty starter recipe number 258.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=18
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -4388,8 +4388,8 @@ END
 RECIPE
 TYPE=General
 ID=259
-TITLE=Salad 259
-DESCRIPTION=Tasty starter recipe number 259.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=19
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -4405,8 +4405,8 @@ END
 RECIPE
 TYPE=General
 ID=260
-TITLE=Vegan Soup 260
-DESCRIPTION=Tasty starter recipe number 260.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=20
 DIFFICULTY=Easy
 CATEGORY=Vegan Soup
@@ -4422,8 +4422,8 @@ END
 RECIPE
 TYPE=General
 ID=261
-TITLE=Snack 261
-DESCRIPTION=Tasty starter recipe number 261.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=21
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -4439,8 +4439,8 @@ END
 RECIPE
 TYPE=General
 ID=262
-TITLE=Finger Food 262
-DESCRIPTION=Tasty starter recipe number 262.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=22
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -4456,8 +4456,8 @@ END
 RECIPE
 TYPE=General
 ID=263
-TITLE=Healthy Starter 263
-DESCRIPTION=Tasty starter recipe number 263.
+TITLE=Healthy Garlic Bread
+DESCRIPTION=A healthy garlic bread with bright vegetables and light seasoning.
 TIME=23
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -4473,8 +4473,8 @@ END
 RECIPE
 TYPE=General
 ID=264
-TITLE=Unhealthy Appetizer 264
-DESCRIPTION=Tasty starter recipe number 264.
+TITLE=Unhealthy Caprese Skewers
+DESCRIPTION=An indulgent caprese skewers packed with rich flavors and hearty ingredients.
 TIME=24
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Appetizer
@@ -4490,8 +4490,8 @@ END
 RECIPE
 TYPE=General
 ID=265
-TITLE=Vegan Salad 265
-DESCRIPTION=Tasty starter recipe number 265.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=25
 DIFFICULTY=Hard
 CATEGORY=Vegan Salad
@@ -4507,8 +4507,8 @@ END
 RECIPE
 TYPE=General
 ID=266
-TITLE=Healthy Soup 266
-DESCRIPTION=Tasty starter recipe number 266.
+TITLE=Healthy Tomato Soup
+DESCRIPTION=A healthy tomato soup with bright vegetables and light seasoning.
 TIME=26
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -4524,8 +4524,8 @@ END
 RECIPE
 TYPE=General
 ID=267
-TITLE=Snack 267
-DESCRIPTION=Tasty starter recipe number 267.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=27
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -4541,8 +4541,8 @@ END
 RECIPE
 TYPE=General
 ID=268
-TITLE=Finger Food 268
-DESCRIPTION=Tasty starter recipe number 268.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=28
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -4558,8 +4558,8 @@ END
 RECIPE
 TYPE=General
 ID=269
-TITLE=Healthy Starter 269
-DESCRIPTION=Tasty starter recipe number 269.
+TITLE=Healthy Avocado Toast
+DESCRIPTION=A healthy avocado toast with bright vegetables and light seasoning.
 TIME=29
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -4575,8 +4575,8 @@ END
 RECIPE
 TYPE=General
 ID=270
-TITLE=Vegan Appetizer 270
-DESCRIPTION=Tasty starter recipe number 270.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=30
 DIFFICULTY=Medium
 CATEGORY=Vegan Appetizer
@@ -4592,8 +4592,8 @@ END
 RECIPE
 TYPE=General
 ID=271
-TITLE=Unhealthy Salad 271
-DESCRIPTION=Tasty starter recipe number 271.
+TITLE=Unhealthy Spring Rolls
+DESCRIPTION=An indulgent spring rolls packed with rich flavors and hearty ingredients.
 TIME=31
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Salad
@@ -4609,8 +4609,8 @@ END
 RECIPE
 TYPE=General
 ID=272
-TITLE=Healthy Soup 272
-DESCRIPTION=Tasty starter recipe number 272.
+TITLE=Healthy Fruit Platter
+DESCRIPTION=A healthy fruit platter with bright vegetables and light seasoning.
 TIME=32
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -4626,8 +4626,8 @@ END
 RECIPE
 TYPE=General
 ID=273
-TITLE=Snack 273
-DESCRIPTION=Tasty starter recipe number 273.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=33
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -4643,8 +4643,8 @@ END
 RECIPE
 TYPE=General
 ID=274
-TITLE=Finger Food 274
-DESCRIPTION=Tasty starter recipe number 274.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=34
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -4660,8 +4660,8 @@ END
 RECIPE
 TYPE=General
 ID=275
-TITLE=Vegan Starter 275
-DESCRIPTION=Tasty starter recipe number 275.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=35
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -4677,8 +4677,8 @@ END
 RECIPE
 TYPE=General
 ID=276
-TITLE=Appetizer 276
-DESCRIPTION=Tasty starter recipe number 276.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=36
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -4694,8 +4694,8 @@ END
 RECIPE
 TYPE=General
 ID=277
-TITLE=Salad 277
-DESCRIPTION=Tasty starter recipe number 277.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=37
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -4711,8 +4711,8 @@ END
 RECIPE
 TYPE=General
 ID=278
-TITLE=Unhealthy Soup 278
-DESCRIPTION=Tasty starter recipe number 278.
+TITLE=Unhealthy Stuffed Mushrooms
+DESCRIPTION=An indulgent stuffed mushrooms packed with rich flavors and hearty ingredients.
 TIME=38
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Soup
@@ -4728,8 +4728,8 @@ END
 RECIPE
 TYPE=General
 ID=279
-TITLE=Snack 279
-DESCRIPTION=Tasty starter recipe number 279.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=39
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -4745,8 +4745,8 @@ END
 RECIPE
 TYPE=General
 ID=280
-TITLE=Vegan Finger Food 280
-DESCRIPTION=Tasty starter recipe number 280.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=40
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -4762,8 +4762,8 @@ END
 RECIPE
 TYPE=General
 ID=281
-TITLE=Healthy Starter 281
-DESCRIPTION=Tasty starter recipe number 281.
+TITLE=Healthy Spring Rolls
+DESCRIPTION=A healthy spring rolls with bright vegetables and light seasoning.
 TIME=41
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -4779,8 +4779,8 @@ END
 RECIPE
 TYPE=General
 ID=282
-TITLE=Appetizer 282
-DESCRIPTION=Tasty starter recipe number 282.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=42
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -4796,8 +4796,8 @@ END
 RECIPE
 TYPE=General
 ID=283
-TITLE=Salad 283
-DESCRIPTION=Tasty starter recipe number 283.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=43
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -4813,8 +4813,8 @@ END
 RECIPE
 TYPE=General
 ID=284
-TITLE=Healthy Soup 284
-DESCRIPTION=Tasty starter recipe number 284.
+TITLE=Healthy Caprese Skewers
+DESCRIPTION=A healthy caprese skewers with bright vegetables and light seasoning.
 TIME=44
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -4830,8 +4830,8 @@ END
 RECIPE
 TYPE=General
 ID=285
-TITLE=Vegan Snack 285
-DESCRIPTION=Tasty starter recipe number 285.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=10
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -4847,8 +4847,8 @@ END
 RECIPE
 TYPE=General
 ID=286
-TITLE=Finger Food 286
-DESCRIPTION=Tasty starter recipe number 286.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=11
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -4864,8 +4864,8 @@ END
 RECIPE
 TYPE=General
 ID=287
-TITLE=Healthy Starter 287
-DESCRIPTION=Tasty starter recipe number 287.
+TITLE=Healthy Bruschetta
+DESCRIPTION=A healthy bruschetta with bright vegetables and light seasoning.
 TIME=12
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -4881,8 +4881,8 @@ END
 RECIPE
 TYPE=General
 ID=288
-TITLE=Appetizer 288
-DESCRIPTION=Tasty starter recipe number 288.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=13
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -4898,8 +4898,8 @@ END
 RECIPE
 TYPE=General
 ID=289
-TITLE=Salad 289
-DESCRIPTION=Tasty starter recipe number 289.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=14
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -4915,8 +4915,8 @@ END
 RECIPE
 TYPE=General
 ID=290
-TITLE=Vegan Soup 290
-DESCRIPTION=Tasty starter recipe number 290.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=15
 DIFFICULTY=Easy
 CATEGORY=Vegan Soup
@@ -4932,8 +4932,8 @@ END
 RECIPE
 TYPE=General
 ID=291
-TITLE=Snack 291
-DESCRIPTION=Tasty starter recipe number 291.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=16
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -4949,8 +4949,8 @@ END
 RECIPE
 TYPE=General
 ID=292
-TITLE=Unhealthy Finger Food 292
-DESCRIPTION=Tasty starter recipe number 292.
+TITLE=Unhealthy Fruit Platter
+DESCRIPTION=An indulgent fruit platter packed with rich flavors and hearty ingredients.
 TIME=17
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Finger Food
@@ -4966,8 +4966,8 @@ END
 RECIPE
 TYPE=General
 ID=293
-TITLE=Healthy Starter 293
-DESCRIPTION=Tasty starter recipe number 293.
+TITLE=Healthy Garlic Bread
+DESCRIPTION=A healthy garlic bread with bright vegetables and light seasoning.
 TIME=18
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -4983,8 +4983,8 @@ END
 RECIPE
 TYPE=General
 ID=294
-TITLE=Appetizer 294
-DESCRIPTION=Tasty starter recipe number 294.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=19
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -5000,8 +5000,8 @@ END
 RECIPE
 TYPE=General
 ID=295
-TITLE=Vegan Salad 295
-DESCRIPTION=Tasty starter recipe number 295.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Vegan Salad
@@ -5017,8 +5017,8 @@ END
 RECIPE
 TYPE=General
 ID=296
-TITLE=Healthy Soup 296
-DESCRIPTION=Tasty starter recipe number 296.
+TITLE=Healthy Tomato Soup
+DESCRIPTION=A healthy tomato soup with bright vegetables and light seasoning.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -5034,8 +5034,8 @@ END
 RECIPE
 TYPE=General
 ID=297
-TITLE=Snack 297
-DESCRIPTION=Tasty starter recipe number 297.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -5051,8 +5051,8 @@ END
 RECIPE
 TYPE=General
 ID=298
-TITLE=Finger Food 298
-DESCRIPTION=Tasty starter recipe number 298.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -5068,8 +5068,8 @@ END
 RECIPE
 TYPE=General
 ID=299
-TITLE=Unhealthy Starter 299
-DESCRIPTION=Tasty starter recipe number 299.
+TITLE=Unhealthy Avocado Toast
+DESCRIPTION=An indulgent avocado toast packed with rich flavors and hearty ingredients.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Starter
@@ -5085,8 +5085,8 @@ END
 RECIPE
 TYPE=General
 ID=300
-TITLE=Vegan Appetizer 300
-DESCRIPTION=Tasty starter recipe number 300.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Vegan Appetizer
@@ -5102,8 +5102,8 @@ END
 RECIPE
 TYPE=General
 ID=301
-TITLE=Salad 301
-DESCRIPTION=Tasty starter recipe number 301.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -5119,8 +5119,8 @@ END
 RECIPE
 TYPE=General
 ID=302
-TITLE=Healthy Soup 302
-DESCRIPTION=Tasty starter recipe number 302.
+TITLE=Healthy Fruit Platter
+DESCRIPTION=A healthy fruit platter with bright vegetables and light seasoning.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -5136,8 +5136,8 @@ END
 RECIPE
 TYPE=General
 ID=303
-TITLE=Snack 303
-DESCRIPTION=Tasty starter recipe number 303.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -5153,8 +5153,8 @@ END
 RECIPE
 TYPE=General
 ID=304
-TITLE=Finger Food 304
-DESCRIPTION=Tasty starter recipe number 304.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -5170,8 +5170,8 @@ END
 RECIPE
 TYPE=General
 ID=305
-TITLE=Vegan Starter 305
-DESCRIPTION=Tasty starter recipe number 305.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -5187,8 +5187,8 @@ END
 RECIPE
 TYPE=General
 ID=306
-TITLE=Unhealthy Appetizer 306
-DESCRIPTION=Tasty starter recipe number 306.
+TITLE=Unhealthy Tomato Soup
+DESCRIPTION=An indulgent tomato soup packed with rich flavors and hearty ingredients.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Appetizer
@@ -5204,8 +5204,8 @@ END
 RECIPE
 TYPE=General
 ID=307
-TITLE=Salad 307
-DESCRIPTION=Tasty starter recipe number 307.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -5221,8 +5221,8 @@ END
 RECIPE
 TYPE=General
 ID=308
-TITLE=Healthy Soup 308
-DESCRIPTION=Tasty starter recipe number 308.
+TITLE=Healthy Stuffed Mushrooms
+DESCRIPTION=A healthy stuffed mushrooms with bright vegetables and light seasoning.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -5238,8 +5238,8 @@ END
 RECIPE
 TYPE=General
 ID=309
-TITLE=Snack 309
-DESCRIPTION=Tasty starter recipe number 309.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -5255,8 +5255,8 @@ END
 RECIPE
 TYPE=General
 ID=310
-TITLE=Vegan Finger Food 310
-DESCRIPTION=Tasty starter recipe number 310.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -5272,8 +5272,8 @@ END
 RECIPE
 TYPE=General
 ID=311
-TITLE=Healthy Starter 311
-DESCRIPTION=Tasty starter recipe number 311.
+TITLE=Healthy Spring Rolls
+DESCRIPTION=A healthy spring rolls with bright vegetables and light seasoning.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -5289,8 +5289,8 @@ END
 RECIPE
 TYPE=General
 ID=312
-TITLE=Appetizer 312
-DESCRIPTION=Tasty starter recipe number 312.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -5306,8 +5306,8 @@ END
 RECIPE
 TYPE=General
 ID=313
-TITLE=Unhealthy Salad 313
-DESCRIPTION=Tasty starter recipe number 313.
+TITLE=Unhealthy Garlic Bread
+DESCRIPTION=An indulgent garlic bread packed with rich flavors and hearty ingredients.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Salad
@@ -5323,8 +5323,8 @@ END
 RECIPE
 TYPE=General
 ID=314
-TITLE=Healthy Soup 314
-DESCRIPTION=Tasty starter recipe number 314.
+TITLE=Healthy Caprese Skewers
+DESCRIPTION=A healthy caprese skewers with bright vegetables and light seasoning.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -5340,8 +5340,8 @@ END
 RECIPE
 TYPE=General
 ID=315
-TITLE=Vegan Snack 315
-DESCRIPTION=Tasty starter recipe number 315.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -5357,8 +5357,8 @@ END
 RECIPE
 TYPE=General
 ID=316
-TITLE=Finger Food 316
-DESCRIPTION=Tasty starter recipe number 316.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -5374,8 +5374,8 @@ END
 RECIPE
 TYPE=General
 ID=317
-TITLE=Healthy Starter 317
-DESCRIPTION=Tasty starter recipe number 317.
+TITLE=Healthy Bruschetta
+DESCRIPTION=A healthy bruschetta with bright vegetables and light seasoning.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -5391,8 +5391,8 @@ END
 RECIPE
 TYPE=General
 ID=318
-TITLE=Appetizer 318
-DESCRIPTION=Tasty starter recipe number 318.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -5408,8 +5408,8 @@ END
 RECIPE
 TYPE=General
 ID=319
-TITLE=Salad 319
-DESCRIPTION=Tasty starter recipe number 319.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -5425,8 +5425,8 @@ END
 RECIPE
 TYPE=General
 ID=320
-TITLE=Vegan Soup 320
-DESCRIPTION=Tasty starter recipe number 320.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=10
 DIFFICULTY=Easy
 CATEGORY=Vegan Soup
@@ -5442,8 +5442,8 @@ END
 RECIPE
 TYPE=General
 ID=321
-TITLE=Snack 321
-DESCRIPTION=Tasty starter recipe number 321.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=11
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -5459,8 +5459,8 @@ END
 RECIPE
 TYPE=General
 ID=322
-TITLE=Finger Food 322
-DESCRIPTION=Tasty starter recipe number 322.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=12
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -5476,8 +5476,8 @@ END
 RECIPE
 TYPE=General
 ID=323
-TITLE=Healthy Starter 323
-DESCRIPTION=Tasty starter recipe number 323.
+TITLE=Healthy Garlic Bread
+DESCRIPTION=A healthy garlic bread with bright vegetables and light seasoning.
 TIME=13
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -5493,8 +5493,8 @@ END
 RECIPE
 TYPE=General
 ID=324
-TITLE=Appetizer 324
-DESCRIPTION=Tasty starter recipe number 324.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=14
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -5510,8 +5510,8 @@ END
 RECIPE
 TYPE=General
 ID=325
-TITLE=Vegan Salad 325
-DESCRIPTION=Tasty starter recipe number 325.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=15
 DIFFICULTY=Hard
 CATEGORY=Vegan Salad
@@ -5527,8 +5527,8 @@ END
 RECIPE
 TYPE=General
 ID=326
-TITLE=Healthy Soup 326
-DESCRIPTION=Tasty starter recipe number 326.
+TITLE=Healthy Tomato Soup
+DESCRIPTION=A healthy tomato soup with bright vegetables and light seasoning.
 TIME=16
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -5544,8 +5544,8 @@ END
 RECIPE
 TYPE=General
 ID=327
-TITLE=Unhealthy Snack 327
-DESCRIPTION=Tasty starter recipe number 327.
+TITLE=Unhealthy Bruschetta
+DESCRIPTION=An indulgent bruschetta packed with rich flavors and hearty ingredients.
 TIME=17
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Snack
@@ -5561,8 +5561,8 @@ END
 RECIPE
 TYPE=General
 ID=328
-TITLE=Finger Food 328
-DESCRIPTION=Tasty starter recipe number 328.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=18
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -5578,8 +5578,8 @@ END
 RECIPE
 TYPE=General
 ID=329
-TITLE=Healthy Starter 329
-DESCRIPTION=Tasty starter recipe number 329.
+TITLE=Healthy Avocado Toast
+DESCRIPTION=A healthy avocado toast with bright vegetables and light seasoning.
 TIME=19
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -5595,8 +5595,8 @@ END
 RECIPE
 TYPE=General
 ID=330
-TITLE=Vegan Appetizer 330
-DESCRIPTION=Tasty starter recipe number 330.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=20
 DIFFICULTY=Medium
 CATEGORY=Vegan Appetizer
@@ -5612,8 +5612,8 @@ END
 RECIPE
 TYPE=General
 ID=331
-TITLE=Salad 331
-DESCRIPTION=Tasty starter recipe number 331.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=21
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -5629,8 +5629,8 @@ END
 RECIPE
 TYPE=General
 ID=332
-TITLE=Healthy Soup 332
-DESCRIPTION=Tasty starter recipe number 332.
+TITLE=Healthy Fruit Platter
+DESCRIPTION=A healthy fruit platter with bright vegetables and light seasoning.
 TIME=22
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -5646,8 +5646,8 @@ END
 RECIPE
 TYPE=General
 ID=333
-TITLE=Snack 333
-DESCRIPTION=Tasty starter recipe number 333.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=23
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -5663,8 +5663,8 @@ END
 RECIPE
 TYPE=General
 ID=334
-TITLE=Unhealthy Finger Food 334
-DESCRIPTION=Tasty starter recipe number 334.
+TITLE=Unhealthy Caprese Skewers
+DESCRIPTION=An indulgent caprese skewers packed with rich flavors and hearty ingredients.
 TIME=24
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Finger Food
@@ -5680,8 +5680,8 @@ END
 RECIPE
 TYPE=General
 ID=335
-TITLE=Vegan Starter 335
-DESCRIPTION=Tasty starter recipe number 335.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=25
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -5697,8 +5697,8 @@ END
 RECIPE
 TYPE=General
 ID=336
-TITLE=Appetizer 336
-DESCRIPTION=Tasty starter recipe number 336.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=26
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -5714,8 +5714,8 @@ END
 RECIPE
 TYPE=General
 ID=337
-TITLE=Salad 337
-DESCRIPTION=Tasty starter recipe number 337.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=27
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -5731,8 +5731,8 @@ END
 RECIPE
 TYPE=General
 ID=338
-TITLE=Healthy Soup 338
-DESCRIPTION=Tasty starter recipe number 338.
+TITLE=Healthy Stuffed Mushrooms
+DESCRIPTION=A healthy stuffed mushrooms with bright vegetables and light seasoning.
 TIME=28
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -5748,8 +5748,8 @@ END
 RECIPE
 TYPE=General
 ID=339
-TITLE=Snack 339
-DESCRIPTION=Tasty starter recipe number 339.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=29
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -5765,8 +5765,8 @@ END
 RECIPE
 TYPE=General
 ID=340
-TITLE=Vegan Finger Food 340
-DESCRIPTION=Tasty starter recipe number 340.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=30
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -5782,8 +5782,8 @@ END
 RECIPE
 TYPE=General
 ID=341
-TITLE=Unhealthy Starter 341
-DESCRIPTION=Tasty starter recipe number 341.
+TITLE=Unhealthy Spring Rolls
+DESCRIPTION=An indulgent spring rolls packed with rich flavors and hearty ingredients.
 TIME=31
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Starter
@@ -5799,8 +5799,8 @@ END
 RECIPE
 TYPE=General
 ID=342
-TITLE=Appetizer 342
-DESCRIPTION=Tasty starter recipe number 342.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=32
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -5816,8 +5816,8 @@ END
 RECIPE
 TYPE=General
 ID=343
-TITLE=Salad 343
-DESCRIPTION=Tasty starter recipe number 343.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=33
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -5833,8 +5833,8 @@ END
 RECIPE
 TYPE=General
 ID=344
-TITLE=Healthy Soup 344
-DESCRIPTION=Tasty starter recipe number 344.
+TITLE=Healthy Caprese Skewers
+DESCRIPTION=A healthy caprese skewers with bright vegetables and light seasoning.
 TIME=34
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -5850,8 +5850,8 @@ END
 RECIPE
 TYPE=General
 ID=345
-TITLE=Vegan Snack 345
-DESCRIPTION=Tasty starter recipe number 345.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=35
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -5867,8 +5867,8 @@ END
 RECIPE
 TYPE=General
 ID=346
-TITLE=Finger Food 346
-DESCRIPTION=Tasty starter recipe number 346.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=36
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -5884,8 +5884,8 @@ END
 RECIPE
 TYPE=General
 ID=347
-TITLE=Healthy Starter 347
-DESCRIPTION=Tasty starter recipe number 347.
+TITLE=Healthy Bruschetta
+DESCRIPTION=A healthy bruschetta with bright vegetables and light seasoning.
 TIME=37
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -5901,8 +5901,8 @@ END
 RECIPE
 TYPE=General
 ID=348
-TITLE=Unhealthy Appetizer 348
-DESCRIPTION=Tasty starter recipe number 348.
+TITLE=Unhealthy Stuffed Mushrooms
+DESCRIPTION=An indulgent stuffed mushrooms packed with rich flavors and hearty ingredients.
 TIME=38
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Appetizer
@@ -5918,8 +5918,8 @@ END
 RECIPE
 TYPE=General
 ID=349
-TITLE=Salad 349
-DESCRIPTION=Tasty starter recipe number 349.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=39
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -5935,8 +5935,8 @@ END
 RECIPE
 TYPE=General
 ID=350
-TITLE=Vegan Soup 350
-DESCRIPTION=Tasty starter recipe number 350.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=40
 DIFFICULTY=Easy
 CATEGORY=Vegan Soup
@@ -5952,8 +5952,8 @@ END
 RECIPE
 TYPE=General
 ID=351
-TITLE=Snack 351
-DESCRIPTION=Tasty starter recipe number 351.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=41
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -5969,8 +5969,8 @@ END
 RECIPE
 TYPE=General
 ID=352
-TITLE=Finger Food 352
-DESCRIPTION=Tasty starter recipe number 352.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=42
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -5986,8 +5986,8 @@ END
 RECIPE
 TYPE=General
 ID=353
-TITLE=Healthy Starter 353
-DESCRIPTION=Tasty starter recipe number 353.
+TITLE=Healthy Garlic Bread
+DESCRIPTION=A healthy garlic bread with bright vegetables and light seasoning.
 TIME=43
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -6003,8 +6003,8 @@ END
 RECIPE
 TYPE=General
 ID=354
-TITLE=Appetizer 354
-DESCRIPTION=Tasty starter recipe number 354.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=44
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -6020,8 +6020,8 @@ END
 RECIPE
 TYPE=General
 ID=355
-TITLE=Vegan Salad 355
-DESCRIPTION=Tasty starter recipe number 355.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=10
 DIFFICULTY=Hard
 CATEGORY=Vegan Salad
@@ -6037,8 +6037,8 @@ END
 RECIPE
 TYPE=General
 ID=356
-TITLE=Healthy Soup 356
-DESCRIPTION=Tasty starter recipe number 356.
+TITLE=Healthy Tomato Soup
+DESCRIPTION=A healthy tomato soup with bright vegetables and light seasoning.
 TIME=11
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -6054,8 +6054,8 @@ END
 RECIPE
 TYPE=General
 ID=357
-TITLE=Snack 357
-DESCRIPTION=Tasty starter recipe number 357.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=12
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -6071,8 +6071,8 @@ END
 RECIPE
 TYPE=General
 ID=358
-TITLE=Finger Food 358
-DESCRIPTION=Tasty starter recipe number 358.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=13
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -6088,8 +6088,8 @@ END
 RECIPE
 TYPE=General
 ID=359
-TITLE=Healthy Starter 359
-DESCRIPTION=Tasty starter recipe number 359.
+TITLE=Healthy Avocado Toast
+DESCRIPTION=A healthy avocado toast with bright vegetables and light seasoning.
 TIME=14
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -6105,8 +6105,8 @@ END
 RECIPE
 TYPE=General
 ID=360
-TITLE=Vegan Appetizer 360
-DESCRIPTION=Tasty starter recipe number 360.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=15
 DIFFICULTY=Medium
 CATEGORY=Vegan Appetizer
@@ -6122,8 +6122,8 @@ END
 RECIPE
 TYPE=General
 ID=361
-TITLE=Salad 361
-DESCRIPTION=Tasty starter recipe number 361.
+TITLE=Spring Rolls
+DESCRIPTION=A classic spring rolls starter with tasty ingredients.
 TIME=16
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -6139,8 +6139,8 @@ END
 RECIPE
 TYPE=General
 ID=362
-TITLE=Unhealthy Soup 362
-DESCRIPTION=Tasty starter recipe number 362.
+TITLE=Unhealthy Fruit Platter
+DESCRIPTION=An indulgent fruit platter packed with rich flavors and hearty ingredients.
 TIME=17
 DIFFICULTY=Easy
 CATEGORY=Unhealthy Soup
@@ -6156,8 +6156,8 @@ END
 RECIPE
 TYPE=General
 ID=363
-TITLE=Snack 363
-DESCRIPTION=Tasty starter recipe number 363.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=18
 DIFFICULTY=Medium
 CATEGORY=Snack
@@ -6173,8 +6173,8 @@ END
 RECIPE
 TYPE=General
 ID=364
-TITLE=Finger Food 364
-DESCRIPTION=Tasty starter recipe number 364.
+TITLE=Caprese Skewers
+DESCRIPTION=A classic caprese skewers starter with tasty ingredients.
 TIME=19
 DIFFICULTY=Hard
 CATEGORY=Finger Food
@@ -6190,8 +6190,8 @@ END
 RECIPE
 TYPE=General
 ID=365
-TITLE=Vegan Starter 365
-DESCRIPTION=Tasty starter recipe number 365.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=20
 DIFFICULTY=Easy
 CATEGORY=Vegan Starter
@@ -6207,8 +6207,8 @@ END
 RECIPE
 TYPE=General
 ID=366
-TITLE=Appetizer 366
-DESCRIPTION=Tasty starter recipe number 366.
+TITLE=Tomato Soup
+DESCRIPTION=A classic tomato soup starter with tasty ingredients.
 TIME=21
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -6224,8 +6224,8 @@ END
 RECIPE
 TYPE=General
 ID=367
-TITLE=Salad 367
-DESCRIPTION=Tasty starter recipe number 367.
+TITLE=Bruschetta
+DESCRIPTION=A classic bruschetta starter with tasty ingredients.
 TIME=22
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -6241,8 +6241,8 @@ END
 RECIPE
 TYPE=General
 ID=368
-TITLE=Healthy Soup 368
-DESCRIPTION=Tasty starter recipe number 368.
+TITLE=Healthy Stuffed Mushrooms
+DESCRIPTION=A healthy stuffed mushrooms with bright vegetables and light seasoning.
 TIME=23
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -6258,8 +6258,8 @@ END
 RECIPE
 TYPE=General
 ID=369
-TITLE=Unhealthy Snack 369
-DESCRIPTION=Tasty starter recipe number 369.
+TITLE=Unhealthy Avocado Toast
+DESCRIPTION=An indulgent avocado toast packed with rich flavors and hearty ingredients.
 TIME=24
 DIFFICULTY=Medium
 CATEGORY=Unhealthy Snack
@@ -6275,8 +6275,8 @@ END
 RECIPE
 TYPE=General
 ID=370
-TITLE=Vegan Finger Food 370
-DESCRIPTION=Tasty starter recipe number 370.
+TITLE=Vegan Quinoa Salad
+DESCRIPTION=A vegan quinoa salad made with plant-based ingredients and fresh greens.
 TIME=25
 DIFFICULTY=Hard
 CATEGORY=Vegan Finger Food
@@ -6292,8 +6292,8 @@ END
 RECIPE
 TYPE=General
 ID=371
-TITLE=Healthy Starter 371
-DESCRIPTION=Tasty starter recipe number 371.
+TITLE=Healthy Spring Rolls
+DESCRIPTION=A healthy spring rolls with bright vegetables and light seasoning.
 TIME=26
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -6309,8 +6309,8 @@ END
 RECIPE
 TYPE=General
 ID=372
-TITLE=Appetizer 372
-DESCRIPTION=Tasty starter recipe number 372.
+TITLE=Fruit Platter
+DESCRIPTION=A classic fruit platter starter with tasty ingredients.
 TIME=27
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -6326,8 +6326,8 @@ END
 RECIPE
 TYPE=General
 ID=373
-TITLE=Salad 373
-DESCRIPTION=Tasty starter recipe number 373.
+TITLE=Garlic Bread
+DESCRIPTION=A classic garlic bread starter with tasty ingredients.
 TIME=28
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -6343,8 +6343,8 @@ END
 RECIPE
 TYPE=General
 ID=374
-TITLE=Healthy Soup 374
-DESCRIPTION=Tasty starter recipe number 374.
+TITLE=Healthy Caprese Skewers
+DESCRIPTION=A healthy caprese skewers with bright vegetables and light seasoning.
 TIME=29
 DIFFICULTY=Easy
 CATEGORY=Healthy Soup
@@ -6360,8 +6360,8 @@ END
 RECIPE
 TYPE=General
 ID=375
-TITLE=Vegan Snack 375
-DESCRIPTION=Tasty starter recipe number 375.
+TITLE=Vegan Garden Salad
+DESCRIPTION=A vegan garden salad made with plant-based ingredients and fresh greens.
 TIME=30
 DIFFICULTY=Medium
 CATEGORY=Vegan Snack
@@ -6377,8 +6377,8 @@ END
 RECIPE
 TYPE=General
 ID=376
-TITLE=Unhealthy Finger Food 376
-DESCRIPTION=Tasty starter recipe number 376.
+TITLE=Unhealthy Tomato Soup
+DESCRIPTION=An indulgent tomato soup packed with rich flavors and hearty ingredients.
 TIME=31
 DIFFICULTY=Hard
 CATEGORY=Unhealthy Finger Food
@@ -6394,8 +6394,8 @@ END
 RECIPE
 TYPE=General
 ID=377
-TITLE=Healthy Starter 377
-DESCRIPTION=Tasty starter recipe number 377.
+TITLE=Healthy Bruschetta
+DESCRIPTION=A healthy bruschetta with bright vegetables and light seasoning.
 TIME=32
 DIFFICULTY=Easy
 CATEGORY=Healthy Starter
@@ -6411,8 +6411,8 @@ END
 RECIPE
 TYPE=General
 ID=378
-TITLE=Appetizer 378
-DESCRIPTION=Tasty starter recipe number 378.
+TITLE=Stuffed Mushrooms
+DESCRIPTION=A classic stuffed mushrooms starter with tasty ingredients.
 TIME=33
 DIFFICULTY=Medium
 CATEGORY=Appetizer
@@ -6428,8 +6428,8 @@ END
 RECIPE
 TYPE=General
 ID=379
-TITLE=Salad 379
-DESCRIPTION=Tasty starter recipe number 379.
+TITLE=Avocado Toast
+DESCRIPTION=A classic avocado toast starter with tasty ingredients.
 TIME=34
 DIFFICULTY=Hard
 CATEGORY=Salad
@@ -12620,8 +12620,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=705
-TITLE=Vegan Berry Tart 705
-DESCRIPTION=Sweet dessert number 705.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -12638,8 +12638,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=706
-TITLE=Fruit Parfait 706
-DESCRIPTION=Sweet dessert number 706.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -12656,8 +12656,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=707
-TITLE=Chocolate Mousse 707
-DESCRIPTION=Sweet dessert number 707.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -12674,8 +12674,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=708
-TITLE=Cookie Plate 708
-DESCRIPTION=Sweet dessert number 708.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -12692,8 +12692,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=709
-TITLE=Ice Cream Scoop 709
-DESCRIPTION=Sweet dessert number 709.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -12710,8 +12710,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=710
-TITLE=Vegan Panna Cotta 710
-DESCRIPTION=Sweet dessert number 710.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -12728,8 +12728,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=711
-TITLE=Unhealthy Brownie 711
-DESCRIPTION=Sweet dessert number 711.
+TITLE=Unhealthy Brownie
+DESCRIPTION=An indulgent brownie with rich sweetness and decadent texture.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -12746,8 +12746,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=712
-TITLE=Healthy Cupcake 712
-DESCRIPTION=Sweet dessert number 712.
+TITLE=Healthy Cupcake
+DESCRIPTION=A healthy cupcake with light sweetness and nourishing flavors.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -12764,8 +12764,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=713
-TITLE=Creme Brulee 713
-DESCRIPTION=Sweet dessert number 713.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -12782,8 +12782,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=714
-TITLE=Rice Pudding 714
-DESCRIPTION=Sweet dessert number 714.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -12800,8 +12800,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=715
-TITLE=Vegan Berry Tart 715
-DESCRIPTION=Sweet dessert number 715.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -12818,8 +12818,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=716
-TITLE=Fruit Parfait 716
-DESCRIPTION=Sweet dessert number 716.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -12836,8 +12836,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=717
-TITLE=Unhealthy Chocolate Mousse 717
-DESCRIPTION=Sweet dessert number 717.
+TITLE=Unhealthy Chocolate Mousse
+DESCRIPTION=An indulgent chocolate mousse with rich sweetness and decadent texture.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -12854,8 +12854,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=718
-TITLE=Cookie Plate 718
-DESCRIPTION=Sweet dessert number 718.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -12872,8 +12872,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=719
-TITLE=Healthy Ice Cream Scoop 719
-DESCRIPTION=Sweet dessert number 719.
+TITLE=Healthy Ice Cream Scoop
+DESCRIPTION=A healthy ice cream scoop with light sweetness and nourishing flavors.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -12890,8 +12890,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=720
-TITLE=Vegan Panna Cotta 720
-DESCRIPTION=Sweet dessert number 720.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -12908,8 +12908,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=721
-TITLE=Brownie 721
-DESCRIPTION=Sweet dessert number 721.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -12926,8 +12926,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=722
-TITLE=Cupcake 722
-DESCRIPTION=Sweet dessert number 722.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -12944,8 +12944,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=723
-TITLE=Unhealthy Creme Brulee 723
-DESCRIPTION=Sweet dessert number 723.
+TITLE=Unhealthy Creme Brulee
+DESCRIPTION=An indulgent creme brulee with rich sweetness and decadent texture.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -12962,8 +12962,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=724
-TITLE=Rice Pudding 724
-DESCRIPTION=Sweet dessert number 724.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -12980,8 +12980,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=725
-TITLE=Vegan Berry Tart 725
-DESCRIPTION=Sweet dessert number 725.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -12998,8 +12998,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=726
-TITLE=Healthy Fruit Parfait 726
-DESCRIPTION=Sweet dessert number 726.
+TITLE=Healthy Fruit Parfait
+DESCRIPTION=A healthy fruit parfait with light sweetness and nourishing flavors.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13016,8 +13016,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=727
-TITLE=Chocolate Mousse 727
-DESCRIPTION=Sweet dessert number 727.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13034,8 +13034,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=728
-TITLE=Cookie Plate 728
-DESCRIPTION=Sweet dessert number 728.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13052,8 +13052,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=729
-TITLE=Unhealthy Ice Cream Scoop 729
-DESCRIPTION=Sweet dessert number 729.
+TITLE=Unhealthy Ice Cream Scoop
+DESCRIPTION=An indulgent ice cream scoop with rich sweetness and decadent texture.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13070,8 +13070,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=730
-TITLE=Vegan Panna Cotta 730
-DESCRIPTION=Sweet dessert number 730.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=45
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13088,8 +13088,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=731
-TITLE=Brownie 731
-DESCRIPTION=Sweet dessert number 731.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=46
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13106,8 +13106,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=732
-TITLE=Cupcake 732
-DESCRIPTION=Sweet dessert number 732.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=47
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13124,8 +13124,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=733
-TITLE=Healthy Creme Brulee 733
-DESCRIPTION=Sweet dessert number 733.
+TITLE=Healthy Creme Brulee
+DESCRIPTION=A healthy creme brulee with light sweetness and nourishing flavors.
 TIME=48
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13142,8 +13142,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=734
-TITLE=Rice Pudding 734
-DESCRIPTION=Sweet dessert number 734.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=49
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13160,8 +13160,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=735
-TITLE=Vegan Berry Tart 735
-DESCRIPTION=Sweet dessert number 735.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13178,8 +13178,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=736
-TITLE=Fruit Parfait 736
-DESCRIPTION=Sweet dessert number 736.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13196,8 +13196,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=737
-TITLE=Chocolate Mousse 737
-DESCRIPTION=Sweet dessert number 737.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13214,8 +13214,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=738
-TITLE=Cookie Plate 738
-DESCRIPTION=Sweet dessert number 738.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13232,8 +13232,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=739
-TITLE=Ice Cream Scoop 739
-DESCRIPTION=Sweet dessert number 739.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13250,8 +13250,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=740
-TITLE=Vegan Panna Cotta 740
-DESCRIPTION=Sweet dessert number 740.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13268,8 +13268,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=741
-TITLE=Unhealthy Brownie 741
-DESCRIPTION=Sweet dessert number 741.
+TITLE=Unhealthy Brownie
+DESCRIPTION=An indulgent brownie with rich sweetness and decadent texture.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13286,8 +13286,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=742
-TITLE=Cupcake 742
-DESCRIPTION=Sweet dessert number 742.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13304,8 +13304,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=743
-TITLE=Creme Brulee 743
-DESCRIPTION=Sweet dessert number 743.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13322,8 +13322,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=744
-TITLE=Rice Pudding 744
-DESCRIPTION=Sweet dessert number 744.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13340,8 +13340,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=745
-TITLE=Vegan Berry Tart 745
-DESCRIPTION=Sweet dessert number 745.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13358,8 +13358,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=746
-TITLE=Fruit Parfait 746
-DESCRIPTION=Sweet dessert number 746.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13376,8 +13376,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=747
-TITLE=Healthy Chocolate Mousse 747
-DESCRIPTION=Sweet dessert number 747.
+TITLE=Healthy Chocolate Mousse
+DESCRIPTION=A healthy chocolate mousse with light sweetness and nourishing flavors.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13394,8 +13394,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=748
-TITLE=Cookie Plate 748
-DESCRIPTION=Sweet dessert number 748.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13412,8 +13412,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=749
-TITLE=Ice Cream Scoop 749
-DESCRIPTION=Sweet dessert number 749.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13430,8 +13430,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=750
-TITLE=Vegan Panna Cotta 750
-DESCRIPTION=Sweet dessert number 750.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13448,8 +13448,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=751
-TITLE=Brownie 751
-DESCRIPTION=Sweet dessert number 751.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13466,8 +13466,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=752
-TITLE=Cupcake 752
-DESCRIPTION=Sweet dessert number 752.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13484,8 +13484,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=753
-TITLE=Unhealthy Creme Brulee 753
-DESCRIPTION=Sweet dessert number 753.
+TITLE=Unhealthy Creme Brulee
+DESCRIPTION=An indulgent creme brulee with rich sweetness and decadent texture.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13502,8 +13502,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=754
-TITLE=Healthy Rice Pudding 754
-DESCRIPTION=Sweet dessert number 754.
+TITLE=Healthy Rice Pudding
+DESCRIPTION=A healthy rice pudding with light sweetness and nourishing flavors.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13520,8 +13520,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=755
-TITLE=Vegan Berry Tart 755
-DESCRIPTION=Sweet dessert number 755.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13538,8 +13538,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=756
-TITLE=Fruit Parfait 756
-DESCRIPTION=Sweet dessert number 756.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13556,8 +13556,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=757
-TITLE=Chocolate Mousse 757
-DESCRIPTION=Sweet dessert number 757.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13574,8 +13574,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=758
-TITLE=Cookie Plate 758
-DESCRIPTION=Sweet dessert number 758.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13592,8 +13592,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=759
-TITLE=Unhealthy Ice Cream Scoop 759
-DESCRIPTION=Sweet dessert number 759.
+TITLE=Unhealthy Ice Cream Scoop
+DESCRIPTION=An indulgent ice cream scoop with rich sweetness and decadent texture.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13610,8 +13610,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=760
-TITLE=Vegan Panna Cotta 760
-DESCRIPTION=Sweet dessert number 760.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=45
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13628,8 +13628,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=761
-TITLE=Healthy Brownie 761
-DESCRIPTION=Sweet dessert number 761.
+TITLE=Healthy Brownie
+DESCRIPTION=A healthy brownie with light sweetness and nourishing flavors.
 TIME=46
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13646,8 +13646,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=762
-TITLE=Cupcake 762
-DESCRIPTION=Sweet dessert number 762.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=47
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13664,8 +13664,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=763
-TITLE=Creme Brulee 763
-DESCRIPTION=Sweet dessert number 763.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=48
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13682,8 +13682,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=764
-TITLE=Rice Pudding 764
-DESCRIPTION=Sweet dessert number 764.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=49
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13700,8 +13700,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=765
-TITLE=Vegan Berry Tart 765
-DESCRIPTION=Sweet dessert number 765.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13718,8 +13718,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=766
-TITLE=Fruit Parfait 766
-DESCRIPTION=Sweet dessert number 766.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13736,8 +13736,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=767
-TITLE=Chocolate Mousse 767
-DESCRIPTION=Sweet dessert number 767.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13754,8 +13754,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=768
-TITLE=Healthy Cookie Plate 768
-DESCRIPTION=Sweet dessert number 768.
+TITLE=Healthy Cookie Plate
+DESCRIPTION=A healthy cookie plate with light sweetness and nourishing flavors.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13772,8 +13772,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=769
-TITLE=Ice Cream Scoop 769
-DESCRIPTION=Sweet dessert number 769.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13790,8 +13790,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=770
-TITLE=Vegan Panna Cotta 770
-DESCRIPTION=Sweet dessert number 770.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13808,8 +13808,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=771
-TITLE=Unhealthy Brownie 771
-DESCRIPTION=Sweet dessert number 771.
+TITLE=Unhealthy Brownie
+DESCRIPTION=An indulgent brownie with rich sweetness and decadent texture.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13826,8 +13826,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=772
-TITLE=Cupcake 772
-DESCRIPTION=Sweet dessert number 772.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13844,8 +13844,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=773
-TITLE=Creme Brulee 773
-DESCRIPTION=Sweet dessert number 773.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13862,8 +13862,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=774
-TITLE=Rice Pudding 774
-DESCRIPTION=Sweet dessert number 774.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13880,8 +13880,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=775
-TITLE=Vegan Berry Tart 775
-DESCRIPTION=Sweet dessert number 775.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13898,8 +13898,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=776
-TITLE=Fruit Parfait 776
-DESCRIPTION=Sweet dessert number 776.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13916,8 +13916,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=777
-TITLE=Unhealthy Chocolate Mousse 777
-DESCRIPTION=Sweet dessert number 777.
+TITLE=Unhealthy Chocolate Mousse
+DESCRIPTION=An indulgent chocolate mousse with rich sweetness and decadent texture.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13934,8 +13934,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=778
-TITLE=Cookie Plate 778
-DESCRIPTION=Sweet dessert number 778.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -13952,8 +13952,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=779
-TITLE=Ice Cream Scoop 779
-DESCRIPTION=Sweet dessert number 779.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -13970,8 +13970,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=780
-TITLE=Vegan Panna Cotta 780
-DESCRIPTION=Sweet dessert number 780.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -13988,8 +13988,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=781
-TITLE=Brownie 781
-DESCRIPTION=Sweet dessert number 781.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14006,8 +14006,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=782
-TITLE=Healthy Cupcake 782
-DESCRIPTION=Sweet dessert number 782.
+TITLE=Healthy Cupcake
+DESCRIPTION=A healthy cupcake with light sweetness and nourishing flavors.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14024,8 +14024,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=783
-TITLE=Unhealthy Creme Brulee 783
-DESCRIPTION=Sweet dessert number 783.
+TITLE=Unhealthy Creme Brulee
+DESCRIPTION=An indulgent creme brulee with rich sweetness and decadent texture.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14042,8 +14042,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=784
-TITLE=Rice Pudding 784
-DESCRIPTION=Sweet dessert number 784.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14060,8 +14060,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=785
-TITLE=Vegan Berry Tart 785
-DESCRIPTION=Sweet dessert number 785.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14078,8 +14078,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=786
-TITLE=Fruit Parfait 786
-DESCRIPTION=Sweet dessert number 786.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14096,8 +14096,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=787
-TITLE=Chocolate Mousse 787
-DESCRIPTION=Sweet dessert number 787.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14114,8 +14114,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=788
-TITLE=Cookie Plate 788
-DESCRIPTION=Sweet dessert number 788.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14132,8 +14132,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=789
-TITLE=Healthy Ice Cream Scoop 789
-DESCRIPTION=Sweet dessert number 789.
+TITLE=Healthy Ice Cream Scoop
+DESCRIPTION=A healthy ice cream scoop with light sweetness and nourishing flavors.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14150,8 +14150,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=790
-TITLE=Vegan Panna Cotta 790
-DESCRIPTION=Sweet dessert number 790.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=45
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14168,8 +14168,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=791
-TITLE=Brownie 791
-DESCRIPTION=Sweet dessert number 791.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=46
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14186,8 +14186,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=792
-TITLE=Cupcake 792
-DESCRIPTION=Sweet dessert number 792.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=47
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14204,8 +14204,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=793
-TITLE=Creme Brulee 793
-DESCRIPTION=Sweet dessert number 793.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=48
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14222,8 +14222,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=794
-TITLE=Rice Pudding 794
-DESCRIPTION=Sweet dessert number 794.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=49
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14240,8 +14240,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=795
-TITLE=Vegan Berry Tart 795
-DESCRIPTION=Sweet dessert number 795.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14258,8 +14258,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=796
-TITLE=Healthy Fruit Parfait 796
-DESCRIPTION=Sweet dessert number 796.
+TITLE=Healthy Fruit Parfait
+DESCRIPTION=A healthy fruit parfait with light sweetness and nourishing flavors.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14276,8 +14276,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=797
-TITLE=Chocolate Mousse 797
-DESCRIPTION=Sweet dessert number 797.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14294,8 +14294,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=798
-TITLE=Cookie Plate 798
-DESCRIPTION=Sweet dessert number 798.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14312,8 +14312,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=799
-TITLE=Ice Cream Scoop 799
-DESCRIPTION=Sweet dessert number 799.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14330,8 +14330,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=800
-TITLE=Vegan Panna Cotta 800
-DESCRIPTION=Sweet dessert number 800.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14348,8 +14348,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=801
-TITLE=Unhealthy Brownie 801
-DESCRIPTION=Sweet dessert number 801.
+TITLE=Unhealthy Brownie
+DESCRIPTION=An indulgent brownie with rich sweetness and decadent texture.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14366,8 +14366,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=802
-TITLE=Cupcake 802
-DESCRIPTION=Sweet dessert number 802.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14384,8 +14384,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=803
-TITLE=Healthy Creme Brulee 803
-DESCRIPTION=Sweet dessert number 803.
+TITLE=Healthy Creme Brulee
+DESCRIPTION=A healthy creme brulee with light sweetness and nourishing flavors.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14402,8 +14402,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=804
-TITLE=Rice Pudding 804
-DESCRIPTION=Sweet dessert number 804.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14420,8 +14420,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=805
-TITLE=Vegan Berry Tart 805
-DESCRIPTION=Sweet dessert number 805.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14438,8 +14438,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=806
-TITLE=Fruit Parfait 806
-DESCRIPTION=Sweet dessert number 806.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14456,8 +14456,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=807
-TITLE=Unhealthy Chocolate Mousse 807
-DESCRIPTION=Sweet dessert number 807.
+TITLE=Unhealthy Chocolate Mousse
+DESCRIPTION=An indulgent chocolate mousse with rich sweetness and decadent texture.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14474,8 +14474,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=808
-TITLE=Cookie Plate 808
-DESCRIPTION=Sweet dessert number 808.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14492,8 +14492,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=809
-TITLE=Ice Cream Scoop 809
-DESCRIPTION=Sweet dessert number 809.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14510,8 +14510,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=810
-TITLE=Vegan Panna Cotta 810
-DESCRIPTION=Sweet dessert number 810.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14528,8 +14528,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=811
-TITLE=Brownie 811
-DESCRIPTION=Sweet dessert number 811.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14546,8 +14546,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=812
-TITLE=Cupcake 812
-DESCRIPTION=Sweet dessert number 812.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14564,8 +14564,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=813
-TITLE=Unhealthy Creme Brulee 813
-DESCRIPTION=Sweet dessert number 813.
+TITLE=Unhealthy Creme Brulee
+DESCRIPTION=An indulgent creme brulee with rich sweetness and decadent texture.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14582,8 +14582,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=814
-TITLE=Rice Pudding 814
-DESCRIPTION=Sweet dessert number 814.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14600,8 +14600,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=815
-TITLE=Vegan Berry Tart 815
-DESCRIPTION=Sweet dessert number 815.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14618,8 +14618,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=816
-TITLE=Fruit Parfait 816
-DESCRIPTION=Sweet dessert number 816.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14636,8 +14636,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=817
-TITLE=Healthy Chocolate Mousse 817
-DESCRIPTION=Sweet dessert number 817.
+TITLE=Healthy Chocolate Mousse
+DESCRIPTION=A healthy chocolate mousse with light sweetness and nourishing flavors.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14654,8 +14654,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=818
-TITLE=Cookie Plate 818
-DESCRIPTION=Sweet dessert number 818.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14672,8 +14672,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=819
-TITLE=Unhealthy Ice Cream Scoop 819
-DESCRIPTION=Sweet dessert number 819.
+TITLE=Unhealthy Ice Cream Scoop
+DESCRIPTION=An indulgent ice cream scoop with rich sweetness and decadent texture.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14690,8 +14690,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=820
-TITLE=Vegan Panna Cotta 820
-DESCRIPTION=Sweet dessert number 820.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=45
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14708,8 +14708,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=821
-TITLE=Brownie 821
-DESCRIPTION=Sweet dessert number 821.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=46
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14726,8 +14726,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=822
-TITLE=Cupcake 822
-DESCRIPTION=Sweet dessert number 822.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=47
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14744,8 +14744,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=823
-TITLE=Creme Brulee 823
-DESCRIPTION=Sweet dessert number 823.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=48
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14762,8 +14762,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=824
-TITLE=Healthy Rice Pudding 824
-DESCRIPTION=Sweet dessert number 824.
+TITLE=Healthy Rice Pudding
+DESCRIPTION=A healthy rice pudding with light sweetness and nourishing flavors.
 TIME=49
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14780,8 +14780,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=825
-TITLE=Vegan Berry Tart 825
-DESCRIPTION=Sweet dessert number 825.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14798,8 +14798,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=826
-TITLE=Fruit Parfait 826
-DESCRIPTION=Sweet dessert number 826.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14816,8 +14816,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=827
-TITLE=Chocolate Mousse 827
-DESCRIPTION=Sweet dessert number 827.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14834,8 +14834,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=828
-TITLE=Cookie Plate 828
-DESCRIPTION=Sweet dessert number 828.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14852,8 +14852,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=829
-TITLE=Ice Cream Scoop 829
-DESCRIPTION=Sweet dessert number 829.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14870,8 +14870,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=830
-TITLE=Vegan Panna Cotta 830
-DESCRIPTION=Sweet dessert number 830.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14888,8 +14888,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=831
-TITLE=Healthy Brownie 831
-DESCRIPTION=Sweet dessert number 831.
+TITLE=Healthy Brownie
+DESCRIPTION=A healthy brownie with light sweetness and nourishing flavors.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14906,8 +14906,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=832
-TITLE=Cupcake 832
-DESCRIPTION=Sweet dessert number 832.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14924,8 +14924,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=833
-TITLE=Creme Brulee 833
-DESCRIPTION=Sweet dessert number 833.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14942,8 +14942,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=834
-TITLE=Rice Pudding 834
-DESCRIPTION=Sweet dessert number 834.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -14960,8 +14960,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=835
-TITLE=Vegan Berry Tart 835
-DESCRIPTION=Sweet dessert number 835.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -14978,8 +14978,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=836
-TITLE=Fruit Parfait 836
-DESCRIPTION=Sweet dessert number 836.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -14996,8 +14996,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=837
-TITLE=Unhealthy Chocolate Mousse 837
-DESCRIPTION=Sweet dessert number 837.
+TITLE=Unhealthy Chocolate Mousse
+DESCRIPTION=An indulgent chocolate mousse with rich sweetness and decadent texture.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15014,8 +15014,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=838
-TITLE=Healthy Cookie Plate 838
-DESCRIPTION=Sweet dessert number 838.
+TITLE=Healthy Cookie Plate
+DESCRIPTION=A healthy cookie plate with light sweetness and nourishing flavors.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15032,8 +15032,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=839
-TITLE=Ice Cream Scoop 839
-DESCRIPTION=Sweet dessert number 839.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15050,8 +15050,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=840
-TITLE=Vegan Panna Cotta 840
-DESCRIPTION=Sweet dessert number 840.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15068,8 +15068,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=841
-TITLE=Brownie 841
-DESCRIPTION=Sweet dessert number 841.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15086,8 +15086,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=842
-TITLE=Cupcake 842
-DESCRIPTION=Sweet dessert number 842.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15104,8 +15104,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=843
-TITLE=Unhealthy Creme Brulee 843
-DESCRIPTION=Sweet dessert number 843.
+TITLE=Unhealthy Creme Brulee
+DESCRIPTION=An indulgent creme brulee with rich sweetness and decadent texture.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15122,8 +15122,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=844
-TITLE=Rice Pudding 844
-DESCRIPTION=Sweet dessert number 844.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15140,8 +15140,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=845
-TITLE=Vegan Berry Tart 845
-DESCRIPTION=Sweet dessert number 845.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15158,8 +15158,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=846
-TITLE=Fruit Parfait 846
-DESCRIPTION=Sweet dessert number 846.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15176,8 +15176,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=847
-TITLE=Chocolate Mousse 847
-DESCRIPTION=Sweet dessert number 847.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15194,8 +15194,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=848
-TITLE=Cookie Plate 848
-DESCRIPTION=Sweet dessert number 848.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15212,8 +15212,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=849
-TITLE=Unhealthy Ice Cream Scoop 849
-DESCRIPTION=Sweet dessert number 849.
+TITLE=Unhealthy Ice Cream Scoop
+DESCRIPTION=An indulgent ice cream scoop with rich sweetness and decadent texture.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15230,8 +15230,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=850
-TITLE=Vegan Panna Cotta 850
-DESCRIPTION=Sweet dessert number 850.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=45
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15248,8 +15248,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=851
-TITLE=Brownie 851
-DESCRIPTION=Sweet dessert number 851.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=46
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15266,8 +15266,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=852
-TITLE=Healthy Cupcake 852
-DESCRIPTION=Sweet dessert number 852.
+TITLE=Healthy Cupcake
+DESCRIPTION=A healthy cupcake with light sweetness and nourishing flavors.
 TIME=47
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15284,8 +15284,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=853
-TITLE=Creme Brulee 853
-DESCRIPTION=Sweet dessert number 853.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=48
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15302,8 +15302,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=854
-TITLE=Rice Pudding 854
-DESCRIPTION=Sweet dessert number 854.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=49
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15320,8 +15320,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=855
-TITLE=Vegan Berry Tart 855
-DESCRIPTION=Sweet dessert number 855.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15338,8 +15338,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=856
-TITLE=Fruit Parfait 856
-DESCRIPTION=Sweet dessert number 856.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15356,8 +15356,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=857
-TITLE=Chocolate Mousse 857
-DESCRIPTION=Sweet dessert number 857.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15374,8 +15374,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=858
-TITLE=Cookie Plate 858
-DESCRIPTION=Sweet dessert number 858.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15392,8 +15392,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=859
-TITLE=Healthy Ice Cream Scoop 859
-DESCRIPTION=Sweet dessert number 859.
+TITLE=Healthy Ice Cream Scoop
+DESCRIPTION=A healthy ice cream scoop with light sweetness and nourishing flavors.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15410,8 +15410,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=860
-TITLE=Vegan Panna Cotta 860
-DESCRIPTION=Sweet dessert number 860.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15428,8 +15428,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=861
-TITLE=Unhealthy Brownie 861
-DESCRIPTION=Sweet dessert number 861.
+TITLE=Unhealthy Brownie
+DESCRIPTION=An indulgent brownie with rich sweetness and decadent texture.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15446,8 +15446,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=862
-TITLE=Cupcake 862
-DESCRIPTION=Sweet dessert number 862.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15464,8 +15464,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=863
-TITLE=Creme Brulee 863
-DESCRIPTION=Sweet dessert number 863.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15482,8 +15482,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=864
-TITLE=Rice Pudding 864
-DESCRIPTION=Sweet dessert number 864.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15500,8 +15500,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=865
-TITLE=Vegan Berry Tart 865
-DESCRIPTION=Sweet dessert number 865.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15518,8 +15518,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=866
-TITLE=Healthy Fruit Parfait 866
-DESCRIPTION=Sweet dessert number 866.
+TITLE=Healthy Fruit Parfait
+DESCRIPTION=A healthy fruit parfait with light sweetness and nourishing flavors.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15536,8 +15536,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=867
-TITLE=Unhealthy Chocolate Mousse 867
-DESCRIPTION=Sweet dessert number 867.
+TITLE=Unhealthy Chocolate Mousse
+DESCRIPTION=An indulgent chocolate mousse with rich sweetness and decadent texture.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15554,8 +15554,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=868
-TITLE=Cookie Plate 868
-DESCRIPTION=Sweet dessert number 868.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15572,8 +15572,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=869
-TITLE=Ice Cream Scoop 869
-DESCRIPTION=Sweet dessert number 869.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15590,8 +15590,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=870
-TITLE=Vegan Panna Cotta 870
-DESCRIPTION=Sweet dessert number 870.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15608,8 +15608,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=871
-TITLE=Brownie 871
-DESCRIPTION=Sweet dessert number 871.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15626,8 +15626,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=872
-TITLE=Cupcake 872
-DESCRIPTION=Sweet dessert number 872.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15644,8 +15644,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=873
-TITLE=Healthy Creme Brulee 873
-DESCRIPTION=Sweet dessert number 873.
+TITLE=Healthy Creme Brulee
+DESCRIPTION=A healthy creme brulee with light sweetness and nourishing flavors.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15662,8 +15662,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=874
-TITLE=Rice Pudding 874
-DESCRIPTION=Sweet dessert number 874.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15680,8 +15680,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=875
-TITLE=Vegan Berry Tart 875
-DESCRIPTION=Sweet dessert number 875.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15698,8 +15698,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=876
-TITLE=Fruit Parfait 876
-DESCRIPTION=Sweet dessert number 876.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15716,8 +15716,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=877
-TITLE=Chocolate Mousse 877
-DESCRIPTION=Sweet dessert number 877.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15734,8 +15734,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=878
-TITLE=Cookie Plate 878
-DESCRIPTION=Sweet dessert number 878.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15752,8 +15752,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=879
-TITLE=Unhealthy Ice Cream Scoop 879
-DESCRIPTION=Sweet dessert number 879.
+TITLE=Unhealthy Ice Cream Scoop
+DESCRIPTION=An indulgent ice cream scoop with rich sweetness and decadent texture.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15770,8 +15770,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=880
-TITLE=Vegan Panna Cotta 880
-DESCRIPTION=Sweet dessert number 880.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=45
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15788,8 +15788,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=881
-TITLE=Brownie 881
-DESCRIPTION=Sweet dessert number 881.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=46
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15806,8 +15806,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=882
-TITLE=Cupcake 882
-DESCRIPTION=Sweet dessert number 882.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=47
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15824,8 +15824,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=883
-TITLE=Creme Brulee 883
-DESCRIPTION=Sweet dessert number 883.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=48
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15842,8 +15842,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=884
-TITLE=Rice Pudding 884
-DESCRIPTION=Sweet dessert number 884.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=49
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15860,8 +15860,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=885
-TITLE=Vegan Berry Tart 885
-DESCRIPTION=Sweet dessert number 885.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15878,8 +15878,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=886
-TITLE=Fruit Parfait 886
-DESCRIPTION=Sweet dessert number 886.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15896,8 +15896,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=887
-TITLE=Healthy Chocolate Mousse 887
-DESCRIPTION=Sweet dessert number 887.
+TITLE=Healthy Chocolate Mousse
+DESCRIPTION=A healthy chocolate mousse with light sweetness and nourishing flavors.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15914,8 +15914,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=888
-TITLE=Cookie Plate 888
-DESCRIPTION=Sweet dessert number 888.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15932,8 +15932,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=889
-TITLE=Ice Cream Scoop 889
-DESCRIPTION=Sweet dessert number 889.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -15950,8 +15950,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=890
-TITLE=Vegan Panna Cotta 890
-DESCRIPTION=Sweet dessert number 890.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -15968,8 +15968,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=891
-TITLE=Unhealthy Brownie 891
-DESCRIPTION=Sweet dessert number 891.
+TITLE=Unhealthy Brownie
+DESCRIPTION=An indulgent brownie with rich sweetness and decadent texture.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -15986,8 +15986,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=892
-TITLE=Cupcake 892
-DESCRIPTION=Sweet dessert number 892.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16004,8 +16004,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=893
-TITLE=Creme Brulee 893
-DESCRIPTION=Sweet dessert number 893.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16022,8 +16022,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=894
-TITLE=Healthy Rice Pudding 894
-DESCRIPTION=Sweet dessert number 894.
+TITLE=Healthy Rice Pudding
+DESCRIPTION=A healthy rice pudding with light sweetness and nourishing flavors.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16040,8 +16040,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=895
-TITLE=Vegan Berry Tart 895
-DESCRIPTION=Sweet dessert number 895.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16058,8 +16058,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=896
-TITLE=Fruit Parfait 896
-DESCRIPTION=Sweet dessert number 896.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16076,8 +16076,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=897
-TITLE=Unhealthy Chocolate Mousse 897
-DESCRIPTION=Sweet dessert number 897.
+TITLE=Unhealthy Chocolate Mousse
+DESCRIPTION=An indulgent chocolate mousse with rich sweetness and decadent texture.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16094,8 +16094,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=898
-TITLE=Cookie Plate 898
-DESCRIPTION=Sweet dessert number 898.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16112,8 +16112,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=899
-TITLE=Ice Cream Scoop 899
-DESCRIPTION=Sweet dessert number 899.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16130,8 +16130,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=900
-TITLE=Vegan Panna Cotta 900
-DESCRIPTION=Sweet dessert number 900.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16148,8 +16148,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=901
-TITLE=Healthy Brownie 901
-DESCRIPTION=Sweet dessert number 901.
+TITLE=Healthy Brownie
+DESCRIPTION=A healthy brownie with light sweetness and nourishing flavors.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16166,8 +16166,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=902
-TITLE=Cupcake 902
-DESCRIPTION=Sweet dessert number 902.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16184,8 +16184,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=903
-TITLE=Unhealthy Creme Brulee 903
-DESCRIPTION=Sweet dessert number 903.
+TITLE=Unhealthy Creme Brulee
+DESCRIPTION=An indulgent creme brulee with rich sweetness and decadent texture.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16202,8 +16202,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=904
-TITLE=Rice Pudding 904
-DESCRIPTION=Sweet dessert number 904.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16220,8 +16220,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=905
-TITLE=Vegan Berry Tart 905
-DESCRIPTION=Sweet dessert number 905.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16238,8 +16238,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=906
-TITLE=Fruit Parfait 906
-DESCRIPTION=Sweet dessert number 906.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16256,8 +16256,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=907
-TITLE=Chocolate Mousse 907
-DESCRIPTION=Sweet dessert number 907.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16274,8 +16274,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=908
-TITLE=Healthy Cookie Plate 908
-DESCRIPTION=Sweet dessert number 908.
+TITLE=Healthy Cookie Plate
+DESCRIPTION=A healthy cookie plate with light sweetness and nourishing flavors.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16292,8 +16292,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=909
-TITLE=Unhealthy Ice Cream Scoop 909
-DESCRIPTION=Sweet dessert number 909.
+TITLE=Unhealthy Ice Cream Scoop
+DESCRIPTION=An indulgent ice cream scoop with rich sweetness and decadent texture.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16310,8 +16310,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=910
-TITLE=Vegan Panna Cotta 910
-DESCRIPTION=Sweet dessert number 910.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=45
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16328,8 +16328,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=911
-TITLE=Brownie 911
-DESCRIPTION=Sweet dessert number 911.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=46
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16346,8 +16346,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=912
-TITLE=Cupcake 912
-DESCRIPTION=Sweet dessert number 912.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=47
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16364,8 +16364,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=913
-TITLE=Creme Brulee 913
-DESCRIPTION=Sweet dessert number 913.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=48
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16382,8 +16382,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=914
-TITLE=Rice Pudding 914
-DESCRIPTION=Sweet dessert number 914.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=49
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16400,8 +16400,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=915
-TITLE=Vegan Berry Tart 915
-DESCRIPTION=Sweet dessert number 915.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16418,8 +16418,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=916
-TITLE=Fruit Parfait 916
-DESCRIPTION=Sweet dessert number 916.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16436,8 +16436,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=917
-TITLE=Chocolate Mousse 917
-DESCRIPTION=Sweet dessert number 917.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16454,8 +16454,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=918
-TITLE=Cookie Plate 918
-DESCRIPTION=Sweet dessert number 918.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16472,8 +16472,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=919
-TITLE=Ice Cream Scoop 919
-DESCRIPTION=Sweet dessert number 919.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16490,8 +16490,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=920
-TITLE=Vegan Panna Cotta 920
-DESCRIPTION=Sweet dessert number 920.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16508,8 +16508,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=921
-TITLE=Unhealthy Brownie 921
-DESCRIPTION=Sweet dessert number 921.
+TITLE=Unhealthy Brownie
+DESCRIPTION=An indulgent brownie with rich sweetness and decadent texture.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16526,8 +16526,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=922
-TITLE=Healthy Cupcake 922
-DESCRIPTION=Sweet dessert number 922.
+TITLE=Healthy Cupcake
+DESCRIPTION=A healthy cupcake with light sweetness and nourishing flavors.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16544,8 +16544,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=923
-TITLE=Creme Brulee 923
-DESCRIPTION=Sweet dessert number 923.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16562,8 +16562,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=924
-TITLE=Rice Pudding 924
-DESCRIPTION=Sweet dessert number 924.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16580,8 +16580,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=925
-TITLE=Vegan Berry Tart 925
-DESCRIPTION=Sweet dessert number 925.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16598,8 +16598,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=926
-TITLE=Fruit Parfait 926
-DESCRIPTION=Sweet dessert number 926.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16616,8 +16616,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=927
-TITLE=Unhealthy Chocolate Mousse 927
-DESCRIPTION=Sweet dessert number 927.
+TITLE=Unhealthy Chocolate Mousse
+DESCRIPTION=An indulgent chocolate mousse with rich sweetness and decadent texture.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16634,8 +16634,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=928
-TITLE=Cookie Plate 928
-DESCRIPTION=Sweet dessert number 928.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16652,8 +16652,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=929
-TITLE=Healthy Ice Cream Scoop 929
-DESCRIPTION=Sweet dessert number 929.
+TITLE=Healthy Ice Cream Scoop
+DESCRIPTION=A healthy ice cream scoop with light sweetness and nourishing flavors.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16670,8 +16670,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=930
-TITLE=Vegan Panna Cotta 930
-DESCRIPTION=Sweet dessert number 930.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16688,8 +16688,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=931
-TITLE=Brownie 931
-DESCRIPTION=Sweet dessert number 931.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16706,8 +16706,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=932
-TITLE=Cupcake 932
-DESCRIPTION=Sweet dessert number 932.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16724,8 +16724,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=933
-TITLE=Unhealthy Creme Brulee 933
-DESCRIPTION=Sweet dessert number 933.
+TITLE=Unhealthy Creme Brulee
+DESCRIPTION=An indulgent creme brulee with rich sweetness and decadent texture.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16742,8 +16742,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=934
-TITLE=Rice Pudding 934
-DESCRIPTION=Sweet dessert number 934.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16760,8 +16760,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=935
-TITLE=Vegan Berry Tart 935
-DESCRIPTION=Sweet dessert number 935.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16778,8 +16778,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=936
-TITLE=Healthy Fruit Parfait 936
-DESCRIPTION=Sweet dessert number 936.
+TITLE=Healthy Fruit Parfait
+DESCRIPTION=A healthy fruit parfait with light sweetness and nourishing flavors.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16796,8 +16796,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=937
-TITLE=Chocolate Mousse 937
-DESCRIPTION=Sweet dessert number 937.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16814,8 +16814,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=938
-TITLE=Cookie Plate 938
-DESCRIPTION=Sweet dessert number 938.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16832,8 +16832,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=939
-TITLE=Unhealthy Ice Cream Scoop 939
-DESCRIPTION=Sweet dessert number 939.
+TITLE=Unhealthy Ice Cream Scoop
+DESCRIPTION=An indulgent ice cream scoop with rich sweetness and decadent texture.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16850,8 +16850,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=940
-TITLE=Vegan Panna Cotta 940
-DESCRIPTION=Sweet dessert number 940.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=45
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16868,8 +16868,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=941
-TITLE=Brownie 941
-DESCRIPTION=Sweet dessert number 941.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=46
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16886,8 +16886,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=942
-TITLE=Cupcake 942
-DESCRIPTION=Sweet dessert number 942.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=47
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16904,8 +16904,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=943
-TITLE=Healthy Creme Brulee 943
-DESCRIPTION=Sweet dessert number 943.
+TITLE=Healthy Creme Brulee
+DESCRIPTION=A healthy creme brulee with light sweetness and nourishing flavors.
 TIME=48
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16922,8 +16922,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=944
-TITLE=Rice Pudding 944
-DESCRIPTION=Sweet dessert number 944.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=49
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16940,8 +16940,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=945
-TITLE=Vegan Berry Tart 945
-DESCRIPTION=Sweet dessert number 945.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -16958,8 +16958,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=946
-TITLE=Fruit Parfait 946
-DESCRIPTION=Sweet dessert number 946.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -16976,8 +16976,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=947
-TITLE=Chocolate Mousse 947
-DESCRIPTION=Sweet dessert number 947.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -16994,8 +16994,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=948
-TITLE=Cookie Plate 948
-DESCRIPTION=Sweet dessert number 948.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17012,8 +17012,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=949
-TITLE=Ice Cream Scoop 949
-DESCRIPTION=Sweet dessert number 949.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17030,8 +17030,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=950
-TITLE=Vegan Panna Cotta 950
-DESCRIPTION=Sweet dessert number 950.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17048,8 +17048,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=951
-TITLE=Unhealthy Brownie 951
-DESCRIPTION=Sweet dessert number 951.
+TITLE=Unhealthy Brownie
+DESCRIPTION=An indulgent brownie with rich sweetness and decadent texture.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17066,8 +17066,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=952
-TITLE=Cupcake 952
-DESCRIPTION=Sweet dessert number 952.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17084,8 +17084,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=953
-TITLE=Creme Brulee 953
-DESCRIPTION=Sweet dessert number 953.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17102,8 +17102,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=954
-TITLE=Rice Pudding 954
-DESCRIPTION=Sweet dessert number 954.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17120,8 +17120,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=955
-TITLE=Vegan Berry Tart 955
-DESCRIPTION=Sweet dessert number 955.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17138,8 +17138,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=956
-TITLE=Fruit Parfait 956
-DESCRIPTION=Sweet dessert number 956.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17156,8 +17156,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=957
-TITLE=Healthy Chocolate Mousse 957
-DESCRIPTION=Sweet dessert number 957.
+TITLE=Healthy Chocolate Mousse
+DESCRIPTION=A healthy chocolate mousse with light sweetness and nourishing flavors.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17174,8 +17174,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=958
-TITLE=Cookie Plate 958
-DESCRIPTION=Sweet dessert number 958.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17192,8 +17192,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=959
-TITLE=Ice Cream Scoop 959
-DESCRIPTION=Sweet dessert number 959.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17210,8 +17210,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=960
-TITLE=Vegan Panna Cotta 960
-DESCRIPTION=Sweet dessert number 960.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17228,8 +17228,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=961
-TITLE=Brownie 961
-DESCRIPTION=Sweet dessert number 961.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17246,8 +17246,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=962
-TITLE=Cupcake 962
-DESCRIPTION=Sweet dessert number 962.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17264,8 +17264,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=963
-TITLE=Unhealthy Creme Brulee 963
-DESCRIPTION=Sweet dessert number 963.
+TITLE=Unhealthy Creme Brulee
+DESCRIPTION=An indulgent creme brulee with rich sweetness and decadent texture.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17282,8 +17282,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=964
-TITLE=Healthy Rice Pudding 964
-DESCRIPTION=Sweet dessert number 964.
+TITLE=Healthy Rice Pudding
+DESCRIPTION=A healthy rice pudding with light sweetness and nourishing flavors.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17300,8 +17300,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=965
-TITLE=Vegan Berry Tart 965
-DESCRIPTION=Sweet dessert number 965.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17318,8 +17318,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=966
-TITLE=Fruit Parfait 966
-DESCRIPTION=Sweet dessert number 966.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17336,8 +17336,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=967
-TITLE=Chocolate Mousse 967
-DESCRIPTION=Sweet dessert number 967.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17354,8 +17354,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=968
-TITLE=Cookie Plate 968
-DESCRIPTION=Sweet dessert number 968.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17372,8 +17372,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=969
-TITLE=Unhealthy Ice Cream Scoop 969
-DESCRIPTION=Sweet dessert number 969.
+TITLE=Unhealthy Ice Cream Scoop
+DESCRIPTION=An indulgent ice cream scoop with rich sweetness and decadent texture.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17390,8 +17390,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=970
-TITLE=Vegan Panna Cotta 970
-DESCRIPTION=Sweet dessert number 970.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=45
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17408,8 +17408,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=971
-TITLE=Healthy Brownie 971
-DESCRIPTION=Sweet dessert number 971.
+TITLE=Healthy Brownie
+DESCRIPTION=A healthy brownie with light sweetness and nourishing flavors.
 TIME=46
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17426,8 +17426,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=972
-TITLE=Cupcake 972
-DESCRIPTION=Sweet dessert number 972.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=47
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17444,8 +17444,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=973
-TITLE=Creme Brulee 973
-DESCRIPTION=Sweet dessert number 973.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=48
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17462,8 +17462,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=974
-TITLE=Rice Pudding 974
-DESCRIPTION=Sweet dessert number 974.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=49
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17480,8 +17480,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=975
-TITLE=Vegan Berry Tart 975
-DESCRIPTION=Sweet dessert number 975.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=20
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17498,8 +17498,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=976
-TITLE=Fruit Parfait 976
-DESCRIPTION=Sweet dessert number 976.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=21
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17516,8 +17516,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=977
-TITLE=Chocolate Mousse 977
-DESCRIPTION=Sweet dessert number 977.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=22
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17534,8 +17534,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=978
-TITLE=Healthy Cookie Plate 978
-DESCRIPTION=Sweet dessert number 978.
+TITLE=Healthy Cookie Plate
+DESCRIPTION=A healthy cookie plate with light sweetness and nourishing flavors.
 TIME=23
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17552,8 +17552,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=979
-TITLE=Ice Cream Scoop 979
-DESCRIPTION=Sweet dessert number 979.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=24
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17570,8 +17570,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=980
-TITLE=Vegan Panna Cotta 980
-DESCRIPTION=Sweet dessert number 980.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=25
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17588,8 +17588,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=981
-TITLE=Unhealthy Brownie 981
-DESCRIPTION=Sweet dessert number 981.
+TITLE=Unhealthy Brownie
+DESCRIPTION=An indulgent brownie with rich sweetness and decadent texture.
 TIME=26
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17606,8 +17606,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=982
-TITLE=Cupcake 982
-DESCRIPTION=Sweet dessert number 982.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=27
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17624,8 +17624,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=983
-TITLE=Creme Brulee 983
-DESCRIPTION=Sweet dessert number 983.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=28
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17642,8 +17642,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=984
-TITLE=Rice Pudding 984
-DESCRIPTION=Sweet dessert number 984.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=29
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17660,8 +17660,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=985
-TITLE=Vegan Berry Tart 985
-DESCRIPTION=Sweet dessert number 985.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=30
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17678,8 +17678,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=986
-TITLE=Fruit Parfait 986
-DESCRIPTION=Sweet dessert number 986.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=31
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17696,8 +17696,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=987
-TITLE=Unhealthy Chocolate Mousse 987
-DESCRIPTION=Sweet dessert number 987.
+TITLE=Unhealthy Chocolate Mousse
+DESCRIPTION=An indulgent chocolate mousse with rich sweetness and decadent texture.
 TIME=32
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17714,8 +17714,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=988
-TITLE=Cookie Plate 988
-DESCRIPTION=Sweet dessert number 988.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=33
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17732,8 +17732,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=989
-TITLE=Ice Cream Scoop 989
-DESCRIPTION=Sweet dessert number 989.
+TITLE=Ice Cream Scoop
+DESCRIPTION=A classic ice cream scoop dessert with delightful flavors.
 TIME=34
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17750,8 +17750,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=990
-TITLE=Vegan Panna Cotta 990
-DESCRIPTION=Sweet dessert number 990.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=35
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17768,8 +17768,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=991
-TITLE=Brownie 991
-DESCRIPTION=Sweet dessert number 991.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=36
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17786,8 +17786,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=992
-TITLE=Healthy Cupcake 992
-DESCRIPTION=Sweet dessert number 992.
+TITLE=Healthy Cupcake
+DESCRIPTION=A healthy cupcake with light sweetness and nourishing flavors.
 TIME=37
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17804,8 +17804,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=993
-TITLE=Unhealthy Creme Brulee 993
-DESCRIPTION=Sweet dessert number 993.
+TITLE=Unhealthy Creme Brulee
+DESCRIPTION=An indulgent creme brulee with rich sweetness and decadent texture.
 TIME=38
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17822,8 +17822,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=994
-TITLE=Rice Pudding 994
-DESCRIPTION=Sweet dessert number 994.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=39
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17840,8 +17840,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=995
-TITLE=Vegan Berry Tart 995
-DESCRIPTION=Sweet dessert number 995.
+TITLE=Vegan Berry Tart
+DESCRIPTION=A vegan berry tart crafted with wholesome plant-based ingredients.
 TIME=40
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17858,8 +17858,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=996
-TITLE=Fruit Parfait 996
-DESCRIPTION=Sweet dessert number 996.
+TITLE=Fruit Parfait
+DESCRIPTION=A classic fruit parfait dessert with delightful flavors.
 TIME=41
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17876,8 +17876,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=997
-TITLE=Chocolate Mousse 997
-DESCRIPTION=Sweet dessert number 997.
+TITLE=Chocolate Mousse
+DESCRIPTION=A classic chocolate mousse dessert with delightful flavors.
 TIME=42
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17894,8 +17894,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=998
-TITLE=Cookie Plate 998
-DESCRIPTION=Sweet dessert number 998.
+TITLE=Cookie Plate
+DESCRIPTION=A classic cookie plate dessert with delightful flavors.
 TIME=43
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17912,8 +17912,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=999
-TITLE=Healthy Ice Cream Scoop 999
-DESCRIPTION=Sweet dessert number 999.
+TITLE=Healthy Ice Cream Scoop
+DESCRIPTION=A healthy ice cream scoop with light sweetness and nourishing flavors.
 TIME=44
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17930,8 +17930,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=1000
-TITLE=Vegan Panna Cotta 1000
-DESCRIPTION=Sweet dessert number 1000.
+TITLE=Vegan Panna Cotta
+DESCRIPTION=A vegan panna cotta crafted with wholesome plant-based ingredients.
 TIME=45
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -17948,8 +17948,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=1001
-TITLE=Brownie 1001
-DESCRIPTION=Sweet dessert number 1001.
+TITLE=Brownie
+DESCRIPTION=A classic brownie dessert with delightful flavors.
 TIME=46
 DIFFICULTY=Medium
 CATEGORY=Dessert
@@ -17966,8 +17966,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=1002
-TITLE=Cupcake 1002
-DESCRIPTION=Sweet dessert number 1002.
+TITLE=Cupcake
+DESCRIPTION=A classic cupcake dessert with delightful flavors.
 TIME=47
 DIFFICULTY=Hard
 CATEGORY=Dessert
@@ -17984,8 +17984,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=1003
-TITLE=Creme Brulee 1003
-DESCRIPTION=Sweet dessert number 1003.
+TITLE=Creme Brulee
+DESCRIPTION=A classic creme brulee dessert with delightful flavors.
 TIME=48
 DIFFICULTY=Easy
 CATEGORY=Dessert
@@ -18002,8 +18002,8 @@ END
 RECIPE
 TYPE=Dessert
 ID=1004
-TITLE=Rice Pudding 1004
-DESCRIPTION=Sweet dessert number 1004.
+TITLE=Rice Pudding
+DESCRIPTION=A classic rice pudding dessert with delightful flavors.
 TIME=49
 DIFFICULTY=Medium
 CATEGORY=Dessert

@@ -74,6 +74,7 @@ existing = [
 ]
 
 starter_categories = ['Starter', 'Appetizer', 'Salad', 'Soup', 'Snack', 'Finger Food']
+starter_titles = ['Garden Salad', 'Tomato Soup', 'Bruschetta', 'Stuffed Mushrooms', 'Avocado Toast', 'Quinoa Salad', 'Spring Rolls', 'Fruit Platter', 'Garlic Bread', 'Caprese Skewers']
 main_titles = ['Pasta', 'Curry', 'Stew', 'Bowl', 'Stir Fry', 'Casserole', 'Burger', 'Tacos', 'Risotto', 'Paella']
 dessert_titles = ['Berry Tart', 'Fruit Parfait', 'Chocolate Mousse', 'Cookie Plate', 'Ice Cream Scoop', 'Panna Cotta', 'Brownie', 'Cupcake', 'Creme Brulee', 'Rice Pudding']
 difficulties = ['Easy', 'Medium', 'Hard']
@@ -93,11 +94,20 @@ def append_recipe(block):
 for idx in range(375):
     rid = next_id
     next_id += 1
-    base_name = starter_categories[idx % len(starter_categories)]
+    base_name = starter_titles[idx % len(starter_titles)]
+    category_type = starter_categories[idx % len(starter_categories)]
     variant = 'Vegan' if idx % 5 == 0 else 'Unhealthy' if idx % 7 == 0 else 'Healthy' if idx % 3 == 0 else ''
-    title = f'{variant + " " if variant else ""}{base_name} {rid}'.strip()
-    category = f'{variant + " " if variant else ""}{base_name}'.strip()
-    desc = f'Tasty starter recipe number {rid}.'.strip()
+    title = f'{variant + " " if variant else ""}{base_name}'.strip()
+    category = f'{variant + " " if variant else ""}{category_type}'.strip()
+    lower_name = base_name.lower()
+    if variant == 'Vegan':
+        desc = f'A vegan {lower_name} made with plant-based ingredients and fresh greens.'
+    elif variant == 'Healthy':
+        desc = f'A healthy {lower_name} with bright vegetables and light seasoning.'
+    elif variant == 'Unhealthy':
+        desc = f'An indulgent {lower_name} packed with rich flavors and hearty ingredients.'
+    else:
+        desc = f'A classic {lower_name} starter with tasty ingredients.'
     calories = 180 + (idx % 5) * 30
     if variant == 'Unhealthy':
         calories += 220
@@ -174,9 +184,17 @@ for idx in range(300):
         variant = 'Unhealthy'
     else:
         variant = ''
-    title = f'{variant + " " if variant else ""}{base_name} {rid}'.strip()
+    title = f'{variant + " " if variant else ""}{base_name}'.strip()
     category = 'Dessert' if variant == '' else f'{variant} Dessert'
-    desc = f'Sweet dessert number {rid}.'.strip()
+    lower_name = base_name.lower()
+    if variant == 'Vegan':
+        desc = f'A vegan {lower_name} crafted with wholesome plant-based ingredients.'
+    elif variant == 'Healthy':
+        desc = f'A healthy {lower_name} with light sweetness and nourishing flavors.'
+    elif variant == 'Unhealthy':
+        desc = f'An indulgent {lower_name} with rich sweetness and decadent texture.'
+    else:
+        desc = f'A classic {lower_name} dessert with delightful flavors.'
     calories = 190 + (idx % 7) * 35
     if variant == 'Unhealthy':
         calories += 180
