@@ -127,19 +127,18 @@ void Menu::showMainMenu() const {
 }
 
 void Menu::initializeRecipes() {
-    std::ifstream file("recipes.txt");
+    std::ifstream file("recipes.json");
     if (file.good()) {
-        if (readYesNo("A recipes.txt file was found. Load recipes from file? (y/n): ")) {
-            FileManager::loadRecipesFromFile(manager, "recipes.txt");
-        }
+        std::cout << "INFO: recipes.json found. Loading recipes from file..." << std::endl;
+        FileManager::loadRecipesFromFile(manager, "recipes.json");
     } else {
-        std::cout << "INFO: No recipes.txt found. Starting with an empty database." << std::endl;
+        std::cout << "INFO: No recipes.json found. Starting with an empty database." << std::endl;
     }
 }
 
 void Menu::finalizeRecipes() {
     if (readYesNo("Do you want to save recipes before exiting? (y/n): ")) {
-        FileManager::saveRecipesToFile(manager.getRecipes(), "recipes.txt");
+        FileManager::saveRecipesToFile(manager.getRecipes(), "recipes.json");
     }
 }
 
@@ -394,7 +393,7 @@ void Menu::handleSaveRecipes() {
         std::cout << "WARNING: No recipes to save." << std::endl;
         return;
     }
-    FileManager::saveRecipesToFile(manager.getRecipes(), "recipes.txt");
+    FileManager::saveRecipesToFile(manager.getRecipes(), "recipes.json");
 }
 
 void Menu::handleFilterByMenuType() const {
@@ -419,15 +418,15 @@ void Menu::handleFilterByMenuType() const {
 }
 
 void Menu::handleLoadRecipes() {
-    std::ifstream file("recipes.txt");
+    std::ifstream file("recipes.json");
     if (!file.good()) {
-        std::cout << "WARNING: File 'recipes.txt' does not exist. Cannot load recipes." << std::endl;
+        std::cout << "WARNING: File 'recipes.json' does not exist. Cannot load recipes." << std::endl;
         return;
     }
     file.close();
 
     if (readYesNo("Loading from file will replace current recipes. Continue? (y/n): ")) {
-        FileManager::loadRecipesFromFile(manager, "recipes.txt");
+        FileManager::loadRecipesFromFile(manager, "recipes.json");
     } else {
         std::cout << "INFO: Load operation cancelled." << std::endl;
     }

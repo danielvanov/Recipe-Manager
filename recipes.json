@@ -20025,5 +20025,202 @@
       { "name": "Milk", "quantity": "100ml" },
       { "name": "Butter", "quantity": "20g" }
     ]
+  },
+  {
+    "type": "MainDish",
+    "id": 1005,
+    "title": "Tuscan Tomato Pasta",
+    "description": "Pasta with sun-dried tomatoes and basil in a creamy sauce.",
+    "time": 35,
+    "difficulty": "Medium",
+    "category": "Main Dish",
+    "calories": 520,
+    "vegan": false,
+    "vegetarian": true,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Pasta", "quantity": "250g" },
+      { "name": "Tomato", "quantity": "3" },
+      { "name": "Basil", "quantity": "10 leaves" },
+      { "name": "Cream", "quantity": "100ml" }
+    ]
+  },
+  {
+    "type": "Dessert",
+    "id": 1006,
+    "title": "Lemon Bars",
+    "description": "Tangy lemon bars with a buttery shortbread crust.",
+    "time": 55,
+    "difficulty": "Medium",
+    "category": "Dessert",
+    "calories": 420,
+    "vegan": false,
+    "sweetness": 7,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Lemon", "quantity": "2" },
+      { "name": "Sugar", "quantity": "150g" },
+      { "name": "Butter", "quantity": "100g" },
+      { "name": "Flour", "quantity": "180g" }
+    ]
+  },
+  {
+    "type": "General",
+    "id": 1007,
+    "title": "Garden Salad",
+    "description": "Fresh mixed greens with cucumbers, tomatoes, and vinaigrette.",
+    "time": 15,
+    "difficulty": "Easy",
+    "category": "Salad",
+    "calories": 210,
+    "vegan": true,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Lettuce", "quantity": "100g" },
+      { "name": "Tomato", "quantity": "1" },
+      { "name": "Cucumber", "quantity": "1" },
+      { "name": "Olive Oil", "quantity": "2 tbsp" }
+    ]
+  },
+  {
+    "type": "MainDish",
+    "id": 1008,
+    "title": "Grilled Salmon",
+    "description": "Simple grilled salmon with lemon and herbs.",
+    "time": 25,
+    "difficulty": "Easy",
+    "category": "Main Dish",
+    "calories": 460,
+    "vegan": false,
+    "vegetarian": false,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Salmon", "quantity": "200g" },
+      { "name": "Lemon", "quantity": "1" },
+      { "name": "Dill", "quantity": "1 tsp" },
+      { "name": "Salt", "quantity": "1 pinch" }
+    ]
+  },
+  {
+    "type": "Dessert",
+    "id": 1009,
+    "title": "Berry Parfait",
+    "description": "Layered berries and yogurt topped with granola.",
+    "time": 10,
+    "difficulty": "Easy",
+    "category": "Dessert",
+    "calories": 280,
+    "vegan": false,
+    "sweetness": 6,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Strawberries", "quantity": "100g" },
+      { "name": "Yogurt", "quantity": "150g" },
+      { "name": "Granola", "quantity": "50g" },
+      { "name": "Honey", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "type": "General",
+    "id": 1010,
+    "title": "Avocado Toast",
+    "description": "Creamy avocado on toasted bread with chili flakes.",
+    "time": 12,
+    "difficulty": "Easy",
+    "category": "Breakfast",
+    "calories": 320,
+    "vegan": true,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Bread", "quantity": "2 slices" },
+      { "name": "Avocado", "quantity": "1" },
+      { "name": "Chili Flakes", "quantity": "1 tsp" },
+      { "name": "Salt", "quantity": "1 pinch" }
+    ]
+  },
+  {
+    "type": "MainDish",
+    "id": 1011,
+    "title": "Chicken Stir-Fry",
+    "description": "Quick stir-fry with chicken, peppers, and soy sauce.",
+    "time": 28,
+    "difficulty": "Medium",
+    "category": "Main Dish",
+    "calories": 530,
+    "vegan": false,
+    "vegetarian": false,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Chicken", "quantity": "200g" },
+      { "name": "Bell Pepper", "quantity": "1" },
+      { "name": "Soy Sauce", "quantity": "2 tbsp" },
+      { "name": "Garlic", "quantity": "2 cloves" }
+    ]
+  },
+  {
+    "type": "Dessert",
+    "id": 1012,
+    "title": "Cinnamon Apple Slices",
+    "description": "Warm apple slices with cinnamon and a touch of maple.",
+    "time": 20,
+    "difficulty": "Easy",
+    "category": "Dessert",
+    "calories": 240,
+    "vegan": true,
+    "sweetness": 7,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Apple", "quantity": "2" },
+      { "name": "Cinnamon", "quantity": "1 tsp" },
+      { "name": "Maple Syrup", "quantity": "1 tbsp" },
+      { "name": "Nutmeg", "quantity": "1 pinch" }
+    ]
+  },
+  {
+    "type": "General",
+    "id": 1013,
+    "title": "Berry Smoothie",
+    "description": "A refreshing blend of mixed berries and banana.",
+    "time": 8,
+    "difficulty": "Easy",
+    "category": "Beverage",
+    "calories": 220,
+    "vegan": true,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Mixed Berries", "quantity": "150g" },
+      { "name": "Banana", "quantity": "1" },
+      { "name": "Almond Milk", "quantity": "200ml" },
+      { "name": "Honey", "quantity": "1 tsp" }
+    ]
+  },
+  {
+    "type": "MainDish",
+    "id": 1014,
+    "title": "Quinoa Buddha Bowl",
+    "description": "Nourishing quinoa bowl with roasted veggies and tahini.",
+    "time": 40,
+    "difficulty": "Medium",
+    "category": "Main Dish",
+    "calories": 485,
+    "vegan": true,
+    "vegetarian": true,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Quinoa", "quantity": "150g" },
+      { "name": "Carrot", "quantity": "1" },
+      { "name": "Broccoli", "quantity": "100g" },
+      { "name": "Tahini", "quantity": "2 tbsp" }
+    ]
   }
 ]
