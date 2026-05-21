@@ -437,10 +437,10 @@ void Menu::handleShowHealthyRecipes() const {
         std::cout << "INFO: No recipes in the database." << std::endl;
         return;
     }
-    std::cout << "Healthy Recipes (Calories < 500):" << std::endl;
+    std::cout << "Healthy Recipes (Calories < 300):" << std::endl;
     bool found = false;
     for (const auto& recipe : manager.getRecipes()) {
-        if (recipe->getCalories() < 500) {
+        if (recipe->getCalories() < 300) {
             recipe->displayInfo();
             found = true;
         }

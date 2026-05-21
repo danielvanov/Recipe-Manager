@@ -5,6 +5,7 @@
 #include <iostream>
 #include <algorithm>
 #include <cctype>
+#include <random>
 
 static std::string toLower(const std::string& text) {
     std::string result = text;
@@ -240,9 +241,9 @@ void RecipeManager::filterByMenuType(const std::string& menuType) const {
     bool unhealthy = filter == "unhealthy";
     bool vegan = filter == "vegan";
 
-    const Recipe* starter = nullptr;
-    const Recipe* entree = nullptr;
-    const Recipe* dessert = nullptr;
+    std::vector<const Recipe*> starterCandidates;
+    std::vector<const Recipe*> entreeCandidates;
+    std::vector<const Recipe*> dessertCandidates;
 
     auto containsLower = [&](const std::string& text, const std::string& keyword) {
         return toLower(text).find(keyword) != std::string::npos;
@@ -300,10 +301,10 @@ void RecipeManager::filterByMenuType(const std::string& menuType) const {
             return false;
         }
         if (healthy) {
-            return recipe->getCalories() < 500.0;
+            return recipe->getCalories() < 300.0;
         }
         if (unhealthy) {
-            return recipe->getCalories() >= 500.0;
+            return recipe->getCalories() >= 300.0;
         }
         if (vegan) {
             if (recipe->isVegan()) {
@@ -325,21 +326,31 @@ void RecipeManager::filterByMenuType(const std::string& menuType) const {
             continue;
         }
 
-        if (!dessert && isDessertRecipe(recipe.get()) && matchesDiet(recipe.get())) {
-            dessert = recipe.get();
-            continue;
+        if (isDessertRecipe(recipe.get()) && matchesDiet(recipe.get())) {
+            dessertCandidates.push_back(recipe.get());
         }
 
-        if (!entree && isMainRecipe(recipe.get()) && matchesDiet(recipe.get())) {
-            entree = recipe.get();
-            continue;
+        if (isMainRecipe(recipe.get()) && matchesDiet(recipe.get())) {
+            entreeCandidates.push_back(recipe.get());
         }
 
-        if (!starter && isStarterRecipe(recipe.get()) && matchesDiet(recipe.get())) {
-            starter = recipe.get();
-            continue;
+        if (isStarterRecipe(recipe.get()) && matchesDiet(recipe.get())) {
+            starterCandidates.push_back(recipe.get());
         }
     }
+
+    static std::mt19937 rng(std::random_device{}());
+    auto chooseRandom = [&](const std::vector<const Recipe*>& candidates) -> const Recipe* {
+        if (candidates.empty()) {
+            return nullptr;
+        }
+        std::uniform_int_distribution<size_t> dist(0, candidates.size() - 1);
+        return candidates[dist(rng)];
+    };
+
+    const Recipe* starter = chooseRandom(starterCandidates);
+    const Recipe* entree = chooseRandom(entreeCandidates);
+    const Recipe* dessert = chooseRandom(dessertCandidates);
 
     std::cout << "Dietary Menu: " << (healthy ? "Healthy" : unhealthy ? "Unhealthy" : vegan ? "Vegan" : menuType) << std::endl;
 
