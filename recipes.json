@@ -20222,5 +20222,65 @@
       { "name": "Broccoli", "quantity": "100g" },
       { "name": "Tahini", "quantity": "2 tbsp" }
     ]
+  },
+  {
+    "type": "MainDish",
+    "id": 1015,
+    "title": "Grilled Chicken Salad",
+    "description": "Lean grilled chicken served over mixed greens and light dressing.",
+    "time": 25,
+    "difficulty": "Easy",
+    "category": "Main Dish",
+    "calories": 280,
+    "vegan": false,
+    "vegetarian": false,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Chicken Breast", "quantity": "150g" },
+      { "name": "Mixed Greens", "quantity": "100g" },
+      { "name": "Cherry Tomatoes", "quantity": "50g" },
+      { "name": "Lemon", "quantity": "1" }
+    ]
+  },
+  {
+    "type": "MainDish",
+    "id": 1016,
+    "title": "Zucchini Noodles with Pesto",
+    "description": "Fresh zucchini noodles tossed in basil pesto and cherry tomatoes.",
+    "time": 20,
+    "difficulty": "Easy",
+    "category": "Main Dish",
+    "calories": 240,
+    "vegan": false,
+    "vegetarian": true,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Zucchini", "quantity": "200g" },
+      { "name": "Basil Pesto", "quantity": "2 tbsp" },
+      { "name": "Cherry Tomatoes", "quantity": "50g" },
+      { "name": "Parmesan", "quantity": "10g" }
+    ]
+  },
+  {
+    "type": "MainDish",
+    "id": 1017,
+    "title": "Baked Salmon with Asparagus",
+    "description": "Lightly seasoned salmon baked with asparagus and lemon.",
+    "time": 30,
+    "difficulty": "Medium",
+    "category": "Main Dish",
+    "calories": 290,
+    "vegan": false,
+    "vegetarian": false,
+    "rating": 0,
+    "rating_count": 0,
+    "ingredients": [
+      { "name": "Salmon Fillet", "quantity": "120g" },
+      { "name": "Asparagus", "quantity": "100g" },
+      { "name": "Olive Oil", "quantity": "1 tbsp" },
+      { "name": "Lemon", "quantity": "1" }
+    ]
   }
 ]
