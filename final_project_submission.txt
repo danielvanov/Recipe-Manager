@@ -6,5 +6,5 @@ https://github.com/danielvanov/Recipe-Manager.git
 Final git commit hash:
 0b1c0a4efbecf6e2a6e6ad29ed06826b80abff88
 
-Проектът съдържа prompt-history.md, README.md, и пълна git история с 16 commits.
+Проектът съдържа README.md, и пълна git история с 16 commits.
 Проектът се компилира с make и се стартира с ./recipe-manager.
